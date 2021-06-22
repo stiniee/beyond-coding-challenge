@@ -51,9 +51,7 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
                         const date: ICalendarDay = calendar[dayOfYear]
                         return date ? <div>${date.rate.total}</div> : null
                     }}
-                    prevLabel={null}
                     prev2Label={null}
-                    nextLabel={null}
                     next2Label={null}
                 />
             </div>

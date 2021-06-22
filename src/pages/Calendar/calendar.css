@@ -27,14 +27,17 @@
 }
 
 /* Navigation Label */
-.react-calendar .react-calendar__navigation {
-    margin-bottom: 0;
-}
+.react-calendar .react-calendar__navigation button{
+    margin-bottom: 0.5em;
+    color: var(--grey-3);
+
+ }
+
 .react-calendar .react-calendar__navigation__label {
     font-size: 1.2em;
     font-weight: 600;
-    color: var(--grey-3);
-    flex-grow: 0 !important;
+    pointer-events: none;
+    /* flex-grow: 0 !important; */
 
 }
 
@@ -48,6 +51,7 @@
 
 
 
+/* Tiles */
 .react-calendar .react-calendar__month-view__days {
     height: 30em;
 }
@@ -57,6 +61,12 @@
     background-color: var(--primary);
     color: var(--white);
     border: 1px solid var(--light);
+    font-size: 1em;
+}
+
+.react-calendar__tile:enabled:hover, .react-calendar__tile:enabled:focus {
+    background-color: var(--white);
+    color: var(--primary);
 }
 
  
