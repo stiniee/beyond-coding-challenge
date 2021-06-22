@@ -10,7 +10,8 @@
 
 .listing a {
     text-decoration: none;
-    color: #333333;
+    color: #374051;
+    transition: 0.1s ease-in;
  }
 
 .listing a:hover {
