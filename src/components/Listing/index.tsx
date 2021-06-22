@@ -1,4 +1,7 @@
 import React from 'react'
+import Icon from '@mdi/react'
+import { mdiBedKing } from '@mdi/js'
+import { Tr, Td } from '@chakra-ui/react'
 import './listing.css'
 
 interface ListingProps extends DefaultProps {
@@ -21,26 +24,45 @@ const Listing = ({
     viewType,
 }: ListingProps): JSX.Element => {
     return (
-        <div
+        <Tr
             id={id}
             className={`listing ${viewType}-view ${className}`}
             style={style}
         >
             {viewType === 'card' ? (
                 <>
-                    <div>
-                        <img src={data.picture} alt={data.picture} />
-                        <h2>{data.title}</h2>
-                        <div>{data.bed}</div>
-                    </div>
-                    <div> {data.currency} </div>
+                    <Td>
+                        <img
+                            className="listing_picture"
+                            src={data.picture}
+                            alt={data.picture}
+                        />
+                    </Td>
+                    <Td>
+                        <div className="listing_title">{data.title}</div>
+                        {/* Issue Comments Icon */}
+                        <Icon
+                            className="listing_bed"
+                            path={mdiBedKing}
+                            color="#B8B8B9"
+                            size={1}
+                        />
+                    </Td>
+                    <Td>
+                        <div className="listing_currency">{data.currency}</div>
+                    </Td>
                 </>
             ) : (
                 <>
-                    <div>{data.title}</div>
+                    <Td>
+                        <div className="listing_title">{data.title}</div>
+                    </Td>
+                    <Td>
+                        <div className="listing_bed">{data.bed} bedrooms</div>
+                    </Td>
                 </>
             )}
-        </div>
+        </Tr>
     )
 }
 
