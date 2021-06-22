@@ -30,14 +30,18 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
         fetchCalendar()
     }, [])
     return (
-        <div>
-            <ReactCalendar
-                tileContent={(data: any) => {
-                    console.log('data: ', data)
-                    return <div />
-                }}
-            />
-            <Link to="/">Back to listings</Link>
+        <div className="calendar">
+            <Link className="calendar_back-to-listings" to="/">
+                Back to listings
+            </Link>
+            <div className="calendar_calendar-container">
+                <ReactCalendar
+                    tileContent={(data: any) => {
+                        console.log('data: ', data)
+                        return <div />
+                    }}
+                />
+            </div>
         </div>
     )
 }

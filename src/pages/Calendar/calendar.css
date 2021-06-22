@@ -1,1 +1,29 @@
 @import 'react-calendar/dist/Calendar.css';
+
+.calendar {
+ 
+}
+
+.calendar_back-to-listings {
+    justify-self: lef
+}
+
+.calendar_calendar-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+/*-----------------------------------------------------------------
+    React Calendar
+------------------------------------------------------------------*/
+
+.react-calendar {
+    width: 100%;
+    margin: 10%;
+}
+
+.react-calendar__month-view__days {
+    height: 30em;
+}
