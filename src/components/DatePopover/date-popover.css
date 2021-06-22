@@ -1,0 +1,82 @@
+
+.listing {
+    padding: 1em; 
+    display: flex;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid var(--grey);
+    box-sizing: border-box;
+}
+
+.listing a {
+    text-decoration: none;
+    color: var(--dark);
+    transition: 0.1s ease-in;
+ }
+
+.listing a:hover {
+    color: var(--black);
+    font-weight: bold;
+}
+
+/*----------------------------------------------------------
+    Details view 
+----------------------------------------------------------*/
+.listing.details-view  {
+    justify-content: space-between;
+}
+
+/*----------------------------------------------------------
+    Card view 
+----------------------------------------------------------*/
+.listing.card-view {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.listing.card-view .listing_title {
+    margin: 0.3em 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    white-space: unset;
+}
+
+
+/* Picture */
+.listing.card-view .listing_picture {
+    height: 8em;
+    width: 8em;
+    object-fit: fill;
+    margin-right: 1em;
+}
+
+/* Listing stats */
+.listing.card-view .listing_stat {
+    display: grid;
+    align-items: center;
+    grid-auto-flow: column;
+    grid-template-columns: 2em 4em;
+}
+
+
+.listing.card-view .listing_bed-icon {
+   margin-right: 0.4em;
+}
+
+/*----------------------------------------------------------
+    Responsive
+----------------------------------------------------------*/
+@media only screen and (max-width: 480px) {
+    .listing.card-view .listing_picture {
+        height: auto;
+        width: 100%;
+    }
+    
+
+    .listing {
+        flex-wrap: wrap;
+    }
+} 

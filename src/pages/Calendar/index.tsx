@@ -1,9 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import ReactCalendar from 'react-calendar'
-import ReactTooltip from 'react-tooltip'
+import DatePopover from '../../components/DatePopover'
 import CalendarApi from '../../api/calendar-api'
-import { calculatePrice } from '../../utils/calculation-utils'
 import { getDayOfWeekLong, getDayOfYear } from '../../utils/date-utils'
 import './calendar.css'
 
@@ -16,7 +15,7 @@ import './calendar.css'
  */
 const Calendar = ({ match }: IRouterProps): JSX.Element => {
     const [calendar, setCalendar] = useState([])
-    const [showTooltip, setShowTooltip] = useState(false)
+    const [dateDetails, setDateDetails] = useState<IDateDetails | null>(null)
     const tooltipRef = useRef(null)
     const { listingId } = match?.params
 
@@ -25,11 +24,6 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
         const res = await CalendarApi.getCalendar(listingId)
         console.log('CalendarApi res: ', res)
         setCalendar(res.days)
-    }
-
-    const handleChangeCalendar = (value: any, event: any): void => {
-        console.log('value: ', value)
-        console.log('event: ', event)
     }
 
     // Invoke handler to fetch the calendar data upon mounted
@@ -51,23 +45,31 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
                     // Show the total price on each title
                     tileContent={(data: any) => {
                         const dayOfYear = getDayOfYear(data.date)
-                        const date: ICalendarDay = calendar[dayOfYear]
-                        return date ? (
+                        const calendarDay: ICalendarDay = calendar[dayOfYear]
+                        const dateInfo: IDateDetails = {
+                            date: data.date,
+                            ...calendarDay,
+                        }
+                        return calendarDay ? (
                             <>
                                 <div
                                     className="calendar_calendar-tile-overlay"
                                     ref={tooltipRef}
                                     data-tip
                                     data-for="dateDetails"
+                                    onMouseOver={() => setDateDetails(dateInfo)}
+                                    onFocus={() => setDateDetails(dateInfo)}
                                 />
-                                <div>${date.rate.total}</div>
+                                <div>${calendarDay.rate.total}</div>
                             </>
                         ) : null
                     }}
                     prev2Label={null}
                     next2Label={null}
                 />
-                <ReactTooltip id="dateDetails">This is a test</ReactTooltip>
+                {dateDetails ? (
+                    <DatePopover id="dateDetails" data={dateDetails} />
+                ) : null}
             </div>
         </div>
     )

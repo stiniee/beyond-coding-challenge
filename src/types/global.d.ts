@@ -31,6 +31,10 @@ declare interface IListing {
 }
 
 // Calendar
+declare interface IDateDetails extends ICalendarDay {
+    date: Date
+}
+
 declare interface ICalendarDay {
     dateOffset: number
     isBlocked: boolean
