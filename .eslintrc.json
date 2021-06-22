@@ -63,6 +63,7 @@
             "code":80
          }
       ],
+      "react/default-props-match-prop-types": "off",
       "react/require-default-props": "off",
       "react/jsx-props-no-spreading": "off",
       "react-hooks/rules-of-hooks":"error",

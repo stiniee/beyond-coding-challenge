@@ -7,6 +7,7 @@ import './listing.css'
 interface ListingProps extends DefaultProps {
     data: IListing
     viewType?: 'card' | 'table'
+    onClick?: (data: IListing) => void
 }
 
 /**
@@ -22,16 +23,24 @@ const Listing = ({
     style,
     data,
     viewType,
+    onClick,
 }: ListingProps): JSX.Element => {
+    // Handles click event on the listing
+    const handleClick = (): void => {
+        if (onClick) onClick(data)
+    }
+
     return (
         <Tr
             id={id}
             className={`listing ${viewType}-view ${className}`}
             style={style}
+            onClick={handleClick}
         >
             {viewType === 'card' ? (
                 <>
                     <Td>
+                        {/* Picture */}
                         <img
                             className="listing_picture"
                             src={data.picture}
@@ -39,31 +48,38 @@ const Listing = ({
                         />
                     </Td>
                     <Td>
+                        {/* Title */}
                         <div className="listing_title">{data.title}</div>
-                        {/* Issue Comments Icon */}
+
+                        {/* Bed */}
                         <Icon
-                            className="listing_bed"
+                            className="listing_bed-icon"
                             path={mdiBedKing}
                             color="#B8B8B9"
                             size={1}
                         />
-                    </Td>
-                    <Td>
-                        <div className="listing_currency">{data.currency}</div>
+                        <span className="listing_bed-count"> {data.bed} </span>
                     </Td>
                 </>
             ) : (
                 <>
                     <Td>
+                        {/* Title */}
                         <div className="listing_title">{data.title}</div>
                     </Td>
                     <Td>
+                        {/* Bed */}
                         <div className="listing_bed">{data.bed} bedrooms</div>
                     </Td>
                 </>
             )}
         </Tr>
     )
+}
+
+Listing.defaultProps = {
+    className: '',
+    viewType: 'card',
 }
 
 export default Listing
