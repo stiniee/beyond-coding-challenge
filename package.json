@@ -1,6 +1,6 @@
 {
     "name": "code-challenge-listings",
-    "description": "Web application mimicking Beyond's Dashboard and Calendar",
+    "description": "Web application mimicking Beyond's Listings and Calendar pages",
     "version": "1.0.0",
     "author": "Christine Tran <ctran97.dev@gmail.com>",
     "private": true,
@@ -16,6 +16,7 @@
         "@types/webpack-env": "^1.16.0",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
+        "react-router-dom": "^5.2.0",
         "react-scripts": "4.0.3",
         "serve": "^11.2.0",
         "typescript": "^4.3.2",
