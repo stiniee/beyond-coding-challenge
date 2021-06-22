@@ -40,12 +40,13 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
             </Link>
             <div className="calendar_calendar-container">
                 <ReactCalendar
-                    // Show the calculated price on each title
+                    locale="en-US"
+                    tileClassName="calendar_calendar-tile"
+                    // Show the total price on each title
                     tileContent={(data: any) => {
-                        console.log('data: ', data)
                         const dayOfYear = getDayOfYear(data.date)
-                        console.log('dayOfYear: ', dayOfYear)
-                        return <div />
+                        const date: ICalendarDay = calendar[dayOfYear]
+                        return date ? <div>${date.rate.total}</div> : null
                     }}
                 />
             </div>

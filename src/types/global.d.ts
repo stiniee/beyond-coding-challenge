@@ -20,6 +20,7 @@ declare type DP<T> = {
 
 /* API */
 
+// Listings
 declare interface IListing {
     id: number
     title: string
@@ -27,4 +28,17 @@ declare interface IListing {
     ranking: number
     currency: string
     bed: number
+}
+
+// Calendar
+declare interface ICalendarDay {
+    dateOffset: number
+    isBlocked: boolean
+    rate: IRate
+}
+
+declare interface IRate {
+    DOW: number
+    seasonal: number
+    total: number
 }

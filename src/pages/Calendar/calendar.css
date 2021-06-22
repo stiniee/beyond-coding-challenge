@@ -24,6 +24,23 @@
     margin: 10%;
 }
 
-.react-calendar__month-view__days {
+.react-calendar .react-calendar__month-view__days {
     height: 30em;
+}
+
+.react-calendar .calendar_calendar-tile  {
+    position: relative;
+    background-color: var(--primary);
+    border: 1px solid var(--light);
+}
+
+.react-calendar .calendar_calendar-tile abbr{
+    font-size: 0.8em;
+    position: absolute;
+    top: 0.5em;
+    left: 0.5em;
+}
+
+.react-calendar .calendar_calendar-tile div{
+    font-size: 2em;
 }
