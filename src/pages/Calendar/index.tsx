@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import ReactCalendar from 'react-calendar'
 import CalendarApi from '../../api/calendar-api'
 import './calendar.css'
 
@@ -20,11 +21,22 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
         setCalendar(res.days)
     }
 
+    const handleChangeCalendar = (value: any, event: any): void => {
+        console.log('value: ', value)
+        console.log('event: ', event)
+    }
+
     useEffect(() => {
         fetchCalendar()
     }, [])
     return (
         <div>
+            <ReactCalendar
+                tileContent={(data: any) => {
+                    console.log('data: ', data)
+                    return <div />
+                }}
+            />
             <Link to="/">Back to listings</Link>
         </div>
     )
