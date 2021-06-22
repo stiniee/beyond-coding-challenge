@@ -14,8 +14,8 @@ const CalendarRoute = {
 }
 
 const routes: Record<string, Route> = {
-    DashboardRoute,
-    CalendarRoute,
+    dashboard: DashboardRoute,
+    calendar: CalendarRoute,
 }
 
 export default routes
