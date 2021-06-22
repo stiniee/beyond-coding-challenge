@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import Listing from '../../components/Listing'
 import ListingsApi from '../../api/listings-api'
 import './dashboard.css'
 
@@ -13,13 +14,20 @@ const Dashboard = (): JSX.Element => {
 
     const handleFetchListings = async (): Promise<void> => {
         const res = await ListingsApi.getListings()
-        console.log('res: ', res)
+        setListings(res.listings)
     }
     useEffect(() => {
         handleFetchListings()
     }, [])
 
-    return <div> Dashboard </div>
+    return (
+        <div>
+            Dashboard
+            {listings.map((listing) => {
+                return <Listing data={listing} />
+            })}
+        </div>
+    )
 }
 
 export default Dashboard
