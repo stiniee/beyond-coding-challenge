@@ -1,7 +1,8 @@
 import React from 'react'
 import Icon from '@mdi/react'
-import { mdiBedKing } from '@mdi/js'
 import { Link } from 'react-router-dom'
+import { mdiBedKing, mdiChevronDoubleUp } from '@mdi/js'
+import getPercent from '../../utils/getPercent'
 import './listing.css'
 
 interface ListingProps extends DefaultProps {
@@ -57,7 +58,7 @@ const Listing = ({
 
                         {/* Bed */}
                         <div
-                            className="listing_bed"
+                            className="listing_stat"
                             title={`${data.bed} bed${data.bed > 1 ? 's' : ''}`}
                         >
                             <Icon
@@ -68,6 +69,19 @@ const Listing = ({
                             />
                             <span className="listing_bed-count">
                                 {data.bed}
+                            </span>
+                        </div>
+
+                        {/* Ranking */}
+                        <div className="listing_stat">
+                            <Icon
+                                className="listing_ranking-icon"
+                                path={mdiChevronDoubleUp}
+                                color="#B8B8B9"
+                                size={1}
+                            />
+                            <span className="listing_ranking-percent">
+                                {getPercent(data.ranking)}
                             </span>
                         </div>
                     </div>

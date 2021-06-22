@@ -26,26 +26,24 @@ const Dashboard = (): JSX.Element => {
 
     return (
         <div className="dashboard">
-            <table className="dashboard_listings">
-                <thead>
-                    <tr>
+            {listings.length ? (
+                <div className="dashboard_listings">
+                    <div className="dashboard_listings-header">
                         {/* API response is not paginated, 
                         so we simply show all listings */}
-                        <div className="dashboard_listings-header">
-                            Showing {listings.length}/{listings.length} Listings
-                        </div>
-                    </tr>
-                </thead>
-                <tbody className="dashboard_listings-container">
-                    {listings.map((listing: IListing) => {
-                        return (
-                            <tr key={listing.id}>
-                                <Listing data={listing} />
-                            </tr>
-                        )
-                    })}
-                </tbody>
-            </table>
+                        Showing {listings.length}/{listings.length} Listings
+                    </div>
+                    <ul className="dashboard_listings-container">
+                        {listings.map((listing: IListing) => {
+                            return (
+                                <li key={listing.id}>
+                                    <Listing data={listing} key={listing.id} />
+                                </li>
+                            )
+                        })}
+                    </ul>
+                </div>
+            ) : null}
         </div>
     )
 }
