@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import { Table, Thead, Tbody, Th, Tr } from '@chakra-ui/react'
 import Listing from '../../components/Listing'
 import ListingsApi from '../../api/listings-api'
 import './dashboard.css'

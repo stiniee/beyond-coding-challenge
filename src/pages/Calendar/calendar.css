@@ -64,6 +64,15 @@
     font-size: 1em;
 }
 
+.react-calendar .calendar_calendar-tile-overlay {
+    position: absolute;
+    left: 0; 
+    top: 0; 
+    bottom: 0; 
+    right: 0;
+    z-index: 1;
+}
+
 .react-calendar .react-calendar__tile:enabled:hover, .react-calendar__tile:enabled:focus {
     background-color: var(--white);
     color: var(--primary);

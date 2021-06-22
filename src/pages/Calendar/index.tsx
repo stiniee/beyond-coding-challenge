@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import ReactCalendar from 'react-calendar'
+import ReactTooltip from 'react-tooltip'
 import CalendarApi from '../../api/calendar-api'
 import { calculatePrice } from '../../utils/calculation-utils'
 import { getDayOfWeekLong, getDayOfYear } from '../../utils/date-utils'
@@ -15,6 +16,8 @@ import './calendar.css'
  */
 const Calendar = ({ match }: IRouterProps): JSX.Element => {
     const [calendar, setCalendar] = useState([])
+    const [showTooltip, setShowTooltip] = useState(false)
+    const tooltipRef = useRef(null)
     const { listingId } = match?.params
 
     // Gets the calendar data from the api
@@ -49,11 +52,22 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
                     tileContent={(data: any) => {
                         const dayOfYear = getDayOfYear(data.date)
                         const date: ICalendarDay = calendar[dayOfYear]
-                        return date ? <div>${date.rate.total}</div> : null
+                        return date ? (
+                            <>
+                                <div
+                                    className="calendar_calendar-tile-overlay"
+                                    ref={tooltipRef}
+                                    data-tip
+                                    data-for="dateDetails"
+                                />
+                                <div>${date.rate.total}</div>
+                            </>
+                        ) : null
                     }}
                     prev2Label={null}
                     next2Label={null}
                 />
+                <ReactTooltip id="dateDetails">This is a test</ReactTooltip>
             </div>
         </div>
     )
