@@ -8,7 +8,7 @@ import './dashboard.css'
  * @returns JSX.Element
  */
 const Dashboard = (): JSX.Element => {
-    return <div />
+    return <div> Dashboard </div>
 }
 
 export default Dashboard
