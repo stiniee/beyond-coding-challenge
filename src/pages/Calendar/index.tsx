@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import ReactCalendar from 'react-calendar'
 import CalendarApi from '../../api/calendar-api'
 import { calculatePrice } from '../../utils/calculation-utils'
-import { getDayOfYear } from '../../utils/date-utils'
+import { getDayOfWeekLong, getDayOfYear } from '../../utils/date-utils'
 import './calendar.css'
 
 // interface CalendarProps {}
@@ -41,6 +41,9 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
             <div className="calendar_calendar-container">
                 <ReactCalendar
                     locale="en-US"
+                    formatShortWeekday={(locale, date) =>
+                        getDayOfWeekLong(date)
+                    }
                     tileClassName="calendar_calendar-tile"
                     // Show the total price on each title
                     tileContent={(data: any) => {
@@ -48,6 +51,10 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
                         const date: ICalendarDay = calendar[dayOfYear]
                         return date ? <div>${date.rate.total}</div> : null
                     }}
+                    prevLabel={null}
+                    prev2Label={null}
+                    nextLabel={null}
+                    next2Label={null}
                 />
             </div>
         </div>

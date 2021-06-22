@@ -20,7 +20,7 @@
    border: 1px solid var(--grey);
    border-bottom: none;
    padding: 0.5em;
-   background-color: #fafafa;
+   background-color: var(--light-2);
    margin: 0;
 }
 
