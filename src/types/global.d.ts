@@ -5,6 +5,11 @@ declare interface DefaultProps {
     style?: React.CSSProperties
 }
 
+/* Route */
+interface IRouterProps {
+    match: Record<string, any>
+}
+
 declare type Route = Record<string, any>
 
 // Stands for Deep Partial.

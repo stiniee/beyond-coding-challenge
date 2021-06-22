@@ -16,6 +16,7 @@ const Dashboard = (): JSX.Element => {
 
     const fetchListings = async (): Promise<void> => {
         const res = await ListingsApi.getListings()
+        console.log('ListingsApi res: ', res)
         setListings(res.listings)
     }
 
