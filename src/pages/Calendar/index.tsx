@@ -68,6 +68,7 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
                             </>
                         ) : null
                     }}
+                    showNeighboringMonth={false}
                     prev2Label={null}
                     next2Label={null}
                 />
