@@ -1,0 +1,3289 @@
+{
+  "days": [
+    {
+      "dateOffset": 0,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 1,
+        "total": 61,
+        "seasonal": 60
+      }
+    },
+    {
+      "dateOffset": 1,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 37,
+        "total": 183,
+        "seasonal": 146
+      }
+    },
+    {
+      "dateOffset": 2,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 115,
+        "total": 260,
+        "seasonal": 145
+      }
+    },
+    {
+      "dateOffset": 3,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 4,
+        "total": 97,
+        "seasonal": 93
+      }
+    },
+    {
+      "dateOffset": 4,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 96,
+        "total": 206,
+        "seasonal": 110
+      }
+    },
+    {
+      "dateOffset": 5,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 58,
+        "total": 254,
+        "seasonal": 196
+      }
+    },
+    {
+      "dateOffset": 6,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 1,
+        "total": 287,
+        "seasonal": 286
+      }
+    },
+    {
+      "dateOffset": 7,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 246,
+        "total": 352,
+        "seasonal": 106
+      }
+    },
+    {
+      "dateOffset": 8,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 173,
+        "total": 327,
+        "seasonal": 154
+      }
+    },
+    {
+      "dateOffset": 9,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 69,
+        "total": 140,
+        "seasonal": 71
+      }
+    },
+    {
+      "dateOffset": 10,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 170,
+        "total": 290,
+        "seasonal": 120
+      }
+    },
+    {
+      "dateOffset": 11,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 111,
+        "total": 230,
+        "seasonal": 119
+      }
+    },
+    {
+      "dateOffset": 12,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 160,
+        "total": 229,
+        "seasonal": 69
+      }
+    },
+    {
+      "dateOffset": 13,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 21,
+        "total": 281,
+        "seasonal": 260
+      }
+    },
+    {
+      "dateOffset": 14,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 93,
+        "total": 278,
+        "seasonal": 185
+      }
+    },
+    {
+      "dateOffset": 15,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 186,
+        "total": 301,
+        "seasonal": 115
+      }
+    },
+    {
+      "dateOffset": 16,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 71,
+        "total": 252,
+        "seasonal": 181
+      }
+    },
+    {
+      "dateOffset": 17,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 68,
+        "total": 343,
+        "seasonal": 275
+      }
+    },
+    {
+      "dateOffset": 18,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 53,
+        "total": 351,
+        "seasonal": 298
+      }
+    },
+    {
+      "dateOffset": 19,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 38,
+        "total": 148,
+        "seasonal": 110
+      }
+    },
+    {
+      "dateOffset": 20,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 92,
+        "total": 223,
+        "seasonal": 131
+      }
+    },
+    {
+      "dateOffset": 21,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 76,
+        "total": 156,
+        "seasonal": 80
+      }
+    },
+    {
+      "dateOffset": 22,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 18,
+        "total": 87,
+        "seasonal": 69
+      }
+    },
+    {
+      "dateOffset": 23,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 11,
+        "total": 188,
+        "seasonal": 177
+      }
+    },
+    {
+      "dateOffset": 24,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 64,
+        "total": 395,
+        "seasonal": 331
+      }
+    },
+    {
+      "dateOffset": 25,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 47,
+        "total": 261,
+        "seasonal": 214
+      }
+    },
+    {
+      "dateOffset": 26,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 69,
+        "total": 208,
+        "seasonal": 139
+      }
+    },
+    {
+      "dateOffset": 27,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 30,
+        "total": 356,
+        "seasonal": 326
+      }
+    },
+    {
+      "dateOffset": 28,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 53,
+        "total": 306,
+        "seasonal": 253
+      }
+    },
+    {
+      "dateOffset": 29,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 26,
+        "total": 163,
+        "seasonal": 137
+      }
+    },
+    {
+      "dateOffset": 30,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 43,
+        "total": 250,
+        "seasonal": 207
+      }
+    },
+    {
+      "dateOffset": 31,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 63,
+        "total": 358,
+        "seasonal": 295
+      }
+    },
+    {
+      "dateOffset": 32,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 53,
+        "total": 364,
+        "seasonal": 311
+      }
+    },
+    {
+      "dateOffset": 33,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 62,
+        "total": 274,
+        "seasonal": 212
+      }
+    },
+    {
+      "dateOffset": 34,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 79,
+        "total": 242,
+        "seasonal": 163
+      }
+    },
+    {
+      "dateOffset": 35,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 74,
+        "total": 291,
+        "seasonal": 217
+      }
+    },
+    {
+      "dateOffset": 36,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 89,
+        "total": 317,
+        "seasonal": 228
+      }
+    },
+    {
+      "dateOffset": 37,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 96,
+        "total": 168,
+        "seasonal": 72
+      }
+    },
+    {
+      "dateOffset": 38,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 26,
+        "total": 89,
+        "seasonal": 63
+      }
+    },
+    {
+      "dateOffset": 39,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 2,
+        "total": 392,
+        "seasonal": 390
+      }
+    },
+    {
+      "dateOffset": 40,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 25,
+        "total": 94,
+        "seasonal": 69
+      }
+    },
+    {
+      "dateOffset": 41,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 0,
+        "total": 63,
+        "seasonal": 63
+      }
+    },
+    {
+      "dateOffset": 42,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 156,
+        "total": 224,
+        "seasonal": 68
+      }
+    },
+    {
+      "dateOffset": 43,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 15,
+        "total": 328,
+        "seasonal": 313
+      }
+    },
+    {
+      "dateOffset": 44,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 244,
+        "total": 349,
+        "seasonal": 105
+      }
+    },
+    {
+      "dateOffset": 45,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 52,
+        "total": 226,
+        "seasonal": 174
+      }
+    },
+    {
+      "dateOffset": 46,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 5,
+        "total": 183,
+        "seasonal": 178
+      }
+    },
+    {
+      "dateOffset": 47,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 42,
+        "total": 116,
+        "seasonal": 74
+      }
+    },
+    {
+      "dateOffset": 48,
+      "isBlocked": true,
+      "rate": {
+        "DOW": 267,
+        "total": 389,
+        "seasonal": 122
+      }
+    },
+    {
+      "dateOffset": 49,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 257,
+        "total": 349,
+        "seasonal": 92
+      }
+    },
+    {
+      "dateOffset": 50,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 100,
+        "total": 230,
+        "seasonal": 130
+      }
+    },
+    {
+      "dateOffset": 51,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 4,
+        "total": 64,
+        "seasonal": 60
+      }
+    },
+    {
+      "dateOffset": 52,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 142,
+        "total": 301,
+        "seasonal": 159
+      }
+    },
+    {
+      "dateOffset": 53,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 14,
+        "total": 343,
+        "seasonal": 329
+      }
+    },
+    {
+      "dateOffset": 54,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 7,
+        "total": 88,
+        "seasonal": 81
+      }
+    },
+    {
+      "dateOffset": 55,
+      "isBlocked": true,
+      "rate": {
+        "DOW": 239,
+        "total": 378,
+        "seasonal": 139
+      }
+    },
+    {
+      "dateOffset": 56,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 252,
+        "total": 332,
+        "seasonal": 80
+      }
+    },
+    {
+      "dateOffset": 57,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 102,
+        "total": 168,
+        "seasonal": 66
+      }
+    },
+    {
+      "dateOffset": 58,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 116,
+        "total": 337,
+        "seasonal": 221
+      }
+    },
+    {
+      "dateOffset": 59,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 103,
+        "total": 238,
+        "seasonal": 135
+      }
+    },
+    {
+      "dateOffset": 60,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 217,
+        "total": 323,
+        "seasonal": 106
+      }
+    },
+    {
+      "dateOffset": 61,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 51,
+        "total": 285,
+        "seasonal": 234
+      }
+    },
+    {
+      "dateOffset": 62,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 11,
+        "total": 115,
+        "seasonal": 104
+      }
+    },
+    {
+      "dateOffset": 63,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 35,
+        "total": 324,
+        "seasonal": 289
+      }
+    },
+    {
+      "dateOffset": 64,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 231,
+        "total": 297,
+        "seasonal": 66
+      }
+    },
+    {
+      "dateOffset": 65,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 16,
+        "total": 96,
+        "seasonal": 80
+      }
+    },
+    {
+      "dateOffset": 66,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 4,
+        "total": 65,
+        "seasonal": 61
+      }
+    },
+    {
+      "dateOffset": 67,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 30,
+        "total": 140,
+        "seasonal": 110
+      }
+    },
+    {
+      "dateOffset": 68,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 8,
+        "total": 105,
+        "seasonal": 97
+      }
+    },
+    {
+      "dateOffset": 69,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 146,
+        "total": 212,
+        "seasonal": 66
+      }
+    },
+    {
+      "dateOffset": 70,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 1,
+        "total": 61,
+        "seasonal": 60
+      }
+    },
+    {
+      "dateOffset": 71,
+      "isBlocked": true,
+      "rate": {
+        "DOW": 126,
+        "total": 306,
+        "seasonal": 180
+      }
+    },
+    {
+      "dateOffset": 72,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 76,
+        "total": 195,
+        "seasonal": 119
+      }
+    },
+    {
+      "dateOffset": 73,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 40,
+        "total": 119,
+        "seasonal": 79
+      }
+    },
+    {
+      "dateOffset": 74,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 5,
+        "total": 66,
+        "seasonal": 61
+      }
+    },
+    {
+      "dateOffset": 75,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 93,
+        "total": 192,
+        "seasonal": 99
+      }
+    },
+    {
+      "dateOffset": 76,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 0,
+        "total": 80,
+        "seasonal": 80
+      }
+    },
+    {
+      "dateOffset": 77,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 269,
+        "total": 397,
+        "seasonal": 128
+      }
+    },
+    {
+      "dateOffset": 78,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 2,
+        "total": 292,
+        "seasonal": 290
+      }
+    },
+    {
+      "dateOffset": 79,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 22,
+        "total": 306,
+        "seasonal": 284
+      }
+    },
+    {
+      "dateOffset": 80,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 93,
+        "total": 293,
+        "seasonal": 200
+      }
+    },
+    {
+      "dateOffset": 81,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 149,
+        "total": 400,
+        "seasonal": 251
+      }
+    },
+    {
+      "dateOffset": 82,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 27,
+        "total": 338,
+        "seasonal": 311
+      }
+    },
+    {
+      "dateOffset": 83,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 82,
+        "total": 157,
+        "seasonal": 75
+      }
+    },
+    {
+      "dateOffset": 84,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 29,
+        "total": 136,
+        "seasonal": 107
+      }
+    },
+    {
+      "dateOffset": 85,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 154,
+        "total": 374,
+        "seasonal": 220
+      }
+    },
+    {
+      "dateOffset": 86,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 181,
+        "total": 312,
+        "seasonal": 131
+      }
+    },
+    {
+      "dateOffset": 87,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 106,
+        "total": 222,
+        "seasonal": 116
+      }
+    },
+    {
+      "dateOffset": 88,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 26,
+        "total": 96,
+        "seasonal": 70
+      }
+    },
+    {
+      "dateOffset": 89,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 5,
+        "total": 193,
+        "seasonal": 188
+      }
+    },
+    {
+      "dateOffset": 90,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 7,
+        "total": 241,
+        "seasonal": 234
+      }
+    },
+    {
+      "dateOffset": 91,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 157,
+        "total": 296,
+        "seasonal": 139
+      }
+    },
+    {
+      "dateOffset": 92,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 30,
+        "total": 111,
+        "seasonal": 81
+      }
+    },
+    {
+      "dateOffset": 93,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 10,
+        "total": 212,
+        "seasonal": 202
+      }
+    },
+    {
+      "dateOffset": 94,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 5,
+        "total": 65,
+        "seasonal": 60
+      }
+    },
+    {
+      "dateOffset": 95,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 172,
+        "total": 283,
+        "seasonal": 111
+      }
+    },
+    {
+      "dateOffset": 96,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 18,
+        "total": 226,
+        "seasonal": 208
+      }
+    },
+    {
+      "dateOffset": 97,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 181,
+        "total": 300,
+        "seasonal": 119
+      }
+    },
+    {
+      "dateOffset": 98,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 22,
+        "total": 207,
+        "seasonal": 185
+      }
+    },
+    {
+      "dateOffset": 99,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 159,
+        "total": 231,
+        "seasonal": 72
+      }
+    },
+    {
+      "dateOffset": 100,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 195,
+        "total": 293,
+        "seasonal": 98
+      }
+    },
+    {
+      "dateOffset": 101,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 96,
+        "total": 252,
+        "seasonal": 156
+      }
+    },
+    {
+      "dateOffset": 102,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 133,
+        "total": 313,
+        "seasonal": 180
+      }
+    },
+    {
+      "dateOffset": 103,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 33,
+        "total": 190,
+        "seasonal": 157
+      }
+    },
+    {
+      "dateOffset": 104,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 41,
+        "total": 170,
+        "seasonal": 129
+      }
+    },
+    {
+      "dateOffset": 105,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 223,
+        "total": 390,
+        "seasonal": 167
+      }
+    },
+    {
+      "dateOffset": 106,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 10,
+        "total": 117,
+        "seasonal": 107
+      }
+    },
+    {
+      "dateOffset": 107,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 47,
+        "total": 247,
+        "seasonal": 200
+      }
+    },
+    {
+      "dateOffset": 108,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 1,
+        "total": 192,
+        "seasonal": 191
+      }
+    },
+    {
+      "dateOffset": 109,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 14,
+        "total": 135,
+        "seasonal": 121
+      }
+    },
+    {
+      "dateOffset": 110,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 80,
+        "total": 185,
+        "seasonal": 105
+      }
+    },
+    {
+      "dateOffset": 111,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 32,
+        "total": 92,
+        "seasonal": 60
+      }
+    },
+    {
+      "dateOffset": 112,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 220,
+        "total": 351,
+        "seasonal": 131
+      }
+    },
+    {
+      "dateOffset": 113,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 78,
+        "total": 151,
+        "seasonal": 73
+      }
+    },
+    {
+      "dateOffset": 114,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 51,
+        "total": 147,
+        "seasonal": 96
+      }
+    },
+    {
+      "dateOffset": 115,
+      "isBlocked": true,
+      "rate": {
+        "DOW": 5,
+        "total": 253,
+        "seasonal": 248
+      }
+    },
+    {
+      "dateOffset": 116,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 48,
+        "total": 191,
+        "seasonal": 143
+      }
+    },
+    {
+      "dateOffset": 117,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 45,
+        "total": 343,
+        "seasonal": 298
+      }
+    },
+    {
+      "dateOffset": 118,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 134,
+        "total": 347,
+        "seasonal": 213
+      }
+    },
+    {
+      "dateOffset": 119,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 320,
+        "total": 391,
+        "seasonal": 71
+      }
+    },
+    {
+      "dateOffset": 120,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 159,
+        "total": 317,
+        "seasonal": 158
+      }
+    },
+    {
+      "dateOffset": 121,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 84,
+        "total": 252,
+        "seasonal": 168
+      }
+    },
+    {
+      "dateOffset": 122,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 1,
+        "total": 271,
+        "seasonal": 270
+      }
+    },
+    {
+      "dateOffset": 123,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 0,
+        "total": 138,
+        "seasonal": 138
+      }
+    },
+    {
+      "dateOffset": 124,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 71,
+        "total": 177,
+        "seasonal": 106
+      }
+    },
+    {
+      "dateOffset": 125,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 36,
+        "total": 238,
+        "seasonal": 202
+      }
+    },
+    {
+      "dateOffset": 126,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 44,
+        "total": 302,
+        "seasonal": 258
+      }
+    },
+    {
+      "dateOffset": 127,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 75,
+        "total": 145,
+        "seasonal": 70
+      }
+    },
+    {
+      "dateOffset": 128,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 249,
+        "total": 390,
+        "seasonal": 141
+      }
+    },
+    {
+      "dateOffset": 129,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 21,
+        "total": 87,
+        "seasonal": 66
+      }
+    },
+    {
+      "dateOffset": 130,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 197,
+        "total": 291,
+        "seasonal": 94
+      }
+    },
+    {
+      "dateOffset": 131,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 215,
+        "total": 399,
+        "seasonal": 184
+      }
+    },
+    {
+      "dateOffset": 132,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 182,
+        "total": 335,
+        "seasonal": 153
+      }
+    },
+    {
+      "dateOffset": 133,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 107,
+        "total": 360,
+        "seasonal": 253
+      }
+    },
+    {
+      "dateOffset": 134,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 235,
+        "total": 318,
+        "seasonal": 83
+      }
+    },
+    {
+      "dateOffset": 135,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 47,
+        "total": 117,
+        "seasonal": 70
+      }
+    },
+    {
+      "dateOffset": 136,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 0,
+        "total": 60,
+        "seasonal": 60
+      }
+    },
+    {
+      "dateOffset": 137,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 29,
+        "total": 113,
+        "seasonal": 84
+      }
+    },
+    {
+      "dateOffset": 138,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 5,
+        "total": 344,
+        "seasonal": 339
+      }
+    },
+    {
+      "dateOffset": 139,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 171,
+        "total": 368,
+        "seasonal": 197
+      }
+    },
+    {
+      "dateOffset": 140,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 38,
+        "total": 271,
+        "seasonal": 233
+      }
+    },
+    {
+      "dateOffset": 141,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 42,
+        "total": 138,
+        "seasonal": 96
+      }
+    },
+    {
+      "dateOffset": 142,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 121,
+        "total": 214,
+        "seasonal": 93
+      }
+    },
+    {
+      "dateOffset": 143,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 30,
+        "total": 192,
+        "seasonal": 162
+      }
+    },
+    {
+      "dateOffset": 144,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 73,
+        "total": 328,
+        "seasonal": 255
+      }
+    },
+    {
+      "dateOffset": 145,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 213,
+        "total": 321,
+        "seasonal": 108
+      }
+    },
+    {
+      "dateOffset": 146,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 236,
+        "total": 340,
+        "seasonal": 104
+      }
+    },
+    {
+      "dateOffset": 147,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 41,
+        "total": 144,
+        "seasonal": 103
+      }
+    },
+    {
+      "dateOffset": 148,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 134,
+        "total": 223,
+        "seasonal": 89
+      }
+    },
+    {
+      "dateOffset": 149,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 1,
+        "total": 75,
+        "seasonal": 74
+      }
+    },
+    {
+      "dateOffset": 150,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 33,
+        "total": 276,
+        "seasonal": 243
+      }
+    },
+    {
+      "dateOffset": 151,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 207,
+        "total": 378,
+        "seasonal": 171
+      }
+    },
+    {
+      "dateOffset": 152,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 2,
+        "total": 65,
+        "seasonal": 63
+      }
+    },
+    {
+      "dateOffset": 153,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 0,
+        "total": 66,
+        "seasonal": 66
+      }
+    },
+    {
+      "dateOffset": 154,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 7,
+        "total": 99,
+        "seasonal": 92
+      }
+    },
+    {
+      "dateOffset": 155,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 9,
+        "total": 71,
+        "seasonal": 62
+      }
+    },
+    {
+      "dateOffset": 156,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 188,
+        "total": 315,
+        "seasonal": 127
+      }
+    },
+    {
+      "dateOffset": 157,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 49,
+        "total": 115,
+        "seasonal": 66
+      }
+    },
+    {
+      "dateOffset": 158,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 96,
+        "total": 281,
+        "seasonal": 185
+      }
+    },
+    {
+      "dateOffset": 159,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 2,
+        "total": 196,
+        "seasonal": 194
+      }
+    },
+    {
+      "dateOffset": 160,
+      "isBlocked": true,
+      "rate": {
+        "DOW": 3,
+        "total": 171,
+        "seasonal": 168
+      }
+    },
+    {
+      "dateOffset": 161,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 45,
+        "total": 272,
+        "seasonal": 227
+      }
+    },
+    {
+      "dateOffset": 162,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 65,
+        "total": 197,
+        "seasonal": 132
+      }
+    },
+    {
+      "dateOffset": 163,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 181,
+        "total": 270,
+        "seasonal": 89
+      }
+    },
+    {
+      "dateOffset": 164,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 58,
+        "total": 166,
+        "seasonal": 108
+      }
+    },
+    {
+      "dateOffset": 165,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 32,
+        "total": 119,
+        "seasonal": 87
+      }
+    },
+    {
+      "dateOffset": 166,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 134,
+        "total": 306,
+        "seasonal": 172
+      }
+    },
+    {
+      "dateOffset": 167,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 5,
+        "total": 209,
+        "seasonal": 204
+      }
+    },
+    {
+      "dateOffset": 168,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 24,
+        "total": 88,
+        "seasonal": 64
+      }
+    },
+    {
+      "dateOffset": 169,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 163,
+        "total": 325,
+        "seasonal": 162
+      }
+    },
+    {
+      "dateOffset": 170,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 59,
+        "total": 160,
+        "seasonal": 101
+      }
+    },
+    {
+      "dateOffset": 171,
+      "isBlocked": true,
+      "rate": {
+        "DOW": 242,
+        "total": 338,
+        "seasonal": 96
+      }
+    },
+    {
+      "dateOffset": 172,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 83,
+        "total": 173,
+        "seasonal": 90
+      }
+    },
+    {
+      "dateOffset": 173,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 79,
+        "total": 305,
+        "seasonal": 226
+      }
+    },
+    {
+      "dateOffset": 174,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 75,
+        "total": 398,
+        "seasonal": 323
+      }
+    },
+    {
+      "dateOffset": 175,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 41,
+        "total": 219,
+        "seasonal": 178
+      }
+    },
+    {
+      "dateOffset": 176,
+      "isBlocked": true,
+      "rate": {
+        "DOW": 92,
+        "total": 297,
+        "seasonal": 205
+      }
+    },
+    {
+      "dateOffset": 177,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 57,
+        "total": 129,
+        "seasonal": 72
+      }
+    },
+    {
+      "dateOffset": 178,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 198,
+        "total": 292,
+        "seasonal": 94
+      }
+    },
+    {
+      "dateOffset": 179,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 134,
+        "total": 298,
+        "seasonal": 164
+      }
+    },
+    {
+      "dateOffset": 180,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 3,
+        "total": 186,
+        "seasonal": 183
+      }
+    },
+    {
+      "dateOffset": 181,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 88,
+        "total": 247,
+        "seasonal": 159
+      }
+    },
+    {
+      "dateOffset": 182,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 233,
+        "total": 294,
+        "seasonal": 61
+      }
+    },
+    {
+      "dateOffset": 183,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 0,
+        "total": 60,
+        "seasonal": 60
+      }
+    },
+    {
+      "dateOffset": 184,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 2,
+        "total": 135,
+        "seasonal": 133
+      }
+    },
+    {
+      "dateOffset": 185,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 32,
+        "total": 116,
+        "seasonal": 84
+      }
+    },
+    {
+      "dateOffset": 186,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 26,
+        "total": 99,
+        "seasonal": 73
+      }
+    },
+    {
+      "dateOffset": 187,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 12,
+        "total": 104,
+        "seasonal": 92
+      }
+    },
+    {
+      "dateOffset": 188,
+      "isBlocked": true,
+      "rate": {
+        "DOW": 115,
+        "total": 235,
+        "seasonal": 120
+      }
+    },
+    {
+      "dateOffset": 189,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 114,
+        "total": 247,
+        "seasonal": 133
+      }
+    },
+    {
+      "dateOffset": 190,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 138,
+        "total": 227,
+        "seasonal": 89
+      }
+    },
+    {
+      "dateOffset": 191,
+      "isBlocked": true,
+      "rate": {
+        "DOW": 95,
+        "total": 199,
+        "seasonal": 104
+      }
+    },
+    {
+      "dateOffset": 192,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 90,
+        "total": 382,
+        "seasonal": 292
+      }
+    },
+    {
+      "dateOffset": 193,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 65,
+        "total": 315,
+        "seasonal": 250
+      }
+    },
+    {
+      "dateOffset": 194,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 10,
+        "total": 70,
+        "seasonal": 60
+      }
+    },
+    {
+      "dateOffset": 195,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 118,
+        "total": 185,
+        "seasonal": 67
+      }
+    },
+    {
+      "dateOffset": 196,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 55,
+        "total": 380,
+        "seasonal": 325
+      }
+    },
+    {
+      "dateOffset": 197,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 99,
+        "total": 367,
+        "seasonal": 268
+      }
+    },
+    {
+      "dateOffset": 198,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 78,
+        "total": 149,
+        "seasonal": 71
+      }
+    },
+    {
+      "dateOffset": 199,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 30,
+        "total": 262,
+        "seasonal": 232
+      }
+    },
+    {
+      "dateOffset": 200,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 194,
+        "total": 357,
+        "seasonal": 163
+      }
+    },
+    {
+      "dateOffset": 201,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 30,
+        "total": 127,
+        "seasonal": 97
+      }
+    },
+    {
+      "dateOffset": 202,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 16,
+        "total": 91,
+        "seasonal": 75
+      }
+    },
+    {
+      "dateOffset": 203,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 75,
+        "total": 152,
+        "seasonal": 77
+      }
+    },
+    {
+      "dateOffset": 204,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 107,
+        "total": 351,
+        "seasonal": 244
+      }
+    },
+    {
+      "dateOffset": 205,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 29,
+        "total": 203,
+        "seasonal": 174
+      }
+    },
+    {
+      "dateOffset": 206,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 80,
+        "total": 220,
+        "seasonal": 140
+      }
+    },
+    {
+      "dateOffset": 207,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 148,
+        "total": 258,
+        "seasonal": 110
+      }
+    },
+    {
+      "dateOffset": 208,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 98,
+        "total": 350,
+        "seasonal": 252
+      }
+    },
+    {
+      "dateOffset": 209,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 116,
+        "total": 232,
+        "seasonal": 116
+      }
+    },
+    {
+      "dateOffset": 210,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 182,
+        "total": 278,
+        "seasonal": 96
+      }
+    },
+    {
+      "dateOffset": 211,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 11,
+        "total": 195,
+        "seasonal": 184
+      }
+    },
+    {
+      "dateOffset": 212,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 8,
+        "total": 71,
+        "seasonal": 63
+      }
+    },
+    {
+      "dateOffset": 213,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 29,
+        "total": 126,
+        "seasonal": 97
+      }
+    },
+    {
+      "dateOffset": 214,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 23,
+        "total": 257,
+        "seasonal": 234
+      }
+    },
+    {
+      "dateOffset": 215,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 162,
+        "total": 292,
+        "seasonal": 130
+      }
+    },
+    {
+      "dateOffset": 216,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 74,
+        "total": 159,
+        "seasonal": 85
+      }
+    },
+    {
+      "dateOffset": 217,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 10,
+        "total": 122,
+        "seasonal": 112
+      }
+    },
+    {
+      "dateOffset": 218,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 1,
+        "total": 165,
+        "seasonal": 164
+      }
+    },
+    {
+      "dateOffset": 219,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 54,
+        "total": 122,
+        "seasonal": 68
+      }
+    },
+    {
+      "dateOffset": 220,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 22,
+        "total": 133,
+        "seasonal": 111
+      }
+    },
+    {
+      "dateOffset": 221,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 147,
+        "total": 366,
+        "seasonal": 219
+      }
+    },
+    {
+      "dateOffset": 222,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 47,
+        "total": 164,
+        "seasonal": 117
+      }
+    },
+    {
+      "dateOffset": 223,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 99,
+        "total": 178,
+        "seasonal": 79
+      }
+    },
+    {
+      "dateOffset": 224,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 34,
+        "total": 231,
+        "seasonal": 197
+      }
+    },
+    {
+      "dateOffset": 225,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 167,
+        "total": 287,
+        "seasonal": 120
+      }
+    },
+    {
+      "dateOffset": 226,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 22,
+        "total": 208,
+        "seasonal": 186
+      }
+    },
+    {
+      "dateOffset": 227,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 27,
+        "total": 110,
+        "seasonal": 83
+      }
+    },
+    {
+      "dateOffset": 228,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 57,
+        "total": 341,
+        "seasonal": 284
+      }
+    },
+    {
+      "dateOffset": 229,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 5,
+        "total": 67,
+        "seasonal": 62
+      }
+    },
+    {
+      "dateOffset": 230,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 16,
+        "total": 123,
+        "seasonal": 107
+      }
+    },
+    {
+      "dateOffset": 231,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 313,
+        "total": 384,
+        "seasonal": 71
+      }
+    },
+    {
+      "dateOffset": 232,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 27,
+        "total": 106,
+        "seasonal": 79
+      }
+    },
+    {
+      "dateOffset": 233,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 26,
+        "total": 297,
+        "seasonal": 271
+      }
+    },
+    {
+      "dateOffset": 234,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 107,
+        "total": 230,
+        "seasonal": 123
+      }
+    },
+    {
+      "dateOffset": 235,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 52,
+        "total": 119,
+        "seasonal": 67
+      }
+    },
+    {
+      "dateOffset": 236,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 120,
+        "total": 204,
+        "seasonal": 84
+      }
+    },
+    {
+      "dateOffset": 237,
+      "isBlocked": true,
+      "rate": {
+        "DOW": 21,
+        "total": 109,
+        "seasonal": 88
+      }
+    },
+    {
+      "dateOffset": 238,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 215,
+        "total": 303,
+        "seasonal": 88
+      }
+    },
+    {
+      "dateOffset": 239,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 46,
+        "total": 144,
+        "seasonal": 98
+      }
+    },
+    {
+      "dateOffset": 240,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 72,
+        "total": 266,
+        "seasonal": 194
+      }
+    },
+    {
+      "dateOffset": 241,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 21,
+        "total": 169,
+        "seasonal": 148
+      }
+    },
+    {
+      "dateOffset": 242,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 139,
+        "total": 303,
+        "seasonal": 164
+      }
+    },
+    {
+      "dateOffset": 243,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 182,
+        "total": 271,
+        "seasonal": 89
+      }
+    },
+    {
+      "dateOffset": 244,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 3,
+        "total": 105,
+        "seasonal": 102
+      }
+    },
+    {
+      "dateOffset": 245,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 240,
+        "total": 338,
+        "seasonal": 98
+      }
+    },
+    {
+      "dateOffset": 246,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 6,
+        "total": 214,
+        "seasonal": 208
+      }
+    },
+    {
+      "dateOffset": 247,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 31,
+        "total": 156,
+        "seasonal": 125
+      }
+    },
+    {
+      "dateOffset": 248,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 197,
+        "total": 280,
+        "seasonal": 83
+      }
+    },
+    {
+      "dateOffset": 249,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 17,
+        "total": 207,
+        "seasonal": 190
+      }
+    },
+    {
+      "dateOffset": 250,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 205,
+        "total": 392,
+        "seasonal": 187
+      }
+    },
+    {
+      "dateOffset": 251,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 157,
+        "total": 278,
+        "seasonal": 121
+      }
+    },
+    {
+      "dateOffset": 252,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 63,
+        "total": 135,
+        "seasonal": 72
+      }
+    },
+    {
+      "dateOffset": 253,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 36,
+        "total": 134,
+        "seasonal": 98
+      }
+    },
+    {
+      "dateOffset": 254,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 48,
+        "total": 112,
+        "seasonal": 64
+      }
+    },
+    {
+      "dateOffset": 255,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 61,
+        "total": 237,
+        "seasonal": 176
+      }
+    },
+    {
+      "dateOffset": 256,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 265,
+        "total": 329,
+        "seasonal": 64
+      }
+    },
+    {
+      "dateOffset": 257,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 30,
+        "total": 158,
+        "seasonal": 128
+      }
+    },
+    {
+      "dateOffset": 258,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 141,
+        "total": 267,
+        "seasonal": 126
+      }
+    },
+    {
+      "dateOffset": 259,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 56,
+        "total": 130,
+        "seasonal": 74
+      }
+    },
+    {
+      "dateOffset": 260,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 11,
+        "total": 80,
+        "seasonal": 69
+      }
+    },
+    {
+      "dateOffset": 261,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 69,
+        "total": 146,
+        "seasonal": 77
+      }
+    },
+    {
+      "dateOffset": 262,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 51,
+        "total": 386,
+        "seasonal": 335
+      }
+    },
+    {
+      "dateOffset": 263,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 132,
+        "total": 204,
+        "seasonal": 72
+      }
+    },
+    {
+      "dateOffset": 264,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 155,
+        "total": 282,
+        "seasonal": 127
+      }
+    },
+    {
+      "dateOffset": 265,
+      "isBlocked": true,
+      "rate": {
+        "DOW": 48,
+        "total": 205,
+        "seasonal": 157
+      }
+    },
+    {
+      "dateOffset": 266,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 29,
+        "total": 169,
+        "seasonal": 140
+      }
+    },
+    {
+      "dateOffset": 267,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 154,
+        "total": 369,
+        "seasonal": 215
+      }
+    },
+    {
+      "dateOffset": 268,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 251,
+        "total": 316,
+        "seasonal": 65
+      }
+    },
+    {
+      "dateOffset": 269,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 134,
+        "total": 354,
+        "seasonal": 220
+      }
+    },
+    {
+      "dateOffset": 270,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 201,
+        "total": 304,
+        "seasonal": 103
+      }
+    },
+    {
+      "dateOffset": 271,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 78,
+        "total": 301,
+        "seasonal": 223
+      }
+    },
+    {
+      "dateOffset": 272,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 72,
+        "total": 396,
+        "seasonal": 324
+      }
+    },
+    {
+      "dateOffset": 273,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 64,
+        "total": 134,
+        "seasonal": 70
+      }
+    },
+    {
+      "dateOffset": 274,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 90,
+        "total": 247,
+        "seasonal": 157
+      }
+    },
+    {
+      "dateOffset": 275,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 19,
+        "total": 245,
+        "seasonal": 226
+      }
+    },
+    {
+      "dateOffset": 276,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 206,
+        "total": 282,
+        "seasonal": 76
+      }
+    },
+    {
+      "dateOffset": 277,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 97,
+        "total": 180,
+        "seasonal": 83
+      }
+    },
+    {
+      "dateOffset": 278,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 123,
+        "total": 273,
+        "seasonal": 150
+      }
+    },
+    {
+      "dateOffset": 279,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 4,
+        "total": 72,
+        "seasonal": 68
+      }
+    },
+    {
+      "dateOffset": 280,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 21,
+        "total": 154,
+        "seasonal": 133
+      }
+    },
+    {
+      "dateOffset": 281,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 18,
+        "total": 83,
+        "seasonal": 65
+      }
+    },
+    {
+      "dateOffset": 282,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 333,
+        "total": 394,
+        "seasonal": 61
+      }
+    },
+    {
+      "dateOffset": 283,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 77,
+        "total": 216,
+        "seasonal": 139
+      }
+    },
+    {
+      "dateOffset": 284,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 17,
+        "total": 179,
+        "seasonal": 162
+      }
+    },
+    {
+      "dateOffset": 285,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 30,
+        "total": 348,
+        "seasonal": 318
+      }
+    },
+    {
+      "dateOffset": 286,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 30,
+        "total": 109,
+        "seasonal": 79
+      }
+    },
+    {
+      "dateOffset": 287,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 35,
+        "total": 107,
+        "seasonal": 72
+      }
+    },
+    {
+      "dateOffset": 288,
+      "isBlocked": true,
+      "rate": {
+        "DOW": 12,
+        "total": 152,
+        "seasonal": 140
+      }
+    },
+    {
+      "dateOffset": 289,
+      "isBlocked": true,
+      "rate": {
+        "DOW": 142,
+        "total": 386,
+        "seasonal": 244
+      }
+    },
+    {
+      "dateOffset": 290,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 2,
+        "total": 213,
+        "seasonal": 211
+      }
+    },
+    {
+      "dateOffset": 291,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 35,
+        "total": 177,
+        "seasonal": 142
+      }
+    },
+    {
+      "dateOffset": 292,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 41,
+        "total": 171,
+        "seasonal": 130
+      }
+    },
+    {
+      "dateOffset": 293,
+      "isBlocked": true,
+      "rate": {
+        "DOW": 93,
+        "total": 167,
+        "seasonal": 74
+      }
+    },
+    {
+      "dateOffset": 294,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 24,
+        "total": 188,
+        "seasonal": 164
+      }
+    },
+    {
+      "dateOffset": 295,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 55,
+        "total": 120,
+        "seasonal": 65
+      }
+    },
+    {
+      "dateOffset": 296,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 107,
+        "total": 257,
+        "seasonal": 150
+      }
+    },
+    {
+      "dateOffset": 297,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 46,
+        "total": 156,
+        "seasonal": 110
+      }
+    },
+    {
+      "dateOffset": 298,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 15,
+        "total": 223,
+        "seasonal": 208
+      }
+    },
+    {
+      "dateOffset": 299,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 23,
+        "total": 112,
+        "seasonal": 89
+      }
+    },
+    {
+      "dateOffset": 300,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 26,
+        "total": 210,
+        "seasonal": 184
+      }
+    },
+    {
+      "dateOffset": 301,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 207,
+        "total": 359,
+        "seasonal": 152
+      }
+    },
+    {
+      "dateOffset": 302,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 135,
+        "total": 241,
+        "seasonal": 106
+      }
+    },
+    {
+      "dateOffset": 303,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 41,
+        "total": 107,
+        "seasonal": 66
+      }
+    },
+    {
+      "dateOffset": 304,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 19,
+        "total": 79,
+        "seasonal": 60
+      }
+    },
+    {
+      "dateOffset": 305,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 180,
+        "total": 253,
+        "seasonal": 73
+      }
+    },
+    {
+      "dateOffset": 306,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 170,
+        "total": 237,
+        "seasonal": 67
+      }
+    },
+    {
+      "dateOffset": 307,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 21,
+        "total": 236,
+        "seasonal": 215
+      }
+    },
+    {
+      "dateOffset": 308,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 181,
+        "total": 344,
+        "seasonal": 163
+      }
+    },
+    {
+      "dateOffset": 309,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 102,
+        "total": 326,
+        "seasonal": 224
+      }
+    },
+    {
+      "dateOffset": 310,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 71,
+        "total": 396,
+        "seasonal": 325
+      }
+    },
+    {
+      "dateOffset": 311,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 184,
+        "total": 389,
+        "seasonal": 205
+      }
+    },
+    {
+      "dateOffset": 312,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 44,
+        "total": 211,
+        "seasonal": 167
+      }
+    },
+    {
+      "dateOffset": 313,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 272,
+        "total": 345,
+        "seasonal": 73
+      }
+    },
+    {
+      "dateOffset": 314,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 12,
+        "total": 352,
+        "seasonal": 340
+      }
+    },
+    {
+      "dateOffset": 315,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 81,
+        "total": 145,
+        "seasonal": 64
+      }
+    },
+    {
+      "dateOffset": 316,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 137,
+        "total": 267,
+        "seasonal": 130
+      }
+    },
+    {
+      "dateOffset": 317,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 25,
+        "total": 215,
+        "seasonal": 190
+      }
+    },
+    {
+      "dateOffset": 318,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 72,
+        "total": 214,
+        "seasonal": 142
+      }
+    },
+    {
+      "dateOffset": 319,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 70,
+        "total": 189,
+        "seasonal": 119
+      }
+    },
+    {
+      "dateOffset": 320,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 12,
+        "total": 156,
+        "seasonal": 144
+      }
+    },
+    {
+      "dateOffset": 321,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 10,
+        "total": 107,
+        "seasonal": 97
+      }
+    },
+    {
+      "dateOffset": 322,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 99,
+        "total": 169,
+        "seasonal": 70
+      }
+    },
+    {
+      "dateOffset": 323,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 64,
+        "total": 148,
+        "seasonal": 84
+      }
+    },
+    {
+      "dateOffset": 324,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 46,
+        "total": 159,
+        "seasonal": 113
+      }
+    },
+    {
+      "dateOffset": 325,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 23,
+        "total": 106,
+        "seasonal": 83
+      }
+    },
+    {
+      "dateOffset": 326,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 300,
+        "total": 375,
+        "seasonal": 75
+      }
+    },
+    {
+      "dateOffset": 327,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 45,
+        "total": 225,
+        "seasonal": 180
+      }
+    },
+    {
+      "dateOffset": 328,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 105,
+        "total": 175,
+        "seasonal": 70
+      }
+    },
+    {
+      "dateOffset": 329,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 102,
+        "total": 359,
+        "seasonal": 257
+      }
+    },
+    {
+      "dateOffset": 330,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 33,
+        "total": 162,
+        "seasonal": 129
+      }
+    },
+    {
+      "dateOffset": 331,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 33,
+        "total": 128,
+        "seasonal": 95
+      }
+    },
+    {
+      "dateOffset": 332,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 78,
+        "total": 164,
+        "seasonal": 86
+      }
+    },
+    {
+      "dateOffset": 333,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 90,
+        "total": 155,
+        "seasonal": 65
+      }
+    },
+    {
+      "dateOffset": 334,
+      "isBlocked": true,
+      "rate": {
+        "DOW": 73,
+        "total": 270,
+        "seasonal": 197
+      }
+    },
+    {
+      "dateOffset": 335,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 2,
+        "total": 240,
+        "seasonal": 238
+      }
+    },
+    {
+      "dateOffset": 336,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 108,
+        "total": 199,
+        "seasonal": 91
+      }
+    },
+    {
+      "dateOffset": 337,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 15,
+        "total": 232,
+        "seasonal": 217
+      }
+    },
+    {
+      "dateOffset": 338,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 286,
+        "total": 362,
+        "seasonal": 76
+      }
+    },
+    {
+      "dateOffset": 339,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 295,
+        "total": 374,
+        "seasonal": 79
+      }
+    },
+    {
+      "dateOffset": 340,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 256,
+        "total": 390,
+        "seasonal": 134
+      }
+    },
+    {
+      "dateOffset": 341,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 9,
+        "total": 79,
+        "seasonal": 70
+      }
+    },
+    {
+      "dateOffset": 342,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 141,
+        "total": 280,
+        "seasonal": 139
+      }
+    },
+    {
+      "dateOffset": 343,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 217,
+        "total": 334,
+        "seasonal": 117
+      }
+    },
+    {
+      "dateOffset": 344,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 134,
+        "total": 209,
+        "seasonal": 75
+      }
+    },
+    {
+      "dateOffset": 345,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 5,
+        "total": 189,
+        "seasonal": 184
+      }
+    },
+    {
+      "dateOffset": 346,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 56,
+        "total": 133,
+        "seasonal": 77
+      }
+    },
+    {
+      "dateOffset": 347,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 34,
+        "total": 230,
+        "seasonal": 196
+      }
+    },
+    {
+      "dateOffset": 348,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 31,
+        "total": 314,
+        "seasonal": 283
+      }
+    },
+    {
+      "dateOffset": 349,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 94,
+        "total": 216,
+        "seasonal": 122
+      }
+    },
+    {
+      "dateOffset": 350,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 204,
+        "total": 306,
+        "seasonal": 102
+      }
+    },
+    {
+      "dateOffset": 351,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 21,
+        "total": 175,
+        "seasonal": 154
+      }
+    },
+    {
+      "dateOffset": 352,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 130,
+        "total": 318,
+        "seasonal": 188
+      }
+    },
+    {
+      "dateOffset": 353,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 260,
+        "total": 369,
+        "seasonal": 109
+      }
+    },
+    {
+      "dateOffset": 354,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 154,
+        "total": 322,
+        "seasonal": 168
+      }
+    },
+    {
+      "dateOffset": 355,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 47,
+        "total": 135,
+        "seasonal": 88
+      }
+    },
+    {
+      "dateOffset": 356,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 3,
+        "total": 94,
+        "seasonal": 91
+      }
+    },
+    {
+      "dateOffset": 357,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 81,
+        "total": 163,
+        "seasonal": 82
+      }
+    },
+    {
+      "dateOffset": 358,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 12,
+        "total": 79,
+        "seasonal": 67
+      }
+    },
+    {
+      "dateOffset": 359,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 156,
+        "total": 252,
+        "seasonal": 96
+      }
+    },
+    {
+      "dateOffset": 360,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 126,
+        "total": 202,
+        "seasonal": 76
+      }
+    },
+    {
+      "dateOffset": 361,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 51,
+        "total": 118,
+        "seasonal": 67
+      }
+    },
+    {
+      "dateOffset": 362,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 101,
+        "total": 199,
+        "seasonal": 98
+      }
+    },
+    {
+      "dateOffset": 363,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 170,
+        "total": 373,
+        "seasonal": 203
+      }
+    },
+    {
+      "dateOffset": 364,
+      "isBlocked": false,
+      "rate": {
+        "DOW": 16,
+        "total": 116,
+        "seasonal": 100
+      }
+    }
+  ]
+}
