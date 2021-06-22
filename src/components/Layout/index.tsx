@@ -9,11 +9,11 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps): JSX.Element => {
     return (
-        <>
+        <div>
             <Header />
             {children}
             <Footer />
-        </>
+        </div>
     )
 }
 

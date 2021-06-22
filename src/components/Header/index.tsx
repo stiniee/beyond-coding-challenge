@@ -6,7 +6,7 @@ interface HeaderProps {
 }
 
 const Header = ({ children }: HeaderProps): JSX.Element => {
-    return <Header> {children}</Header>
+    return <header> {children}</header>
 }
 
 export default Header
