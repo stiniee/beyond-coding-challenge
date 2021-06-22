@@ -9,7 +9,7 @@ import './calendar.css'
  * @returns JSX.Element
  */
 const Calendar = (): JSX.Element => {
-    return <div />
+    return <div>calendar </div>
 }
 
 export default Calendar

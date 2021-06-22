@@ -13,15 +13,18 @@
     max-width: 80em;
     padding: 0 10%;
     box-sizing: border-box;
+    border-spacing: 0;
 }
 
-.dashboard_listings_header {
+.dashboard_listings-header {
    border: 1px solid #dfdfdf;
-   padding: 1em;
+   border-bottom: none;
+   padding: 0.5em;
+   background-color: #fcfdfd;
    margin: 0;
 }
 
 
 .dashboard_listings-container .listing{
-    margin: 1em 0;
+    margin-bottom: 0.4em;
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon from '@mdi/react'
 import { mdiBedKing } from '@mdi/js'
-import { Tr, Td } from '@chakra-ui/react'
+import { Link } from 'react-router-dom'
 import './listing.css'
 
 interface ListingProps extends DefaultProps {
@@ -50,13 +50,16 @@ const Listing = ({
                     />
 
                     <div>
-                        {/* Title */}
-                        <h2 className="listing_title ellpisis two-lines">
-                            {data.title}
-                        </h2>
+                        {/* Title (Links to the associated calendar) */}
+                        <Link to={`/${data.id}`}>
+                            <h2 className="listing_title">{data.title}</h2>
+                        </Link>
 
                         {/* Bed */}
-                        <div className="listing_bed">
+                        <div
+                            className="listing_bed"
+                            title={`${data.bed} bed${data.bed > 1 ? 's' : ''}`}
+                        >
                             <Icon
                                 className="listing_bed-icon"
                                 path={mdiBedKing}

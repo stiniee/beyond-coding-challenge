@@ -14,22 +14,25 @@ const LISTING_HEADERS = {}
 const Dashboard = (): JSX.Element => {
     const [listings, setListings] = useState([])
 
-    const handleFetchListings = async (): Promise<void> => {
+    const fetchListings = async (): Promise<void> => {
         const res = await ListingsApi.getListings()
         setListings(res.listings)
     }
+
     useEffect(() => {
-        handleFetchListings()
+        fetchListings()
     }, [])
 
     return (
         <div className="dashboard">
             <table className="dashboard_listings">
-                <thead className="dashboard_listings_header">
+                <thead>
                     <tr>
                         {/* API response is not paginated, 
                         so we simply show all listings */}
-                        Showing {listings.length}/{listings.length} Listings
+                        <div className="dashboard_listings-header">
+                            Showing {listings.length}/{listings.length} Listings
+                        </div>
                     </tr>
                 </thead>
                 <tbody className="dashboard_listings-container">
