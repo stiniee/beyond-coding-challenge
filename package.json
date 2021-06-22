@@ -28,7 +28,7 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "lint": "npx eslint . --quiet --fix",
-        "server": "serve backend"
+        "server": "serve backend --cors"
     },
     "repository": {
         "type": "git",

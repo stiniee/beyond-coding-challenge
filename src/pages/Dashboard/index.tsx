@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import ListingsApi from '../../api/listings-api'
 import './dashboard.css'
 
 // interface DashboardProps {}
@@ -8,6 +9,16 @@ import './dashboard.css'
  * @returns JSX.Element
  */
 const Dashboard = (): JSX.Element => {
+    const [listings, setListings] = useState([])
+
+    const handleFetchListings = async (): Promise<void> => {
+        const res = await ListingsApi.getListings()
+        console.log('res: ', res)
+    }
+    useEffect(() => {
+        handleFetchListings()
+    }, [])
+
     return <div> Dashboard </div>
 }
 
