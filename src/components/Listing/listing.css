@@ -22,9 +22,14 @@
     box-sizing: border-box;
 }
 
-
 .listing.card-view .listing_title {
     margin: 0.5em 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    white-space: unset;
 }
 
 

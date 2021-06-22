@@ -5,11 +5,20 @@
     padding: 1em 0;
 }
 
-.dashboard_listings-container{
+
+/* Listings */
+
+.dashboard_listings {
     width: 100%;
     max-width: 80em;
     padding: 0 10%;
     box-sizing: border-box;
+}
+
+.dashboard_listings_header {
+   border: 1px solid #dfdfdf;
+   padding: 1em;
+   margin: 0;
 }
 
 
