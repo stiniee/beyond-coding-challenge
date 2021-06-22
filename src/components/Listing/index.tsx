@@ -2,7 +2,7 @@ import React from 'react'
 import Icon from '@mdi/react'
 import { Link } from 'react-router-dom'
 import { mdiBedKing, mdiChevronDoubleUp } from '@mdi/js'
-import getPercent from '../../utils/getPercent'
+import { numToPercent } from '../../utils/formatting-utils'
 import './listing.css'
 
 interface ListingProps extends DefaultProps {
@@ -81,7 +81,7 @@ const Listing = ({
                                 size={1}
                             />
                             <span className="listing_ranking-percent">
-                                {getPercent(data.ranking)}
+                                {numToPercent(data.ranking)}
                             </span>
                         </div>
                     </div>

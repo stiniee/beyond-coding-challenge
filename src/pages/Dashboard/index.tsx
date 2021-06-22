@@ -14,12 +14,13 @@ const LISTING_HEADERS = {}
 const Dashboard = (): JSX.Element => {
     const [listings, setListings] = useState([])
 
+    // Gets the listings data from the api
     const fetchListings = async (): Promise<void> => {
         const res = await ListingsApi.getListings()
-        console.log('ListingsApi res: ', res)
         setListings(res.listings)
     }
 
+    // Invoke handler to fetch the listings upon mounted
     useEffect(() => {
         fetchListings()
     }, [])
@@ -36,6 +37,7 @@ const Dashboard = (): JSX.Element => {
                     <ul className="dashboard_listings-container">
                         {listings.map((listing: IListing) => {
                             return (
+                                // List out each listing with its data passed in
                                 <li key={listing.id}>
                                     <Listing data={listing} key={listing.id} />
                                 </li>
