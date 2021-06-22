@@ -37,9 +37,9 @@ const Dashboard = (): JSX.Element => {
                     </tr>
                 </thead>
                 <tbody className="dashboard_listings-container">
-                    {listings.map((listing) => {
+                    {listings.map((listing: IListing) => {
                         return (
-                            <tr>
+                            <tr key={listing.id}>
                                 <Listing data={listing} />
                             </tr>
                         )
