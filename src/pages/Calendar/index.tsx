@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './calendar.css'
 
 // interface CalendarProps {}
@@ -9,7 +10,11 @@ import './calendar.css'
  * @returns JSX.Element
  */
 const Calendar = (): JSX.Element => {
-    return <div>calendar </div>
+    return (
+        <div>
+            <Link to="/">Back to listings</Link>
+        </div>
+    )
 }
 
 export default Calendar
