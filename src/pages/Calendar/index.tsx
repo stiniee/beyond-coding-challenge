@@ -53,21 +53,25 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
                         return calendarDay ? (
                             <>
                                 <div
-                                    className="calendar_calendar-tile-overlay"
+                                    className={`calendar_calendar-tile-overlay${
+                                        calendarDay.isBlocked ? ' blocked' : ''
+                                    }`}
                                     ref={tooltipRef}
                                     data-tip
                                     data-for="dateDetails"
                                     onMouseOver={() => setDateDetails(dateInfo)}
                                     onFocus={() => setDateDetails(dateInfo)}
                                 />
-                                <div>${calendarDay.rate.total}</div>
+                                {!calendarDay.isBlocked ? (
+                                    <div>${calendarDay.rate.total}</div>
+                                ) : null}
                             </>
                         ) : null
                     }}
                     prev2Label={null}
                     next2Label={null}
                 />
-                {dateDetails ? (
+                {dateDetails && !dateDetails.isBlocked ? (
                     <DatePopover id="dateDetails" data={dateDetails} />
                 ) : null}
             </div>

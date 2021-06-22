@@ -31,6 +31,9 @@ declare interface IListing {
 }
 
 // Calendar
+declare type PriceType = 'DOW' | 'seasonal' | 'total' | 'base'
+declare type Rate = Record<PriceType, number>
+
 declare interface IDateDetails extends ICalendarDay {
     date: Date
 }
@@ -38,11 +41,5 @@ declare interface IDateDetails extends ICalendarDay {
 declare interface ICalendarDay {
     dateOffset: number
     isBlocked: boolean
-    rate: IRate
-}
-
-declare interface IRate {
-    DOW: number
-    seasonal: number
-    total: number
+    rate: Rate
 }

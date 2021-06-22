@@ -1,82 +1,48 @@
-
-.listing {
-    padding: 1em; 
-    display: flex;
-    width: 100%;
-    background-color: #ffffff;
-    border: 1px solid var(--grey);
-    box-sizing: border-box;
+.date-popover {
+  
 }
 
-.listing a {
-    text-decoration: none;
-    color: var(--dark);
-    transition: 0.1s ease-in;
+.date-popover_content {
+    height: 15em;
+    width: 20em;
+}
+
+.date-popover_content-header {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--dark-2);
+    height: 6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.date-popover_content-header-date{
+    margin-bottom: 0.5em;
+}
+
+.date-popover_content-header-total{
+    font-size: 2em;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.date-popover_content hr {
+    border: none;
+    border-top: 1px solid var(--grey-5);
+    margin: 1em 0;
+}
+.date-popover_content-details {
+    position: relative;
+    top: 6em;
  }
 
-.listing a:hover {
-    color: var(--black);
-    font-weight: bold;
-}
-
-/*----------------------------------------------------------
-    Details view 
-----------------------------------------------------------*/
-.listing.details-view  {
-    justify-content: space-between;
-}
-
-/*----------------------------------------------------------
-    Card view 
-----------------------------------------------------------*/
-.listing.card-view {
+.date-popover_content-detail {
     display: flex;
-    box-sizing: border-box;
+    justify-content: space-between;
+    margin: 0.5em 0;
 }
-
-.listing.card-view .listing_title {
-    margin: 0.3em 0;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    white-space: unset;
-}
-
-
-/* Picture */
-.listing.card-view .listing_picture {
-    height: 8em;
-    width: 8em;
-    object-fit: fill;
-    margin-right: 1em;
-}
-
-/* Listing stats */
-.listing.card-view .listing_stat {
-    display: grid;
-    align-items: center;
-    grid-auto-flow: column;
-    grid-template-columns: 2em 4em;
-}
-
-
-.listing.card-view .listing_bed-icon {
-   margin-right: 0.4em;
-}
-
-/*----------------------------------------------------------
-    Responsive
-----------------------------------------------------------*/
-@media only screen and (max-width: 480px) {
-    .listing.card-view .listing_picture {
-        height: auto;
-        width: 100%;
-    }
-    
-
-    .listing {
-        flex-wrap: wrap;
-    }
-} 
