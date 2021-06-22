@@ -64,9 +64,14 @@
     font-size: 1em;
 }
 
-.react-calendar__tile:enabled:hover, .react-calendar__tile:enabled:focus {
+.react-calendar .react-calendar__tile:enabled:hover, .react-calendar__tile:enabled:focus {
     background-color: var(--white);
     color: var(--primary);
+}
+
+
+.react-calendar .react-calendar__tile:enabled:hover abbr  {
+     color: var(--grey);
 }
 
  
