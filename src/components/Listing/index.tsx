@@ -6,7 +6,7 @@ import './listing.css'
 
 interface ListingProps extends DefaultProps {
     data: IListing
-    viewType?: 'card' | 'table'
+    viewType?: 'card' | 'details'
     onClick?: (data: IListing) => void
 }
 
@@ -31,49 +31,54 @@ const Listing = ({
     }
 
     return (
-        <Tr
+        // eslint-disable-next-line jsx-a11y/click-events-have-key-events
+        <div
             id={id}
             className={`listing ${viewType}-view ${className}`}
             style={style}
             onClick={handleClick}
+            role="row"
+            tabIndex={0}
         >
             {viewType === 'card' ? (
                 <>
-                    <Td>
-                        {/* Picture */}
-                        <img
-                            className="listing_picture"
-                            src={data.picture}
-                            alt={data.picture}
-                        />
-                    </Td>
-                    <Td>
+                    {/* Picture */}
+                    <img
+                        className="listing_picture"
+                        src={data.picture}
+                        alt={data.picture}
+                    />
+
+                    <div>
                         {/* Title */}
-                        <div className="listing_title">{data.title}</div>
+                        <h2 className="listing_title ellpisis two-lines">
+                            {data.title}
+                        </h2>
 
                         {/* Bed */}
-                        <Icon
-                            className="listing_bed-icon"
-                            path={mdiBedKing}
-                            color="#B8B8B9"
-                            size={1}
-                        />
-                        <span className="listing_bed-count"> {data.bed} </span>
-                    </Td>
+                        <div className="listing_bed">
+                            <Icon
+                                className="listing_bed-icon"
+                                path={mdiBedKing}
+                                color="#B8B8B9"
+                                size={1}
+                            />
+                            <span className="listing_bed-count">
+                                {data.bed}
+                            </span>
+                        </div>
+                    </div>
                 </>
             ) : (
                 <>
-                    <Td>
-                        {/* Title */}
-                        <div className="listing_title">{data.title}</div>
-                    </Td>
-                    <Td>
-                        {/* Bed */}
-                        <div className="listing_bed">{data.bed} bedrooms</div>
-                    </Td>
+                    {/* Title */}
+                    <h3 className="listing_title">{data.title}</h3>
+
+                    {/* Bed */}
+                    <div className="listing_bed">{data.bed} bedrooms</div>
                 </>
             )}
-        </Tr>
+        </div>
     )
 }
 

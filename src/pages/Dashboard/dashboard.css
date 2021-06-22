@@ -1,0 +1,18 @@
+.dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.dashboard_listings-container{
+    width: 100%;
+    max-width: 80em;
+    padding: 0 10%;
+    box-sizing: border-box;
+}
+
+
+.dashboard_listings-container .listing{
+    margin: 1em 0;
+}
