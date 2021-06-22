@@ -49,6 +49,10 @@
     margin-bottom: 1em;
 }
 
+.react-calendar .react-calendar__month-view__weekdays abbr{
+    text-decoration: none;
+}
+
 
 
 /* Tiles */
