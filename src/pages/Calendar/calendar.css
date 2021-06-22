@@ -89,6 +89,7 @@
 
 .react-calendar .react-calendar__tile:enabled:hover abbr  {
      color: var(--grey);
+     text-decoration: none;
 }
 
  
