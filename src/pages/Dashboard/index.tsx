@@ -15,17 +15,19 @@ const Dashboard = (): JSX.Element => {
     const [listings, setListings] = useState([])
     const [sortHealth, setSortHealth] = useState<string | null>(null)
 
-    // Handles setting health sort order to 'asc', 'desc', or toggled off
-    const handleSetSortHealth = (sortOrder: string): void => {
-        // If already active, toggle off
-        if (sortHealth === sortOrder) setSortHealth(null)
-        // Otherwise set to the sort order
-        else setSortHealth(sortOrder)
-    }
+    /*--------------------------------------------------------------------
+        Listings
+    ---------------------------------------------------------------------*/
 
-    // Gets the listings data from the api
+    // Gets the listings data from the api, sorted by health
     const fetchListings = async (): Promise<void> => {
         const res = await ListingsApi.getListings()
+        if (sortHealth) {
+            res.listings.sort((a: IListing, b: IListing) => {
+                if (sortHealth === 'asc') return a.health - b.health
+                return b.health - a.health
+            })
+        }
         setListings(res.listings)
     }
 
@@ -33,6 +35,18 @@ const Dashboard = (): JSX.Element => {
     useEffect(() => {
         fetchListings()
     }, [])
+
+    /*--------------------------------------------------------------------
+        Sort by Health
+    ---------------------------------------------------------------------*/
+
+    // Handles setting health sort order to 'asc', 'desc', or toggled off
+    const handleSetSortHealth = (sortOrder: string): void => {
+        // If already active, toggle off
+        if (sortHealth === sortOrder) setSortHealth(null)
+        // Otherwise set to the sort order
+        else setSortHealth(sortOrder)
+    }
 
     return (
         <div className="dashboard" data-testid="dashboard-page">
