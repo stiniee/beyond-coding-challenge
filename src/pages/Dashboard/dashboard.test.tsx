@@ -4,7 +4,7 @@ import { MemoryRouter } from 'react-router-dom'
 import { render, screen, cleanup, act } from '@testing-library/react'
 import fetchMock from 'fetch-mock'
 import Dashboard from './index'
-import { MOCK_LISTINGS } from '../../api/tests/__mocks__/listings'
+import { MOCK_LISTINGS } from '../../api/__mocks__/listings'
 
 const renderComponent = (): HTMLElement => {
     render(

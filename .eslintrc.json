@@ -60,7 +60,7 @@
       "max-len":[
          "warn",
          {
-            "code":80
+            "code":100
          }
       ],
       "react/default-props-match-prop-types": "off",

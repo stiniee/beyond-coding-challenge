@@ -5,7 +5,7 @@ import { mdiBedKing, mdiChevronDoubleUp } from '@mdi/js'
 import { numToPercent } from '../../utils/formatting-utils'
 import './listing.css'
 
-interface ListingProps extends DefaultProps {
+export interface ListingProps extends DefaultProps {
     data: IListing
     viewType?: 'card' | 'details'
     onClick?: (data: IListing) => void
@@ -49,12 +49,21 @@ const Listing = ({
                         className="listing_picture"
                         src={data.picture}
                         alt={data.picture}
+                        data-testid="listing-picture"
                     />
 
                     <div>
                         {/* Title (Links to the associated calendar) */}
-                        <Link to={`/${data.id}`}>
-                            <h2 className="listing_title">{data.title}</h2>
+                        <Link
+                            to={`/${data.id}`}
+                            data-testid="listing-title-link"
+                        >
+                            <h2
+                                className="listing_title"
+                                data-testid="listing-title"
+                            >
+                                {data.title}
+                            </h2>
                         </Link>
 
                         {/* Bed */}
@@ -68,7 +77,10 @@ const Listing = ({
                                 color="#B8B8B9"
                                 size={1}
                             />
-                            <span className="listing_bed-count">
+                            <span
+                                className="listing_bed-count"
+                                data-testid="listing-bed-count"
+                            >
                                 {data.bed}
                             </span>
                         </div>
@@ -81,7 +93,10 @@ const Listing = ({
                                 color="#B8B8B9"
                                 size={1}
                             />
-                            <span className="listing_ranking-percent">
+                            <span
+                                className="listing_ranking-percent"
+                                data-testid="listing-ranking"
+                            >
                                 {numToPercent(data.ranking)}
                             </span>
                         </div>
@@ -90,10 +105,17 @@ const Listing = ({
             ) : (
                 <>
                     {/* Title */}
-                    <h3 className="listing_title">{data.title}</h3>
+                    <h3 className="listing_title" data-testid="listing-title">
+                        {data.title}
+                    </h3>
 
                     {/* Bed */}
-                    <div className="listing_bed">{data.bed} bedrooms</div>
+                    <div
+                        className="listing_bed"
+                        data-testid="listing-bed-count"
+                    >
+                        {data.bed} bedrooms
+                    </div>
                 </>
             )}
         </div>
