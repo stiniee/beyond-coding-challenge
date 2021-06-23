@@ -1,17 +1,14 @@
 export const calculatePrice = (
     basePrice: number,
-    dayOfWeek: number,
-    seasonal: number
+    factors: number[]
 ): number => {
-    // Get increase due to day of week
-    const increaseByDayOfWeek = basePrice * dayOfWeek
+    let priceIncrease = 0
 
-    // Get increase due to seasonal
-    const increaseBySeasonal = basePrice * seasonal
-
-    // Get the total increase amount
-    const increaseAmount = increaseByDayOfWeek + increaseBySeasonal
+    factors.forEach((factor: number) => {
+        const increase = basePrice * factor
+        priceIncrease += increase
+    })
 
     // Get the final price
-    return basePrice + increaseAmount
+    return basePrice + priceIncrease
 }

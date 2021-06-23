@@ -38,11 +38,10 @@ declare type PriceType = 'dayOfWeek' | 'seasonal'
 declare type Factor = Record<PriceType, number>
 
 declare interface IDateDetails extends ICalendarDay {
-    date: Date
+    date: string
 }
 
 declare interface ICalendarDay {
-    dateOffset: number
     isBlocked: boolean
-    factor: Factor
+    factors: Factor
 }

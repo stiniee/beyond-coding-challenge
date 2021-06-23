@@ -89,8 +89,8 @@ All of these APIs are fully functional, and have been verified to return correct
     date - [string] ISO date, e.g.: 2020-01-01
     isBlocked - [boolean] True if the day is blocked
     factors - [object] the price factors for that day:
-        seasonal - [float] factor related to the seasonality
-        dayOfWeek - [float] factor related to the day of the week
+        seasonal - [float] factors related to the seasonality
+        dayOfWeek - [float] factors related to the day of the week
     ```
 
 - POST `http://localhost:1024/calendar/:listingId`

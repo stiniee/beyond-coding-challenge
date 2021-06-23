@@ -5,6 +5,7 @@ import DatePopover from '../../components/DatePopover'
 import CalendarApi from '../../api/calendar-api'
 import { getDayOfWeekLong, getDayOfYear } from '../../utils/date-utils'
 import './calendar.css'
+import { calculatePrice } from '../../utils/calculation-utils'
 
 /**
  * Displays a listing's calendar that contains
@@ -13,6 +14,7 @@ import './calendar.css'
  */
 const Calendar = ({ match }: IRouterProps): JSX.Element => {
     const [calendar, setCalendar] = useState([])
+    const [basePrice, setBasePrice] = useState(0)
     const [dateDetails, setDateDetails] = useState<IDateDetails | null>(null)
     const tooltipRef = useRef(null)
     const { listingId } = match?.params
@@ -20,7 +22,9 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
     // Gets the calendar data from the api
     const fetchCalendar = async (): Promise<void> => {
         const res = await CalendarApi.getCalendar(listingId)
+        console.log('fetchCalendar res: ', res)
         setCalendar(res.days)
+        setBasePrice(res.basePrice)
     }
 
     // Invoke handler to fetch the calendar data upon mounted
@@ -44,10 +48,18 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
                     tileContent={(data: any) => {
                         const dayOfYear = getDayOfYear(data.date)
                         const calendarDay: ICalendarDay = calendar[dayOfYear]
+                        const factors = calendarDay
+                            ? Object.values(calendarDay.factors)
+                            : []
+
+                        console.log('calendarDay: ', calendarDay)
+
                         const dateInfo: IDateDetails = {
                             date: data.date,
                             ...calendarDay,
                         }
+
+                        console.log('dateInfo: ', dateInfo)
                         return calendarDay ? (
                             <>
                                 <div
@@ -60,7 +72,7 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
                                     onMouseOver={() => setDateDetails(dateInfo)}
                                     onFocus={() => setDateDetails(dateInfo)}
                                 />
-                                <div> TOTAL {/* @CTRAN TOTAL HERE */} </div>
+                                <div>{calculatePrice(basePrice, factors)}</div>
                             </>
                         ) : null
                     }}
