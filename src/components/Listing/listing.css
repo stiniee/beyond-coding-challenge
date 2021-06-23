@@ -30,6 +30,10 @@
     Card view 
 ----------------------------------------------------------*/
 .listing.card-view {
+    justify-content: space-between;
+}
+
+.listing.card-view, .listing_picture-and-title {
     display: flex;
     box-sizing: border-box;
 }
@@ -53,7 +57,7 @@
     margin-right: 1em;
 }
 
-/* Listing stats */
+/* Listing stat */
 .listing.card-view .listing_stat {
     display: grid;
     align-items: center;
@@ -61,22 +65,53 @@
     grid-template-columns: 2em 4em;
 }
 
-
+/* Listing beds */
 .listing.card-view .listing_bed-icon {
    margin-right: 0.4em;
 }
 
+/* Listing health */
+.listing_health-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 10em;
+ }
+
+ .listing.card-view .listing_health {
+    font-size: 1.6em;
+    font-weight: 600;
+ }
+
+
+.listing.card-view .listing_health-label {
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--grey-5);
+    margin-top: 1em;
+ }
+ 
+
 /*----------------------------------------------------------
     Responsive
 ----------------------------------------------------------*/
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 640px) {
     .listing.card-view .listing_picture {
         height: auto;
         width: 100%;
     }
-    
 
-    .listing {
+    .listing.card-view, .listing.details-view {
+        justify-content: center;
+    }
+    
+    .listing, .listing_picture-and-title {
         flex-wrap: wrap;
     }
+
+    .listing_health-container {
+        margin-bottom: 1em;
+     }
 } 

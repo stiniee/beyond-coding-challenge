@@ -1,4 +1,6 @@
-const BASE_API_URL = 'http://localhost:5000'
+// const BASE_API_URL = 'http://localhost:5000'
+const BASE_API_URL = 'http://localhost:1024'
+
 /**
  * Gets all the listings
  * @param params: The parameters to pass into the api config

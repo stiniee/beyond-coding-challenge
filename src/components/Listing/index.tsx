@@ -44,56 +44,64 @@ const Listing = ({
         >
             {viewType === 'card' ? (
                 <>
-                    {/* Picture */}
-                    <img
-                        className="listing_picture"
-                        src={data.picture}
-                        alt={data.picture}
-                        data-testid="listing-picture"
-                    />
+                    <div className="listing_picture-and-title">
+                        {/* Picture */}
+                        <img
+                            className="listing_picture"
+                            src={data.picture}
+                            alt={data.picture}
+                            data-testid="listing-picture"
+                        />
 
-                    <div>
-                        {/* Title (Links to the associated calendar) */}
-                        <Link
-                            to={`/${data.id}`}
-                            data-testid="listing-title-link"
-                        >
-                            <h2
-                                className="listing_title"
-                                data-testid="listing-title"
+                        <div>
+                            {/* Title (Links to the associated calendar) */}
+                            <Link
+                                to={`/${data.id}`}
+                                data-testid="listing-title-link"
                             >
-                                {data.title}
-                            </h2>
-                        </Link>
+                                <h2
+                                    className="listing_title"
+                                    data-testid="listing-title"
+                                >
+                                    {data.title}
+                                </h2>
+                            </Link>
 
-                        {/* Bed */}
-                        <div
-                            className="listing_stat"
-                            title={`${data.beds} bed${
-                                data.beds > 1 ? 's' : ''
-                            }`}
-                        >
-                            <Icon
-                                className="listing_bed-icon"
-                                path={mdiBedKing}
-                                color="#B8B8B9"
-                                size={1}
-                            />
-                            <span
-                                className="listing_bed-count"
-                                data-testid="listing-bed-count"
+                            {/* Bed */}
+                            <div
+                                className="listing_stat"
+                                title={`${data.beds} bed${
+                                    data.beds > 1 ? 's' : ''
+                                }`}
                             >
-                                {data.beds}
-                            </span>
+                                <Icon
+                                    className="listing_bed-icon"
+                                    path={mdiBedKing}
+                                    color="#B8B8B9"
+                                    size={1}
+                                />
+                                <span
+                                    className="listing_bed-count"
+                                    data-testid="listing-bed-count"
+                                >
+                                    {data.beds}
+                                </span>
+                            </div>
                         </div>
                     </div>
 
-                    <span
-                        className="listing_health"
-                        data-testid="listing-health"
-                    >
-                        {numToPercent(data.health)}
-                    </span>
+                    <div className="listing_health-container">
+                        <span
+                            className="listing_health"
+                            data-testid="listing-health"
+                        >
+                            {numToPercent(data.health)}
+                        </span>
+                        <div className="listing_health-label">
+                            {' '}
+                            Health Score{' '}
+                        </div>
+                    </div>
                 </>
             ) : (
                 <>
