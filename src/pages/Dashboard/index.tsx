@@ -31,10 +31,10 @@ const Dashboard = (): JSX.Element => {
         setListings(res.listings)
     }
 
-    // Invoke handler to fetch the listings upon mounted
+    // Invoke handler to fetch the listings upon mounted or sortHealth update
     useEffect(() => {
         fetchListings()
-    }, [])
+    }, [sortHealth])
 
     /*--------------------------------------------------------------------
         Sort by Health

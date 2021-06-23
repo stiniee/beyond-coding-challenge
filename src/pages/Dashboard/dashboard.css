@@ -24,13 +24,10 @@
    align-items: center;
    border: 1px solid var(--light-3);
    border-bottom: none;
-   padding: 0 0.5em;
    background-color: var(--light-2);
+   height: 2.4em;
+   padding: 0 0.5em;
    margin: 0;
-}
-
-.dashboard_listings-header.active {
-    color: var(--primary);
 }
 
 .dashboard_listings-header-health-label {
@@ -38,6 +35,10 @@
     letter-spacing: 2px;
 }
  
+.dashboard_listings-header.active .dashboard_listings-header-health-label{
+    color: var(--primary);
+}
+
 .dashboard_listings-sort {
     display: flex;
     flex-direction: column;
@@ -45,6 +46,7 @@
 }
 
 .dashboard_sort-icon {
+    position: relative;
     cursor: pointer;
 }
 
@@ -58,11 +60,11 @@
  
 
 .caret-up-icon {
-    margin-bottom: -0.5em;
+    top: 0.5em;
 }
 
 .caret-down-icon {
-    margin-top: -0.5em;
+    bottom: 0.5em;
 }
 
 
