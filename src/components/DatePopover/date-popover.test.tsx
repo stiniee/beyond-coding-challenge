@@ -1,17 +1,12 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
 import React from 'react'
-import { MemoryRouter } from 'react-router-dom'
-import { fireEvent, render, screen, cleanup, act } from '@testing-library/react'
-import fetchMock from 'fetch-mock'
+import { render, screen, cleanup } from '@testing-library/react'
 import {
     MOCK_DATE_DETAILS,
     MOCK_DATE_DETAILS_BLOCKED,
 } from './__mocks__/date-details'
 import { formatDate } from '../../utils/date-utils'
 import DatePopover from './index'
-
-// By default use listingId 1
-const DEFAULT_ROUTER = { match: { params: 1 } }
 
 const renderComponent = (data?: IDateDetails): HTMLElement => {
     render(<DatePopover data={data || MOCK_DATE_DETAILS} />)
