@@ -3,11 +3,11 @@
 }
 
 .date-popover_content {
-    height: 15em;
+    height: 16em;
     width: 20em;
 }
 
-.date-popover_content-header {
+.date-popover_header {
     text-align: center;
     position: absolute;
     width: 100%;
@@ -15,17 +15,27 @@
     left: 0;
     right: 0;
     background-color: var(--dark-2);
-    height: 6em;
+    height: 8em;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.date-popover_content-header-date{
-    margin-bottom: 0.5em;
+.date-popover_header-blocked-chip {
+    position: absolute;
+    top: 0.5em;
+    left:  0.5em;
+    color: var(--grey);
+    background-color: var(--dark);
+    padding: 0.4em 0.4em 0.3em;
+    border-radius: 0.4em;
 }
 
-.date-popover_content-header-total{
+.date-popover_header-date{
+    margin: 1em 0 0.5em;
+}
+
+.date-popover_header-total{
     font-size: 2em;
     font-weight: 600;
     color: var(--primary);
@@ -36,12 +46,12 @@
     border-top: 1px solid var(--grey-5);
     margin: 1em 0;
 }
-.date-popover_content-details {
+.date-popover_details {
     position: relative;
-    top: 6em;
+    top: 8em;
  }
 
-.date-popover_content-detail {
+.date-popover_detail {
     display: flex;
     justify-content: space-between;
     margin: 0.5em 0;

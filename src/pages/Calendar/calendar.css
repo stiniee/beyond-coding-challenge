@@ -75,14 +75,14 @@
     bottom: 0; 
     right: 0;
     z-index: 1;
+    cursor: default;
 }
 
 /* Blocked */
 .react-calendar .calendar_calendar-tile-overlay.blocked {
   display:inline-block;
   background: linear-gradient(to bottom right, var(--grey), var(--grey) 50%, #b3b3b3 50%, #b3b3b3 51%, var(--grey) 51%, var(--grey));
-  cursor: default;
- }
+}
 
 
 .react-calendar .react-calendar__tile:enabled:hover, .react-calendar__tile:enabled:focus {

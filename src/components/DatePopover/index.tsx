@@ -34,15 +34,21 @@ const DatePopover = ({
             backgroundColor="#000000"
         >
             <div className="date-popover_content" style={style}>
-                <div className="date-popover_content-header">
-                    <div className="date-popover_content-header-date">
+                <div className="date-popover_header">
+                    {data.isBlocked ? (
+                        <div className="date-popover_header-blocked-chip">
+                            BLOCKED
+                        </div>
+                    ) : null}
+
+                    <div className="date-popover_header-date">
                         {formatDate(data.date)}
                     </div>
-                    <div className="date-popover_content-header-total">
+                    <div className="date-popover_header-total">
                         ${data.rate.total}
                     </div>
                 </div>
-                <ul className="date-popover_content-details">
+                <ul className="date-popover_details">
                     {Object.keys(priceLabels).map((key, index) => {
                         const isPriceIncrease = index > 0 && index < lastIndex
                         const label = priceLabels[key as PriceType]
@@ -50,10 +56,7 @@ const DatePopover = ({
                         return (
                             <>
                                 {index === lastIndex ? <hr /> : null}
-                                <li
-                                    className="date-popover_content-detail"
-                                    key={key}
-                                >
+                                <li className="date-popover_detail" key={key}>
                                     <div> {label} </div>
                                     <div>
                                         {isPriceIncrease ? '+ ' : ''}
