@@ -60,7 +60,7 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
                                     onMouseOver={() => setDateDetails(dateInfo)}
                                     onFocus={() => setDateDetails(dateInfo)}
                                 />
-                                <div>${calendarDay.rate.total}</div>
+                                <div> TOTAL {/* @CTRAN TOTAL HERE */} </div>
                             </>
                         ) : null
                     }}

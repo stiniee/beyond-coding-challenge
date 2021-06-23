@@ -47,34 +47,34 @@ describe('DatePopover Component', () => {
         expect(dateEl).toHaveTextContent(formattedDate)
     })
 
-    test('Displays the rate total provided to it', async () => {
-        await renderComponent()
-        const rateTotalEl = screen.getByTestId('date-popover-rate-total')
-        expect(rateTotalEl).toBeInTheDocument()
-        expect(rateTotalEl).toHaveTextContent(`${MOCK_DATE_DETAILS.rate.total}`)
-    })
+    // test('Displays the factor total provided to it', async () => {
+    //     await renderComponent()
+    //     const rateTotalEl = screen.getByTestId('date-popover-factor-total')
+    //     expect(rateTotalEl).toBeInTheDocument()
+    //     expect(rateTotalEl).toHaveTextContent(`${MOCK_DATE_DETAILS.factor.total}`)
+    // })
 
-    test('Displays the rate details provided to it', async () => {
+    test('Displays the factor details provided to it', async () => {
         await renderComponent()
         const priceDetailsEl = screen.getByTestId('date-popover-price-details')
         expect(priceDetailsEl.children.length).toBeGreaterThan(0)
 
-        const { rate } = MOCK_DATE_DETAILS
+        const { factor } = MOCK_DATE_DETAILS
 
-        Object.keys(rate).forEach((key, index) => {
+        Object.keys(factor).forEach((key, index) => {
             const listItemEl = priceDetailsEl.children[index]
 
             const priceEl = listItemEl.getElementsByClassName('price')
 
             expect(priceEl.length).toBe(1)
 
-            if (key === 'seasonal' || key === 'DOW') {
+            if (key === 'seasonal' || key === 'dayOfWeek') {
                 expect(priceEl[0]).toHaveTextContent(
-                    `+ $${rate[key as PriceType]}`
+                    `+ $${factor[key as PriceType]}`
                 )
             } else {
                 expect(priceEl[0]).toHaveTextContent(
-                    `$${rate[key as PriceType]}`
+                    `$${factor[key as PriceType]}`
                 )
             }
         })

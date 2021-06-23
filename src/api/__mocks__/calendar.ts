@@ -2,3286 +2,2921 @@ export const MOCK_CALENDAR = [
     {
         dateOffset: 0,
         isBlocked: false,
-        rate: {
-            total: 319,
+        factor: {
             seasonal: 100,
-            DOW: 219,
+            dayOfWeek: 219,
         },
     },
     {
         dateOffset: 1,
         isBlocked: false,
-        rate: {
-            total: 328,
+        factor: {
             seasonal: 133,
-            DOW: 195,
+            dayOfWeek: 195,
         },
     },
     {
         dateOffset: 2,
         isBlocked: false,
-        rate: {
-            total: 236,
+        factor: {
             seasonal: 136,
-            DOW: 100,
+            dayOfWeek: 100,
         },
     },
     {
         dateOffset: 3,
         isBlocked: false,
-        rate: {
-            total: 374,
+        factor: {
             seasonal: 218,
-            DOW: 156,
+            dayOfWeek: 156,
         },
     },
     {
         dateOffset: 4,
         isBlocked: false,
-        rate: {
-            total: 253,
+        factor: {
             seasonal: 145,
-            DOW: 108,
+            dayOfWeek: 108,
         },
     },
     {
         dateOffset: 5,
         isBlocked: false,
-        rate: {
-            total: 155,
+        factor: {
             seasonal: 107,
-            DOW: 48,
+            dayOfWeek: 48,
         },
     },
     {
         dateOffset: 6,
         isBlocked: false,
-        rate: {
-            total: 97,
+        factor: {
             seasonal: 68,
-            DOW: 29,
+            dayOfWeek: 29,
         },
     },
     {
         dateOffset: 7,
         isBlocked: false,
-        rate: {
-            total: 360,
+        factor: {
             seasonal: 291,
-            DOW: 69,
+            dayOfWeek: 69,
         },
     },
     {
         dateOffset: 8,
         isBlocked: false,
-        rate: {
-            total: 308,
+        factor: {
             seasonal: 308,
-            DOW: 0,
+            dayOfWeek: 0,
         },
     },
     {
         dateOffset: 9,
         isBlocked: false,
-        rate: {
-            total: 279,
+        factor: {
             seasonal: 63,
-            DOW: 216,
+            dayOfWeek: 216,
         },
     },
     {
         dateOffset: 10,
         isBlocked: false,
-        rate: {
-            total: 343,
+        factor: {
             seasonal: 342,
-            DOW: 1,
+            dayOfWeek: 1,
         },
     },
     {
         dateOffset: 11,
         isBlocked: false,
-        rate: {
-            total: 167,
+        factor: {
             seasonal: 97,
-            DOW: 70,
+            dayOfWeek: 70,
         },
     },
     {
         dateOffset: 12,
         isBlocked: false,
-        rate: {
-            total: 144,
+        factor: {
             seasonal: 86,
-            DOW: 58,
+            dayOfWeek: 58,
         },
     },
     {
         dateOffset: 13,
         isBlocked: false,
-        rate: {
-            total: 116,
+        factor: {
             seasonal: 66,
-            DOW: 50,
+            dayOfWeek: 50,
         },
     },
     {
         dateOffset: 14,
         isBlocked: false,
-        rate: {
-            total: 190,
+        factor: {
             seasonal: 145,
-            DOW: 45,
+            dayOfWeek: 45,
         },
     },
     {
         dateOffset: 15,
         isBlocked: true,
-        rate: {
-            total: 90,
+        factor: {
             seasonal: 85,
-            DOW: 5,
+            dayOfWeek: 5,
         },
     },
     {
         dateOffset: 16,
         isBlocked: false,
-        rate: {
-            total: 287,
+        factor: {
             seasonal: 75,
-            DOW: 212,
+            dayOfWeek: 212,
         },
     },
     {
         dateOffset: 17,
         isBlocked: false,
-        rate: {
-            total: 276,
+        factor: {
             seasonal: 66,
-            DOW: 210,
+            dayOfWeek: 210,
         },
     },
     {
         dateOffset: 18,
         isBlocked: false,
-        rate: {
-            total: 240,
+        factor: {
             seasonal: 163,
-            DOW: 77,
+            dayOfWeek: 77,
         },
     },
     {
         dateOffset: 19,
         isBlocked: false,
-        rate: {
-            total: 175,
+        factor: {
             seasonal: 105,
-            DOW: 70,
+            dayOfWeek: 70,
         },
     },
     {
         dateOffset: 20,
         isBlocked: false,
-        rate: {
-            total: 63,
+        factor: {
             seasonal: 62,
-            DOW: 1,
+            dayOfWeek: 1,
         },
     },
     {
         dateOffset: 21,
         isBlocked: false,
-        rate: {
-            total: 296,
+        factor: {
             seasonal: 279,
-            DOW: 17,
+            dayOfWeek: 17,
         },
     },
     {
         dateOffset: 22,
         isBlocked: true,
-        rate: {
-            total: 68,
+        factor: {
             seasonal: 64,
-            DOW: 4,
+            dayOfWeek: 4,
         },
     },
     {
         dateOffset: 23,
         isBlocked: false,
-        rate: {
-            total: 201,
+        factor: {
             seasonal: 165,
-            DOW: 36,
+            dayOfWeek: 36,
         },
     },
     {
         dateOffset: 24,
         isBlocked: false,
-        rate: {
-            total: 387,
+        factor: {
             seasonal: 164,
-            DOW: 223,
+            dayOfWeek: 223,
         },
     },
     {
         dateOffset: 25,
         isBlocked: false,
-        rate: {
-            total: 82,
+        factor: {
             seasonal: 64,
-            DOW: 18,
+            dayOfWeek: 18,
         },
     },
     {
         dateOffset: 26,
         isBlocked: false,
-        rate: {
-            total: 205,
+        factor: {
             seasonal: 117,
-            DOW: 88,
+            dayOfWeek: 88,
         },
     },
     {
         dateOffset: 27,
         isBlocked: false,
-        rate: {
-            total: 71,
+        factor: {
             seasonal: 68,
-            DOW: 3,
+            dayOfWeek: 3,
         },
     },
     {
         dateOffset: 28,
         isBlocked: false,
-        rate: {
-            total: 184,
+        factor: {
             seasonal: 120,
-            DOW: 64,
+            dayOfWeek: 64,
         },
     },
     {
         dateOffset: 29,
         isBlocked: false,
-        rate: {
-            total: 78,
+        factor: {
             seasonal: 70,
-            DOW: 8,
+            dayOfWeek: 8,
         },
     },
     {
         dateOffset: 30,
         isBlocked: false,
-        rate: {
-            total: 374,
+        factor: {
             seasonal: 67,
-            DOW: 307,
+            dayOfWeek: 307,
         },
     },
     {
         dateOffset: 31,
         isBlocked: true,
-        rate: {
-            total: 135,
+        factor: {
             seasonal: 116,
-            DOW: 19,
+            dayOfWeek: 19,
         },
     },
     {
         dateOffset: 32,
         isBlocked: false,
-        rate: {
-            total: 385,
+        factor: {
             seasonal: 247,
-            DOW: 138,
+            dayOfWeek: 138,
         },
     },
     {
         dateOffset: 33,
         isBlocked: false,
-        rate: {
-            total: 367,
+        factor: {
             seasonal: 188,
-            DOW: 179,
+            dayOfWeek: 179,
         },
     },
     {
         dateOffset: 34,
         isBlocked: false,
-        rate: {
-            total: 100,
+        factor: {
             seasonal: 70,
-            DOW: 30,
+            dayOfWeek: 30,
         },
     },
     {
         dateOffset: 35,
         isBlocked: false,
-        rate: {
-            total: 69,
+        factor: {
             seasonal: 67,
-            DOW: 2,
+            dayOfWeek: 2,
         },
     },
     {
         dateOffset: 36,
         isBlocked: false,
-        rate: {
-            total: 278,
+        factor: {
             seasonal: 118,
-            DOW: 160,
+            dayOfWeek: 160,
         },
     },
     {
         dateOffset: 37,
         isBlocked: false,
-        rate: {
-            total: 195,
+        factor: {
             seasonal: 176,
-            DOW: 19,
+            dayOfWeek: 19,
         },
     },
     {
         dateOffset: 38,
         isBlocked: false,
-        rate: {
-            total: 195,
+        factor: {
             seasonal: 68,
-            DOW: 127,
+            dayOfWeek: 127,
         },
     },
     {
         dateOffset: 39,
         isBlocked: false,
-        rate: {
-            total: 334,
+        factor: {
             seasonal: 116,
-            DOW: 218,
+            dayOfWeek: 218,
         },
     },
     {
         dateOffset: 40,
         isBlocked: false,
-        rate: {
-            total: 348,
+        factor: {
             seasonal: 225,
-            DOW: 123,
+            dayOfWeek: 123,
         },
     },
     {
         dateOffset: 41,
         isBlocked: false,
-        rate: {
-            total: 297,
+        factor: {
             seasonal: 235,
-            DOW: 62,
+            dayOfWeek: 62,
         },
     },
     {
         dateOffset: 42,
         isBlocked: false,
-        rate: {
-            total: 251,
+        factor: {
             seasonal: 206,
-            DOW: 45,
+            dayOfWeek: 45,
         },
     },
     {
         dateOffset: 43,
         isBlocked: false,
-        rate: {
-            total: 347,
+        factor: {
             seasonal: 272,
-            DOW: 75,
+            dayOfWeek: 75,
         },
     },
     {
         dateOffset: 44,
         isBlocked: false,
-        rate: {
-            total: 286,
+        factor: {
             seasonal: 216,
-            DOW: 70,
+            dayOfWeek: 70,
         },
     },
     {
         dateOffset: 45,
         isBlocked: false,
-        rate: {
-            total: 264,
+        factor: {
             seasonal: 97,
-            DOW: 167,
+            dayOfWeek: 167,
         },
     },
     {
         dateOffset: 46,
         isBlocked: false,
-        rate: {
-            total: 212,
+        factor: {
             seasonal: 165,
-            DOW: 47,
+            dayOfWeek: 47,
         },
     },
     {
         dateOffset: 47,
         isBlocked: false,
-        rate: {
-            total: 96,
+        factor: {
             seasonal: 86,
-            DOW: 10,
+            dayOfWeek: 10,
         },
     },
     {
         dateOffset: 48,
         isBlocked: false,
-        rate: {
-            total: 308,
+        factor: {
             seasonal: 235,
-            DOW: 73,
+            dayOfWeek: 73,
         },
     },
     {
         dateOffset: 49,
         isBlocked: false,
-        rate: {
-            total: 86,
+        factor: {
             seasonal: 67,
-            DOW: 19,
+            dayOfWeek: 19,
         },
     },
     {
         dateOffset: 50,
         isBlocked: false,
-        rate: {
-            total: 276,
+        factor: {
             seasonal: 259,
-            DOW: 17,
+            dayOfWeek: 17,
         },
     },
     {
         dateOffset: 51,
         isBlocked: false,
-        rate: {
-            total: 202,
+        factor: {
             seasonal: 109,
-            DOW: 93,
+            dayOfWeek: 93,
         },
     },
     {
         dateOffset: 52,
         isBlocked: false,
-        rate: {
-            total: 384,
+        factor: {
             seasonal: 207,
-            DOW: 177,
+            dayOfWeek: 177,
         },
     },
     {
         dateOffset: 53,
         isBlocked: false,
-        rate: {
-            total: 186,
+        factor: {
             seasonal: 141,
-            DOW: 45,
+            dayOfWeek: 45,
         },
     },
     {
         dateOffset: 54,
         isBlocked: false,
-        rate: {
-            total: 168,
+        factor: {
             seasonal: 75,
-            DOW: 93,
+            dayOfWeek: 93,
         },
     },
     {
         dateOffset: 55,
         isBlocked: false,
-        rate: {
-            total: 378,
+        factor: {
             seasonal: 122,
-            DOW: 256,
+            dayOfWeek: 256,
         },
     },
     {
         dateOffset: 56,
         isBlocked: false,
-        rate: {
-            total: 393,
+        factor: {
             seasonal: 223,
-            DOW: 170,
+            dayOfWeek: 170,
         },
     },
     {
         dateOffset: 57,
         isBlocked: false,
-        rate: {
-            total: 151,
+        factor: {
             seasonal: 93,
-            DOW: 58,
+            dayOfWeek: 58,
         },
     },
     {
         dateOffset: 58,
         isBlocked: false,
-        rate: {
-            total: 212,
+        factor: {
             seasonal: 203,
-            DOW: 9,
+            dayOfWeek: 9,
         },
     },
     {
         dateOffset: 59,
         isBlocked: false,
-        rate: {
-            total: 275,
+        factor: {
             seasonal: 129,
-            DOW: 146,
+            dayOfWeek: 146,
         },
     },
     {
         dateOffset: 60,
         isBlocked: false,
-        rate: {
-            total: 318,
+        factor: {
             seasonal: 274,
-            DOW: 44,
+            dayOfWeek: 44,
         },
     },
     {
         dateOffset: 61,
         isBlocked: false,
-        rate: {
-            total: 181,
+        factor: {
             seasonal: 67,
-            DOW: 114,
+            dayOfWeek: 114,
         },
     },
     {
         dateOffset: 62,
         isBlocked: true,
-        rate: {
-            total: 301,
+        factor: {
             seasonal: 190,
-            DOW: 111,
+            dayOfWeek: 111,
         },
     },
     {
         dateOffset: 63,
         isBlocked: false,
-        rate: {
-            total: 362,
+        factor: {
             seasonal: 277,
-            DOW: 85,
+            dayOfWeek: 85,
         },
     },
     {
         dateOffset: 64,
         isBlocked: false,
-        rate: {
-            total: 325,
+        factor: {
             seasonal: 65,
-            DOW: 260,
+            dayOfWeek: 260,
         },
     },
     {
         dateOffset: 65,
         isBlocked: false,
-        rate: {
-            total: 379,
+        factor: {
             seasonal: 219,
-            DOW: 160,
+            dayOfWeek: 160,
         },
     },
     {
         dateOffset: 66,
         isBlocked: false,
-        rate: {
-            total: 361,
+        factor: {
             seasonal: 220,
-            DOW: 141,
+            dayOfWeek: 141,
         },
     },
     {
         dateOffset: 67,
         isBlocked: false,
-        rate: {
-            total: 100,
+        factor: {
             seasonal: 69,
-            DOW: 31,
+            dayOfWeek: 31,
         },
     },
     {
         dateOffset: 68,
         isBlocked: false,
-        rate: {
-            total: 195,
+        factor: {
             seasonal: 62,
-            DOW: 133,
+            dayOfWeek: 133,
         },
     },
     {
         dateOffset: 69,
         isBlocked: false,
-        rate: {
-            total: 205,
+        factor: {
             seasonal: 136,
-            DOW: 69,
+            dayOfWeek: 69,
         },
     },
     {
         dateOffset: 70,
         isBlocked: false,
-        rate: {
-            total: 362,
+        factor: {
             seasonal: 359,
-            DOW: 3,
+            dayOfWeek: 3,
         },
     },
     {
         dateOffset: 71,
         isBlocked: false,
-        rate: {
-            total: 179,
+        factor: {
             seasonal: 155,
-            DOW: 24,
+            dayOfWeek: 24,
         },
     },
     {
         dateOffset: 72,
         isBlocked: false,
-        rate: {
-            total: 283,
+        factor: {
             seasonal: 70,
-            DOW: 213,
+            dayOfWeek: 213,
         },
     },
     {
         dateOffset: 73,
         isBlocked: false,
-        rate: {
-            total: 254,
+        factor: {
             seasonal: 198,
-            DOW: 56,
+            dayOfWeek: 56,
         },
     },
     {
         dateOffset: 74,
         isBlocked: false,
-        rate: {
-            total: 237,
+        factor: {
             seasonal: 201,
-            DOW: 36,
+            dayOfWeek: 36,
         },
     },
     {
         dateOffset: 75,
         isBlocked: false,
-        rate: {
-            total: 130,
+        factor: {
             seasonal: 100,
-            DOW: 30,
+            dayOfWeek: 30,
         },
     },
     {
         dateOffset: 76,
         isBlocked: false,
-        rate: {
-            total: 247,
+        factor: {
             seasonal: 67,
-            DOW: 180,
+            dayOfWeek: 180,
         },
     },
     {
         dateOffset: 77,
         isBlocked: false,
-        rate: {
-            total: 71,
+        factor: {
             seasonal: 67,
-            DOW: 4,
+            dayOfWeek: 4,
         },
     },
     {
         dateOffset: 78,
         isBlocked: false,
-        rate: {
-            total: 395,
+        factor: {
             seasonal: 365,
-            DOW: 30,
+            dayOfWeek: 30,
         },
     },
     {
         dateOffset: 79,
         isBlocked: false,
-        rate: {
-            total: 272,
+        factor: {
             seasonal: 152,
-            DOW: 120,
+            dayOfWeek: 120,
         },
     },
     {
         dateOffset: 80,
         isBlocked: false,
-        rate: {
-            total: 192,
+        factor: {
             seasonal: 64,
-            DOW: 128,
+            dayOfWeek: 128,
         },
     },
     {
         dateOffset: 81,
         isBlocked: false,
-        rate: {
-            total: 322,
+        factor: {
             seasonal: 214,
-            DOW: 108,
+            dayOfWeek: 108,
         },
     },
     {
         dateOffset: 82,
         isBlocked: false,
-        rate: {
-            total: 233,
+        factor: {
             seasonal: 182,
-            DOW: 51,
+            dayOfWeek: 51,
         },
     },
     {
         dateOffset: 83,
         isBlocked: false,
-        rate: {
-            total: 271,
+        factor: {
             seasonal: 119,
-            DOW: 152,
+            dayOfWeek: 152,
         },
     },
     {
         dateOffset: 84,
         isBlocked: false,
-        rate: {
-            total: 178,
+        factor: {
             seasonal: 176,
-            DOW: 2,
+            dayOfWeek: 2,
         },
     },
     {
         dateOffset: 85,
         isBlocked: false,
-        rate: {
-            total: 321,
+        factor: {
             seasonal: 288,
-            DOW: 33,
+            dayOfWeek: 33,
         },
     },
     {
         dateOffset: 86,
         isBlocked: false,
-        rate: {
-            total: 62,
+        factor: {
             seasonal: 61,
-            DOW: 1,
+            dayOfWeek: 1,
         },
     },
     {
         dateOffset: 87,
         isBlocked: false,
-        rate: {
-            total: 114,
+        factor: {
             seasonal: 65,
-            DOW: 49,
+            dayOfWeek: 49,
         },
     },
     {
         dateOffset: 88,
         isBlocked: true,
-        rate: {
-            total: 177,
+        factor: {
             seasonal: 63,
-            DOW: 114,
+            dayOfWeek: 114,
         },
     },
     {
         dateOffset: 89,
         isBlocked: false,
-        rate: {
-            total: 97,
+        factor: {
             seasonal: 72,
-            DOW: 25,
+            dayOfWeek: 25,
         },
     },
     {
         dateOffset: 90,
         isBlocked: false,
-        rate: {
-            total: 327,
+        factor: {
             seasonal: 99,
-            DOW: 228,
+            dayOfWeek: 228,
         },
     },
     {
         dateOffset: 91,
         isBlocked: false,
-        rate: {
-            total: 208,
+        factor: {
             seasonal: 111,
-            DOW: 97,
+            dayOfWeek: 97,
         },
     },
     {
         dateOffset: 92,
         isBlocked: false,
-        rate: {
-            total: 127,
+        factor: {
             seasonal: 104,
-            DOW: 23,
+            dayOfWeek: 23,
         },
     },
     {
         dateOffset: 93,
         isBlocked: false,
-        rate: {
-            total: 243,
+        factor: {
             seasonal: 215,
-            DOW: 28,
+            dayOfWeek: 28,
         },
     },
     {
         dateOffset: 94,
         isBlocked: false,
-        rate: {
-            total: 117,
+        factor: {
             seasonal: 89,
-            DOW: 28,
+            dayOfWeek: 28,
         },
     },
     {
         dateOffset: 95,
         isBlocked: false,
-        rate: {
-            total: 215,
+        factor: {
             seasonal: 151,
-            DOW: 64,
+            dayOfWeek: 64,
         },
     },
     {
         dateOffset: 96,
         isBlocked: false,
-        rate: {
-            total: 378,
+        factor: {
             seasonal: 340,
-            DOW: 38,
+            dayOfWeek: 38,
         },
     },
     {
         dateOffset: 97,
         isBlocked: false,
-        rate: {
-            total: 123,
+        factor: {
             seasonal: 112,
-            DOW: 11,
+            dayOfWeek: 11,
         },
     },
     {
         dateOffset: 98,
         isBlocked: false,
-        rate: {
-            total: 77,
+        factor: {
             seasonal: 62,
-            DOW: 15,
+            dayOfWeek: 15,
         },
     },
     {
         dateOffset: 99,
         isBlocked: false,
-        rate: {
-            total: 205,
+        factor: {
             seasonal: 176,
-            DOW: 29,
+            dayOfWeek: 29,
         },
     },
     {
         dateOffset: 100,
         isBlocked: true,
-        rate: {
-            total: 304,
+        factor: {
             seasonal: 96,
-            DOW: 208,
+            dayOfWeek: 208,
         },
     },
     {
         dateOffset: 101,
         isBlocked: false,
-        rate: {
-            total: 179,
+        factor: {
             seasonal: 150,
-            DOW: 29,
+            dayOfWeek: 29,
         },
     },
     {
         dateOffset: 102,
         isBlocked: false,
-        rate: {
-            total: 147,
+        factor: {
             seasonal: 147,
-            DOW: 0,
+            dayOfWeek: 0,
         },
     },
     {
         dateOffset: 103,
         isBlocked: false,
-        rate: {
-            total: 311,
+        factor: {
             seasonal: 301,
-            DOW: 10,
+            dayOfWeek: 10,
         },
     },
     {
         dateOffset: 104,
         isBlocked: false,
-        rate: {
-            total: 209,
+        factor: {
             seasonal: 101,
-            DOW: 108,
+            dayOfWeek: 108,
         },
     },
     {
         dateOffset: 105,
         isBlocked: false,
-        rate: {
-            total: 102,
+        factor: {
             seasonal: 83,
-            DOW: 19,
+            dayOfWeek: 19,
         },
     },
     {
         dateOffset: 106,
         isBlocked: false,
-        rate: {
-            total: 321,
+        factor: {
             seasonal: 283,
-            DOW: 38,
+            dayOfWeek: 38,
         },
     },
     {
         dateOffset: 107,
         isBlocked: false,
-        rate: {
-            total: 127,
+        factor: {
             seasonal: 114,
-            DOW: 13,
+            dayOfWeek: 13,
         },
     },
     {
         dateOffset: 108,
         isBlocked: false,
-        rate: {
-            total: 219,
+        factor: {
             seasonal: 134,
-            DOW: 85,
+            dayOfWeek: 85,
         },
     },
     {
         dateOffset: 109,
         isBlocked: false,
-        rate: {
-            total: 188,
+        factor: {
             seasonal: 63,
-            DOW: 125,
+            dayOfWeek: 125,
         },
     },
     {
         dateOffset: 110,
         isBlocked: false,
-        rate: {
-            total: 124,
+        factor: {
             seasonal: 88,
-            DOW: 36,
+            dayOfWeek: 36,
         },
     },
     {
         dateOffset: 111,
         isBlocked: false,
-        rate: {
-            total: 135,
+        factor: {
             seasonal: 74,
-            DOW: 61,
+            dayOfWeek: 61,
         },
     },
     {
         dateOffset: 112,
         isBlocked: false,
-        rate: {
-            total: 170,
+        factor: {
             seasonal: 65,
-            DOW: 105,
+            dayOfWeek: 105,
         },
     },
     {
         dateOffset: 113,
         isBlocked: false,
-        rate: {
-            total: 66,
+        factor: {
             seasonal: 61,
-            DOW: 5,
+            dayOfWeek: 5,
         },
     },
     {
         dateOffset: 114,
         isBlocked: false,
-        rate: {
-            total: 241,
+        factor: {
             seasonal: 203,
-            DOW: 38,
+            dayOfWeek: 38,
         },
     },
     {
         dateOffset: 115,
         isBlocked: false,
-        rate: {
-            total: 158,
+        factor: {
             seasonal: 87,
-            DOW: 71,
+            dayOfWeek: 71,
         },
     },
     {
         dateOffset: 116,
         isBlocked: false,
-        rate: {
-            total: 292,
+        factor: {
             seasonal: 80,
-            DOW: 212,
+            dayOfWeek: 212,
         },
     },
     {
         dateOffset: 117,
         isBlocked: false,
-        rate: {
-            total: 311,
+        factor: {
             seasonal: 268,
-            DOW: 43,
+            dayOfWeek: 43,
         },
     },
     {
         dateOffset: 118,
         isBlocked: false,
-        rate: {
-            total: 345,
+        factor: {
             seasonal: 220,
-            DOW: 125,
+            dayOfWeek: 125,
         },
     },
     {
         dateOffset: 119,
         isBlocked: false,
-        rate: {
-            total: 316,
+        factor: {
             seasonal: 157,
-            DOW: 159,
+            dayOfWeek: 159,
         },
     },
     {
         dateOffset: 120,
         isBlocked: false,
-        rate: {
-            total: 107,
+        factor: {
             seasonal: 105,
-            DOW: 2,
+            dayOfWeek: 2,
         },
     },
     {
         dateOffset: 121,
         isBlocked: false,
-        rate: {
-            total: 245,
+        factor: {
             seasonal: 239,
-            DOW: 6,
+            dayOfWeek: 6,
         },
     },
     {
         dateOffset: 122,
         isBlocked: false,
-        rate: {
-            total: 336,
+        factor: {
             seasonal: 136,
-            DOW: 200,
+            dayOfWeek: 200,
         },
     },
     {
         dateOffset: 123,
         isBlocked: true,
-        rate: {
-            total: 113,
+        factor: {
             seasonal: 96,
-            DOW: 17,
+            dayOfWeek: 17,
         },
     },
     {
         dateOffset: 124,
         isBlocked: true,
-        rate: {
-            total: 79,
+        factor: {
             seasonal: 76,
-            DOW: 3,
+            dayOfWeek: 3,
         },
     },
     {
         dateOffset: 125,
         isBlocked: false,
-        rate: {
-            total: 175,
+        factor: {
             seasonal: 167,
-            DOW: 8,
+            dayOfWeek: 8,
         },
     },
     {
         dateOffset: 126,
         isBlocked: false,
-        rate: {
-            total: 86,
+        factor: {
             seasonal: 64,
-            DOW: 22,
+            dayOfWeek: 22,
         },
     },
     {
         dateOffset: 127,
         isBlocked: true,
-        rate: {
-            total: 400,
+        factor: {
             seasonal: 352,
-            DOW: 48,
+            dayOfWeek: 48,
         },
     },
     {
         dateOffset: 128,
         isBlocked: false,
-        rate: {
-            total: 74,
+        factor: {
             seasonal: 67,
-            DOW: 7,
+            dayOfWeek: 7,
         },
     },
     {
         dateOffset: 129,
         isBlocked: false,
-        rate: {
-            total: 162,
+        factor: {
             seasonal: 62,
-            DOW: 100,
+            dayOfWeek: 100,
         },
     },
     {
         dateOffset: 130,
         isBlocked: false,
-        rate: {
-            total: 209,
+        factor: {
             seasonal: 110,
-            DOW: 99,
+            dayOfWeek: 99,
         },
     },
     {
         dateOffset: 131,
         isBlocked: false,
-        rate: {
-            total: 250,
+        factor: {
             seasonal: 144,
-            DOW: 106,
+            dayOfWeek: 106,
         },
     },
     {
         dateOffset: 132,
         isBlocked: false,
-        rate: {
-            total: 135,
+        factor: {
             seasonal: 62,
-            DOW: 73,
+            dayOfWeek: 73,
         },
     },
     {
         dateOffset: 133,
         isBlocked: false,
-        rate: {
-            total: 279,
+        factor: {
             seasonal: 107,
-            DOW: 172,
+            dayOfWeek: 172,
         },
     },
     {
         dateOffset: 134,
         isBlocked: false,
-        rate: {
-            total: 135,
+        factor: {
             seasonal: 90,
-            DOW: 45,
+            dayOfWeek: 45,
         },
     },
     {
         dateOffset: 135,
         isBlocked: false,
-        rate: {
-            total: 172,
+        factor: {
             seasonal: 84,
-            DOW: 88,
+            dayOfWeek: 88,
         },
     },
     {
         dateOffset: 136,
         isBlocked: false,
-        rate: {
-            total: 399,
+        factor: {
             seasonal: 361,
-            DOW: 38,
+            dayOfWeek: 38,
         },
     },
     {
         dateOffset: 137,
         isBlocked: false,
-        rate: {
-            total: 184,
+        factor: {
             seasonal: 140,
-            DOW: 44,
+            dayOfWeek: 44,
         },
     },
     {
         dateOffset: 138,
         isBlocked: false,
-        rate: {
-            total: 153,
+        factor: {
             seasonal: 114,
-            DOW: 39,
+            dayOfWeek: 39,
         },
     },
     {
         dateOffset: 139,
         isBlocked: false,
-        rate: {
-            total: 348,
+        factor: {
             seasonal: 60,
-            DOW: 288,
+            dayOfWeek: 288,
         },
     },
     {
         dateOffset: 140,
         isBlocked: false,
-        rate: {
-            total: 192,
+        factor: {
             seasonal: 143,
-            DOW: 49,
+            dayOfWeek: 49,
         },
     },
     {
         dateOffset: 141,
         isBlocked: false,
-        rate: {
-            total: 114,
+        factor: {
             seasonal: 88,
-            DOW: 26,
+            dayOfWeek: 26,
         },
     },
     {
         dateOffset: 142,
         isBlocked: false,
-        rate: {
-            total: 104,
+        factor: {
             seasonal: 79,
-            DOW: 25,
+            dayOfWeek: 25,
         },
     },
     {
         dateOffset: 143,
         isBlocked: false,
-        rate: {
-            total: 282,
+        factor: {
             seasonal: 245,
-            DOW: 37,
+            dayOfWeek: 37,
         },
     },
     {
         dateOffset: 144,
         isBlocked: false,
-        rate: {
-            total: 70,
+        factor: {
             seasonal: 68,
-            DOW: 2,
+            dayOfWeek: 2,
         },
     },
     {
         dateOffset: 145,
         isBlocked: false,
-        rate: {
-            total: 370,
+        factor: {
             seasonal: 102,
-            DOW: 268,
+            dayOfWeek: 268,
         },
     },
     {
         dateOffset: 146,
         isBlocked: false,
-        rate: {
-            total: 153,
+        factor: {
             seasonal: 147,
-            DOW: 6,
+            dayOfWeek: 6,
         },
     },
     {
         dateOffset: 147,
         isBlocked: false,
-        rate: {
-            total: 114,
+        factor: {
             seasonal: 74,
-            DOW: 40,
+            dayOfWeek: 40,
         },
     },
     {
         dateOffset: 148,
         isBlocked: false,
-        rate: {
-            total: 89,
+        factor: {
             seasonal: 75,
-            DOW: 14,
+            dayOfWeek: 14,
         },
     },
     {
         dateOffset: 149,
         isBlocked: false,
-        rate: {
-            total: 352,
+        factor: {
             seasonal: 200,
-            DOW: 152,
+            dayOfWeek: 152,
         },
     },
     {
         dateOffset: 150,
         isBlocked: true,
-        rate: {
-            total: 272,
+        factor: {
             seasonal: 152,
-            DOW: 120,
+            dayOfWeek: 120,
         },
     },
     {
         dateOffset: 151,
         isBlocked: false,
-        rate: {
-            total: 396,
+        factor: {
             seasonal: 205,
-            DOW: 191,
+            dayOfWeek: 191,
         },
     },
     {
         dateOffset: 152,
         isBlocked: false,
-        rate: {
-            total: 99,
+        factor: {
             seasonal: 69,
-            DOW: 30,
+            dayOfWeek: 30,
         },
     },
     {
         dateOffset: 153,
         isBlocked: false,
-        rate: {
-            total: 335,
+        factor: {
             seasonal: 107,
-            DOW: 228,
+            dayOfWeek: 228,
         },
     },
     {
         dateOffset: 154,
         isBlocked: false,
-        rate: {
-            total: 169,
+        factor: {
             seasonal: 158,
-            DOW: 11,
+            dayOfWeek: 11,
         },
     },
     {
         dateOffset: 155,
         isBlocked: false,
-        rate: {
-            total: 102,
+        factor: {
             seasonal: 91,
-            DOW: 11,
+            dayOfWeek: 11,
         },
     },
     {
         dateOffset: 156,
         isBlocked: false,
-        rate: {
-            total: 399,
+        factor: {
             seasonal: 240,
-            DOW: 159,
+            dayOfWeek: 159,
         },
     },
     {
         dateOffset: 157,
         isBlocked: false,
-        rate: {
-            total: 226,
+        factor: {
             seasonal: 91,
-            DOW: 135,
+            dayOfWeek: 135,
         },
     },
     {
         dateOffset: 158,
         isBlocked: false,
-        rate: {
-            total: 360,
+        factor: {
             seasonal: 343,
-            DOW: 17,
+            dayOfWeek: 17,
         },
     },
     {
         dateOffset: 159,
         isBlocked: false,
-        rate: {
-            total: 101,
+        factor: {
             seasonal: 64,
-            DOW: 37,
+            dayOfWeek: 37,
         },
     },
     {
         dateOffset: 160,
         isBlocked: false,
-        rate: {
-            total: 249,
+        factor: {
             seasonal: 221,
-            DOW: 28,
+            dayOfWeek: 28,
         },
     },
     {
         dateOffset: 161,
         isBlocked: false,
-        rate: {
-            total: 106,
+        factor: {
             seasonal: 73,
-            DOW: 33,
+            dayOfWeek: 33,
         },
     },
     {
         dateOffset: 162,
         isBlocked: false,
-        rate: {
-            total: 336,
+        factor: {
             seasonal: 227,
-            DOW: 109,
+            dayOfWeek: 109,
         },
     },
     {
         dateOffset: 163,
         isBlocked: false,
-        rate: {
-            total: 205,
+        factor: {
             seasonal: 80,
-            DOW: 125,
+            dayOfWeek: 125,
         },
     },
     {
         dateOffset: 164,
         isBlocked: true,
-        rate: {
-            total: 257,
+        factor: {
             seasonal: 162,
-            DOW: 95,
+            dayOfWeek: 95,
         },
     },
     {
         dateOffset: 165,
         isBlocked: false,
-        rate: {
-            total: 381,
+        factor: {
             seasonal: 226,
-            DOW: 155,
+            dayOfWeek: 155,
         },
     },
     {
         dateOffset: 166,
         isBlocked: false,
-        rate: {
-            total: 327,
+        factor: {
             seasonal: 77,
-            DOW: 250,
+            dayOfWeek: 250,
         },
     },
     {
         dateOffset: 167,
         isBlocked: false,
-        rate: {
-            total: 192,
+        factor: {
             seasonal: 159,
-            DOW: 33,
+            dayOfWeek: 33,
         },
     },
     {
         dateOffset: 168,
         isBlocked: false,
-        rate: {
-            total: 369,
+        factor: {
             seasonal: 117,
-            DOW: 252,
+            dayOfWeek: 252,
         },
     },
     {
         dateOffset: 169,
         isBlocked: false,
-        rate: {
-            total: 384,
+        factor: {
             seasonal: 346,
-            DOW: 38,
+            dayOfWeek: 38,
         },
     },
     {
         dateOffset: 170,
         isBlocked: false,
-        rate: {
-            total: 92,
+        factor: {
             seasonal: 80,
-            DOW: 12,
+            dayOfWeek: 12,
         },
     },
     {
         dateOffset: 171,
         isBlocked: false,
-        rate: {
-            total: 197,
+        factor: {
             seasonal: 89,
-            DOW: 108,
+            dayOfWeek: 108,
         },
     },
     {
         dateOffset: 172,
         isBlocked: false,
-        rate: {
-            total: 276,
+        factor: {
             seasonal: 154,
-            DOW: 122,
+            dayOfWeek: 122,
         },
     },
     {
         dateOffset: 173,
         isBlocked: false,
-        rate: {
-            total: 180,
+        factor: {
             seasonal: 158,
-            DOW: 22,
+            dayOfWeek: 22,
         },
     },
     {
         dateOffset: 174,
         isBlocked: false,
-        rate: {
-            total: 342,
+        factor: {
             seasonal: 259,
-            DOW: 83,
+            dayOfWeek: 83,
         },
     },
     {
         dateOffset: 175,
         isBlocked: true,
-        rate: {
-            total: 335,
+        factor: {
             seasonal: 159,
-            DOW: 176,
+            dayOfWeek: 176,
         },
     },
     {
         dateOffset: 176,
         isBlocked: false,
-        rate: {
-            total: 273,
+        factor: {
             seasonal: 158,
-            DOW: 115,
+            dayOfWeek: 115,
         },
     },
     {
         dateOffset: 177,
         isBlocked: false,
-        rate: {
-            total: 176,
+        factor: {
             seasonal: 60,
-            DOW: 116,
+            dayOfWeek: 116,
         },
     },
     {
         dateOffset: 178,
         isBlocked: false,
-        rate: {
-            total: 222,
+        factor: {
             seasonal: 212,
-            DOW: 10,
+            dayOfWeek: 10,
         },
     },
     {
         dateOffset: 179,
         isBlocked: false,
-        rate: {
-            total: 200,
+        factor: {
             seasonal: 193,
-            DOW: 7,
+            dayOfWeek: 7,
         },
     },
     {
         dateOffset: 180,
         isBlocked: true,
-        rate: {
-            total: 173,
+        factor: {
             seasonal: 136,
-            DOW: 37,
+            dayOfWeek: 37,
         },
     },
     {
         dateOffset: 181,
         isBlocked: false,
-        rate: {
-            total: 112,
+        factor: {
             seasonal: 67,
-            DOW: 45,
+            dayOfWeek: 45,
         },
     },
     {
         dateOffset: 182,
         isBlocked: false,
-        rate: {
-            total: 305,
+        factor: {
             seasonal: 230,
-            DOW: 75,
+            dayOfWeek: 75,
         },
     },
     {
         dateOffset: 183,
         isBlocked: false,
-        rate: {
-            total: 209,
+        factor: {
             seasonal: 185,
-            DOW: 24,
+            dayOfWeek: 24,
         },
     },
     {
         dateOffset: 184,
         isBlocked: false,
-        rate: {
-            total: 287,
+        factor: {
             seasonal: 163,
-            DOW: 124,
+            dayOfWeek: 124,
         },
     },
     {
         dateOffset: 185,
         isBlocked: false,
-        rate: {
-            total: 400,
+        factor: {
             seasonal: 91,
-            DOW: 309,
+            dayOfWeek: 309,
         },
     },
     {
         dateOffset: 186,
         isBlocked: false,
-        rate: {
-            total: 223,
+        factor: {
             seasonal: 133,
-            DOW: 90,
+            dayOfWeek: 90,
         },
     },
     {
         dateOffset: 187,
         isBlocked: false,
-        rate: {
-            total: 218,
+        factor: {
             seasonal: 70,
-            DOW: 148,
+            dayOfWeek: 148,
         },
     },
     {
         dateOffset: 188,
         isBlocked: true,
-        rate: {
-            total: 279,
+        factor: {
             seasonal: 257,
-            DOW: 22,
+            dayOfWeek: 22,
         },
     },
     {
         dateOffset: 189,
         isBlocked: false,
-        rate: {
-            total: 89,
+        factor: {
             seasonal: 61,
-            DOW: 28,
+            dayOfWeek: 28,
         },
     },
     {
         dateOffset: 190,
         isBlocked: false,
-        rate: {
-            total: 116,
+        factor: {
             seasonal: 113,
-            DOW: 3,
+            dayOfWeek: 3,
         },
     },
     {
         dateOffset: 191,
         isBlocked: false,
-        rate: {
-            total: 126,
+        factor: {
             seasonal: 89,
-            DOW: 37,
+            dayOfWeek: 37,
         },
     },
     {
         dateOffset: 192,
         isBlocked: false,
-        rate: {
-            total: 209,
+        factor: {
             seasonal: 187,
-            DOW: 22,
+            dayOfWeek: 22,
         },
     },
     {
         dateOffset: 193,
         isBlocked: false,
-        rate: {
-            total: 377,
+        factor: {
             seasonal: 350,
-            DOW: 27,
+            dayOfWeek: 27,
         },
     },
     {
         dateOffset: 194,
         isBlocked: false,
-        rate: {
-            total: 323,
+        factor: {
             seasonal: 183,
-            DOW: 140,
+            dayOfWeek: 140,
         },
     },
     {
         dateOffset: 195,
         isBlocked: false,
-        rate: {
-            total: 283,
+        factor: {
             seasonal: 204,
-            DOW: 79,
+            dayOfWeek: 79,
         },
     },
     {
         dateOffset: 196,
         isBlocked: false,
-        rate: {
-            total: 265,
+        factor: {
             seasonal: 216,
-            DOW: 49,
+            dayOfWeek: 49,
         },
     },
     {
         dateOffset: 197,
         isBlocked: false,
-        rate: {
-            total: 214,
+        factor: {
             seasonal: 150,
-            DOW: 64,
+            dayOfWeek: 64,
         },
     },
     {
         dateOffset: 198,
         isBlocked: false,
-        rate: {
-            total: 121,
+        factor: {
             seasonal: 113,
-            DOW: 8,
+            dayOfWeek: 8,
         },
     },
     {
         dateOffset: 199,
         isBlocked: false,
-        rate: {
-            total: 204,
+        factor: {
             seasonal: 90,
-            DOW: 114,
+            dayOfWeek: 114,
         },
     },
     {
         dateOffset: 200,
         isBlocked: false,
-        rate: {
-            total: 238,
+        factor: {
             seasonal: 182,
-            DOW: 56,
+            dayOfWeek: 56,
         },
     },
     {
         dateOffset: 201,
         isBlocked: false,
-        rate: {
-            total: 373,
+        factor: {
             seasonal: 307,
-            DOW: 66,
+            dayOfWeek: 66,
         },
     },
     {
         dateOffset: 202,
         isBlocked: false,
-        rate: {
-            total: 115,
+        factor: {
             seasonal: 90,
-            DOW: 25,
+            dayOfWeek: 25,
         },
     },
     {
         dateOffset: 203,
         isBlocked: false,
-        rate: {
-            total: 163,
+        factor: {
             seasonal: 158,
-            DOW: 5,
+            dayOfWeek: 5,
         },
     },
     {
         dateOffset: 204,
         isBlocked: false,
-        rate: {
-            total: 241,
+        factor: {
             seasonal: 214,
-            DOW: 27,
+            dayOfWeek: 27,
         },
     },
     {
         dateOffset: 205,
         isBlocked: false,
-        rate: {
-            total: 302,
+        factor: {
             seasonal: 229,
-            DOW: 73,
+            dayOfWeek: 73,
         },
     },
     {
         dateOffset: 206,
         isBlocked: false,
-        rate: {
-            total: 350,
+        factor: {
             seasonal: 327,
-            DOW: 23,
+            dayOfWeek: 23,
         },
     },
     {
         dateOffset: 207,
         isBlocked: false,
-        rate: {
-            total: 213,
+        factor: {
             seasonal: 120,
-            DOW: 93,
+            dayOfWeek: 93,
         },
     },
     {
         dateOffset: 208,
         isBlocked: false,
-        rate: {
-            total: 168,
+        factor: {
             seasonal: 137,
-            DOW: 31,
+            dayOfWeek: 31,
         },
     },
     {
         dateOffset: 209,
         isBlocked: false,
-        rate: {
-            total: 390,
+        factor: {
             seasonal: 132,
-            DOW: 258,
+            dayOfWeek: 258,
         },
     },
     {
         dateOffset: 210,
         isBlocked: false,
-        rate: {
-            total: 215,
+        factor: {
             seasonal: 109,
-            DOW: 106,
+            dayOfWeek: 106,
         },
     },
     {
         dateOffset: 211,
         isBlocked: true,
-        rate: {
-            total: 316,
+        factor: {
             seasonal: 187,
-            DOW: 129,
+            dayOfWeek: 129,
         },
     },
     {
         dateOffset: 212,
         isBlocked: false,
-        rate: {
-            total: 151,
+        factor: {
             seasonal: 137,
-            DOW: 14,
+            dayOfWeek: 14,
         },
     },
     {
         dateOffset: 213,
         isBlocked: false,
-        rate: {
-            total: 79,
+        factor: {
             seasonal: 70,
-            DOW: 9,
+            dayOfWeek: 9,
         },
     },
     {
         dateOffset: 214,
         isBlocked: false,
-        rate: {
-            total: 177,
+        factor: {
             seasonal: 111,
-            DOW: 66,
+            dayOfWeek: 66,
         },
     },
     {
         dateOffset: 215,
         isBlocked: false,
-        rate: {
-            total: 241,
+        factor: {
             seasonal: 203,
-            DOW: 38,
+            dayOfWeek: 38,
         },
     },
     {
         dateOffset: 216,
         isBlocked: false,
-        rate: {
-            total: 191,
+        factor: {
             seasonal: 188,
-            DOW: 3,
+            dayOfWeek: 3,
         },
     },
     {
         dateOffset: 217,
         isBlocked: false,
-        rate: {
-            total: 131,
+        factor: {
             seasonal: 87,
-            DOW: 44,
+            dayOfWeek: 44,
         },
     },
     {
         dateOffset: 218,
         isBlocked: false,
-        rate: {
-            total: 323,
+        factor: {
             seasonal: 208,
-            DOW: 115,
+            dayOfWeek: 115,
         },
     },
     {
         dateOffset: 219,
         isBlocked: false,
-        rate: {
-            total: 117,
+        factor: {
             seasonal: 69,
-            DOW: 48,
+            dayOfWeek: 48,
         },
     },
     {
         dateOffset: 220,
         isBlocked: false,
-        rate: {
-            total: 163,
+        factor: {
             seasonal: 126,
-            DOW: 37,
+            dayOfWeek: 37,
         },
     },
     {
         dateOffset: 221,
         isBlocked: false,
-        rate: {
-            total: 208,
+        factor: {
             seasonal: 172,
-            DOW: 36,
+            dayOfWeek: 36,
         },
     },
     {
         dateOffset: 222,
         isBlocked: false,
-        rate: {
-            total: 127,
+        factor: {
             seasonal: 76,
-            DOW: 51,
+            dayOfWeek: 51,
         },
     },
     {
         dateOffset: 223,
         isBlocked: false,
-        rate: {
-            total: 96,
+        factor: {
             seasonal: 60,
-            DOW: 36,
+            dayOfWeek: 36,
         },
     },
     {
         dateOffset: 224,
         isBlocked: false,
-        rate: {
-            total: 287,
+        factor: {
             seasonal: 278,
-            DOW: 9,
+            dayOfWeek: 9,
         },
     },
     {
         dateOffset: 225,
         isBlocked: false,
-        rate: {
-            total: 139,
+        factor: {
             seasonal: 87,
-            DOW: 52,
+            dayOfWeek: 52,
         },
     },
     {
         dateOffset: 226,
         isBlocked: true,
-        rate: {
-            total: 189,
+        factor: {
             seasonal: 137,
-            DOW: 52,
+            dayOfWeek: 52,
         },
     },
     {
         dateOffset: 227,
         isBlocked: false,
-        rate: {
-            total: 228,
+        factor: {
             seasonal: 163,
-            DOW: 65,
+            dayOfWeek: 65,
         },
     },
     {
         dateOffset: 228,
         isBlocked: false,
-        rate: {
-            total: 262,
+        factor: {
             seasonal: 114,
-            DOW: 148,
+            dayOfWeek: 148,
         },
     },
     {
         dateOffset: 229,
         isBlocked: false,
-        rate: {
-            total: 102,
+        factor: {
             seasonal: 73,
-            DOW: 29,
+            dayOfWeek: 29,
         },
     },
     {
         dateOffset: 230,
         isBlocked: false,
-        rate: {
-            total: 258,
+        factor: {
             seasonal: 134,
-            DOW: 124,
+            dayOfWeek: 124,
         },
     },
     {
         dateOffset: 231,
         isBlocked: false,
-        rate: {
-            total: 325,
+        factor: {
             seasonal: 274,
-            DOW: 51,
+            dayOfWeek: 51,
         },
     },
     {
         dateOffset: 232,
         isBlocked: false,
-        rate: {
-            total: 60,
+        factor: {
             seasonal: 60,
-            DOW: 0,
+            dayOfWeek: 0,
         },
     },
     {
         dateOffset: 233,
         isBlocked: false,
-        rate: {
-            total: 313,
+        factor: {
             seasonal: 64,
-            DOW: 249,
+            dayOfWeek: 249,
         },
     },
     {
         dateOffset: 234,
         isBlocked: false,
-        rate: {
-            total: 158,
+        factor: {
             seasonal: 89,
-            DOW: 69,
+            dayOfWeek: 69,
         },
     },
     {
         dateOffset: 235,
         isBlocked: false,
-        rate: {
-            total: 203,
+        factor: {
             seasonal: 69,
-            DOW: 134,
+            dayOfWeek: 134,
         },
     },
     {
         dateOffset: 236,
         isBlocked: false,
-        rate: {
-            total: 372,
+        factor: {
             seasonal: 124,
-            DOW: 248,
+            dayOfWeek: 248,
         },
     },
     {
         dateOffset: 237,
         isBlocked: false,
-        rate: {
-            total: 226,
+        factor: {
             seasonal: 175,
-            DOW: 51,
+            dayOfWeek: 51,
         },
     },
     {
         dateOffset: 238,
         isBlocked: false,
-        rate: {
-            total: 354,
+        factor: {
             seasonal: 281,
-            DOW: 73,
+            dayOfWeek: 73,
         },
     },
     {
         dateOffset: 239,
         isBlocked: false,
-        rate: {
-            total: 150,
+        factor: {
             seasonal: 118,
-            DOW: 32,
+            dayOfWeek: 32,
         },
     },
     {
         dateOffset: 240,
         isBlocked: false,
-        rate: {
-            total: 169,
+        factor: {
             seasonal: 129,
-            DOW: 40,
+            dayOfWeek: 40,
         },
     },
     {
         dateOffset: 241,
         isBlocked: false,
-        rate: {
-            total: 293,
+        factor: {
             seasonal: 254,
-            DOW: 39,
+            dayOfWeek: 39,
         },
     },
     {
         dateOffset: 242,
         isBlocked: false,
-        rate: {
-            total: 104,
+        factor: {
             seasonal: 85,
-            DOW: 19,
+            dayOfWeek: 19,
         },
     },
     {
         dateOffset: 243,
         isBlocked: false,
-        rate: {
-            total: 241,
+        factor: {
             seasonal: 184,
-            DOW: 57,
+            dayOfWeek: 57,
         },
     },
     {
         dateOffset: 244,
         isBlocked: false,
-        rate: {
-            total: 128,
+        factor: {
             seasonal: 72,
-            DOW: 56,
+            dayOfWeek: 56,
         },
     },
     {
         dateOffset: 245,
         isBlocked: false,
-        rate: {
-            total: 334,
+        factor: {
             seasonal: 234,
-            DOW: 100,
+            dayOfWeek: 100,
         },
     },
     {
         dateOffset: 246,
         isBlocked: false,
-        rate: {
-            total: 162,
+        factor: {
             seasonal: 71,
-            DOW: 91,
+            dayOfWeek: 91,
         },
     },
     {
         dateOffset: 247,
         isBlocked: false,
-        rate: {
-            total: 103,
+        factor: {
             seasonal: 68,
-            DOW: 35,
+            dayOfWeek: 35,
         },
     },
     {
         dateOffset: 248,
         isBlocked: true,
-        rate: {
-            total: 254,
+        factor: {
             seasonal: 100,
-            DOW: 154,
+            dayOfWeek: 154,
         },
     },
     {
         dateOffset: 249,
         isBlocked: false,
-        rate: {
-            total: 78,
+        factor: {
             seasonal: 74,
-            DOW: 4,
+            dayOfWeek: 4,
         },
     },
     {
         dateOffset: 250,
         isBlocked: false,
-        rate: {
-            total: 222,
+        factor: {
             seasonal: 193,
-            DOW: 29,
+            dayOfWeek: 29,
         },
     },
     {
         dateOffset: 251,
         isBlocked: false,
-        rate: {
-            total: 307,
+        factor: {
             seasonal: 72,
-            DOW: 235,
+            dayOfWeek: 235,
         },
     },
     {
         dateOffset: 252,
         isBlocked: false,
-        rate: {
-            total: 388,
+        factor: {
             seasonal: 326,
-            DOW: 62,
+            dayOfWeek: 62,
         },
     },
     {
         dateOffset: 253,
         isBlocked: false,
-        rate: {
-            total: 122,
+        factor: {
             seasonal: 109,
-            DOW: 13,
+            dayOfWeek: 13,
         },
     },
     {
         dateOffset: 254,
         isBlocked: false,
-        rate: {
-            total: 291,
+        factor: {
             seasonal: 141,
-            DOW: 150,
+            dayOfWeek: 150,
         },
     },
     {
         dateOffset: 255,
         isBlocked: false,
-        rate: {
-            total: 90,
+        factor: {
             seasonal: 83,
-            DOW: 7,
+            dayOfWeek: 7,
         },
     },
     {
         dateOffset: 256,
         isBlocked: false,
-        rate: {
-            total: 90,
+        factor: {
             seasonal: 62,
-            DOW: 28,
+            dayOfWeek: 28,
         },
     },
     {
         dateOffset: 257,
         isBlocked: false,
-        rate: {
-            total: 72,
+        factor: {
             seasonal: 61,
-            DOW: 11,
+            dayOfWeek: 11,
         },
     },
     {
         dateOffset: 258,
         isBlocked: false,
-        rate: {
-            total: 270,
+        factor: {
             seasonal: 208,
-            DOW: 62,
+            dayOfWeek: 62,
         },
     },
     {
         dateOffset: 259,
         isBlocked: false,
-        rate: {
-            total: 318,
+        factor: {
             seasonal: 267,
-            DOW: 51,
+            dayOfWeek: 51,
         },
     },
     {
         dateOffset: 260,
         isBlocked: false,
-        rate: {
-            total: 221,
+        factor: {
             seasonal: 207,
-            DOW: 14,
+            dayOfWeek: 14,
         },
     },
     {
         dateOffset: 261,
         isBlocked: false,
-        rate: {
-            total: 168,
+        factor: {
             seasonal: 156,
-            DOW: 12,
+            dayOfWeek: 12,
         },
     },
     {
         dateOffset: 262,
         isBlocked: false,
-        rate: {
-            total: 334,
+        factor: {
             seasonal: 74,
-            DOW: 260,
+            dayOfWeek: 260,
         },
     },
     {
         dateOffset: 263,
         isBlocked: false,
-        rate: {
-            total: 220,
+        factor: {
             seasonal: 159,
-            DOW: 61,
+            dayOfWeek: 61,
         },
     },
     {
         dateOffset: 264,
         isBlocked: false,
-        rate: {
-            total: 344,
+        factor: {
             seasonal: 255,
-            DOW: 89,
+            dayOfWeek: 89,
         },
     },
     {
         dateOffset: 265,
         isBlocked: false,
-        rate: {
-            total: 325,
+        factor: {
             seasonal: 209,
-            DOW: 116,
+            dayOfWeek: 116,
         },
     },
     {
         dateOffset: 266,
         isBlocked: false,
-        rate: {
-            total: 95,
+        factor: {
             seasonal: 81,
-            DOW: 14,
+            dayOfWeek: 14,
         },
     },
     {
         dateOffset: 267,
         isBlocked: false,
-        rate: {
-            total: 122,
+        factor: {
             seasonal: 106,
-            DOW: 16,
+            dayOfWeek: 16,
         },
     },
     {
         dateOffset: 268,
         isBlocked: false,
-        rate: {
-            total: 99,
+        factor: {
             seasonal: 76,
-            DOW: 23,
+            dayOfWeek: 23,
         },
     },
     {
         dateOffset: 269,
         isBlocked: false,
-        rate: {
-            total: 376,
+        factor: {
             seasonal: 157,
-            DOW: 219,
+            dayOfWeek: 219,
         },
     },
     {
         dateOffset: 270,
         isBlocked: false,
-        rate: {
-            total: 246,
+        factor: {
             seasonal: 74,
-            DOW: 172,
+            dayOfWeek: 172,
         },
     },
     {
         dateOffset: 271,
         isBlocked: false,
-        rate: {
-            total: 373,
+        factor: {
             seasonal: 287,
-            DOW: 86,
+            dayOfWeek: 86,
         },
     },
     {
         dateOffset: 272,
         isBlocked: false,
-        rate: {
-            total: 113,
+        factor: {
             seasonal: 105,
-            DOW: 8,
+            dayOfWeek: 8,
         },
     },
     {
         dateOffset: 273,
         isBlocked: false,
-        rate: {
-            total: 177,
+        factor: {
             seasonal: 102,
-            DOW: 75,
+            dayOfWeek: 75,
         },
     },
     {
         dateOffset: 274,
         isBlocked: false,
-        rate: {
-            total: 242,
+        factor: {
             seasonal: 168,
-            DOW: 74,
+            dayOfWeek: 74,
         },
     },
     {
         dateOffset: 275,
         isBlocked: true,
-        rate: {
-            total: 179,
+        factor: {
             seasonal: 154,
-            DOW: 25,
+            dayOfWeek: 25,
         },
     },
     {
         dateOffset: 276,
         isBlocked: false,
-        rate: {
-            total: 222,
+        factor: {
             seasonal: 73,
-            DOW: 149,
+            dayOfWeek: 149,
         },
     },
     {
         dateOffset: 277,
         isBlocked: false,
-        rate: {
-            total: 210,
+        factor: {
             seasonal: 130,
-            DOW: 80,
+            dayOfWeek: 80,
         },
     },
     {
         dateOffset: 278,
         isBlocked: false,
-        rate: {
-            total: 177,
+        factor: {
             seasonal: 88,
-            DOW: 89,
+            dayOfWeek: 89,
         },
     },
     {
         dateOffset: 279,
         isBlocked: false,
-        rate: {
-            total: 167,
+        factor: {
             seasonal: 149,
-            DOW: 18,
+            dayOfWeek: 18,
         },
     },
     {
         dateOffset: 280,
         isBlocked: false,
-        rate: {
-            total: 363,
+        factor: {
             seasonal: 75,
-            DOW: 288,
+            dayOfWeek: 288,
         },
     },
     {
         dateOffset: 281,
         isBlocked: true,
-        rate: {
-            total: 64,
+        factor: {
             seasonal: 60,
-            DOW: 4,
+            dayOfWeek: 4,
         },
     },
     {
         dateOffset: 282,
         isBlocked: false,
-        rate: {
-            total: 131,
+        factor: {
             seasonal: 81,
-            DOW: 50,
+            dayOfWeek: 50,
         },
     },
     {
         dateOffset: 283,
         isBlocked: false,
-        rate: {
-            total: 265,
+        factor: {
             seasonal: 103,
-            DOW: 162,
+            dayOfWeek: 162,
         },
     },
     {
         dateOffset: 284,
         isBlocked: false,
-        rate: {
-            total: 290,
+        factor: {
             seasonal: 188,
-            DOW: 102,
+            dayOfWeek: 102,
         },
     },
     {
         dateOffset: 285,
         isBlocked: false,
-        rate: {
-            total: 164,
+        factor: {
             seasonal: 72,
-            DOW: 92,
+            dayOfWeek: 92,
         },
     },
     {
         dateOffset: 286,
         isBlocked: false,
-        rate: {
-            total: 128,
+        factor: {
             seasonal: 76,
-            DOW: 52,
+            dayOfWeek: 52,
         },
     },
     {
         dateOffset: 287,
         isBlocked: true,
-        rate: {
-            total: 247,
+        factor: {
             seasonal: 80,
-            DOW: 167,
+            dayOfWeek: 167,
         },
     },
     {
         dateOffset: 288,
         isBlocked: false,
-        rate: {
-            total: 311,
+        factor: {
             seasonal: 111,
-            DOW: 200,
+            dayOfWeek: 200,
         },
     },
     {
         dateOffset: 289,
         isBlocked: false,
-        rate: {
-            total: 363,
+        factor: {
             seasonal: 166,
-            DOW: 197,
+            dayOfWeek: 197,
         },
     },
     {
         dateOffset: 290,
         isBlocked: false,
-        rate: {
-            total: 70,
+        factor: {
             seasonal: 70,
-            DOW: 0,
+            dayOfWeek: 0,
         },
     },
     {
         dateOffset: 291,
         isBlocked: false,
-        rate: {
-            total: 141,
+        factor: {
             seasonal: 97,
-            DOW: 44,
+            dayOfWeek: 44,
         },
     },
     {
         dateOffset: 292,
         isBlocked: false,
-        rate: {
-            total: 262,
+        factor: {
             seasonal: 67,
-            DOW: 195,
+            dayOfWeek: 195,
         },
     },
     {
         dateOffset: 293,
         isBlocked: false,
-        rate: {
-            total: 168,
+        factor: {
             seasonal: 143,
-            DOW: 25,
+            dayOfWeek: 25,
         },
     },
     {
         dateOffset: 294,
         isBlocked: false,
-        rate: {
-            total: 318,
+        factor: {
             seasonal: 110,
-            DOW: 208,
+            dayOfWeek: 208,
         },
     },
     {
         dateOffset: 295,
         isBlocked: false,
-        rate: {
-            total: 119,
+        factor: {
             seasonal: 112,
-            DOW: 7,
+            dayOfWeek: 7,
         },
     },
     {
         dateOffset: 296,
         isBlocked: false,
-        rate: {
-            total: 256,
+        factor: {
             seasonal: 130,
-            DOW: 126,
+            dayOfWeek: 126,
         },
     },
     {
         dateOffset: 297,
         isBlocked: false,
-        rate: {
-            total: 366,
+        factor: {
             seasonal: 128,
-            DOW: 238,
+            dayOfWeek: 238,
         },
     },
     {
         dateOffset: 298,
         isBlocked: false,
-        rate: {
-            total: 305,
+        factor: {
             seasonal: 252,
-            DOW: 53,
+            dayOfWeek: 53,
         },
     },
     {
         dateOffset: 299,
         isBlocked: false,
-        rate: {
-            total: 301,
+        factor: {
             seasonal: 240,
-            DOW: 61,
+            dayOfWeek: 61,
         },
     },
     {
         dateOffset: 300,
         isBlocked: true,
-        rate: {
-            total: 132,
+        factor: {
             seasonal: 98,
-            DOW: 34,
+            dayOfWeek: 34,
         },
     },
     {
         dateOffset: 301,
         isBlocked: false,
-        rate: {
-            total: 131,
+        factor: {
             seasonal: 86,
-            DOW: 45,
+            dayOfWeek: 45,
         },
     },
     {
         dateOffset: 302,
         isBlocked: false,
-        rate: {
-            total: 387,
+        factor: {
             seasonal: 275,
-            DOW: 112,
+            dayOfWeek: 112,
         },
     },
     {
         dateOffset: 303,
         isBlocked: false,
-        rate: {
-            total: 370,
+        factor: {
             seasonal: 102,
-            DOW: 268,
+            dayOfWeek: 268,
         },
     },
     {
         dateOffset: 304,
         isBlocked: false,
-        rate: {
-            total: 346,
+        factor: {
             seasonal: 292,
-            DOW: 54,
+            dayOfWeek: 54,
         },
     },
     {
         dateOffset: 305,
         isBlocked: false,
-        rate: {
-            total: 319,
+        factor: {
             seasonal: 244,
-            DOW: 75,
+            dayOfWeek: 75,
         },
     },
     {
         dateOffset: 306,
         isBlocked: false,
-        rate: {
-            total: 114,
+        factor: {
             seasonal: 112,
-            DOW: 2,
+            dayOfWeek: 2,
         },
     },
     {
         dateOffset: 307,
         isBlocked: false,
-        rate: {
-            total: 292,
+        factor: {
             seasonal: 267,
-            DOW: 25,
+            dayOfWeek: 25,
         },
     },
     {
         dateOffset: 308,
         isBlocked: false,
-        rate: {
-            total: 120,
+        factor: {
             seasonal: 109,
-            DOW: 11,
+            dayOfWeek: 11,
         },
     },
     {
         dateOffset: 309,
         isBlocked: false,
-        rate: {
-            total: 377,
+        factor: {
             seasonal: 191,
-            DOW: 186,
+            dayOfWeek: 186,
         },
     },
     {
         dateOffset: 310,
         isBlocked: true,
-        rate: {
-            total: 180,
+        factor: {
             seasonal: 80,
-            DOW: 100,
+            dayOfWeek: 100,
         },
     },
     {
         dateOffset: 311,
         isBlocked: false,
-        rate: {
-            total: 364,
+        factor: {
             seasonal: 90,
-            DOW: 274,
+            dayOfWeek: 274,
         },
     },
     {
         dateOffset: 312,
         isBlocked: true,
-        rate: {
-            total: 60,
+        factor: {
             seasonal: 60,
-            DOW: 0,
+            dayOfWeek: 0,
         },
     },
     {
         dateOffset: 313,
         isBlocked: false,
-        rate: {
-            total: 159,
+        factor: {
             seasonal: 118,
-            DOW: 41,
+            dayOfWeek: 41,
         },
     },
     {
         dateOffset: 314,
         isBlocked: false,
-        rate: {
-            total: 345,
+        factor: {
             seasonal: 237,
-            DOW: 108,
+            dayOfWeek: 108,
         },
     },
     {
         dateOffset: 315,
         isBlocked: false,
-        rate: {
-            total: 97,
+        factor: {
             seasonal: 74,
-            DOW: 23,
+            dayOfWeek: 23,
         },
     },
     {
         dateOffset: 316,
         isBlocked: false,
-        rate: {
-            total: 257,
+        factor: {
             seasonal: 179,
-            DOW: 78,
+            dayOfWeek: 78,
         },
     },
     {
         dateOffset: 317,
         isBlocked: false,
-        rate: {
-            total: 247,
+        factor: {
             seasonal: 172,
-            DOW: 75,
+            dayOfWeek: 75,
         },
     },
     {
         dateOffset: 318,
         isBlocked: false,
-        rate: {
-            total: 307,
+        factor: {
             seasonal: 73,
-            DOW: 234,
+            dayOfWeek: 234,
         },
     },
     {
         dateOffset: 319,
         isBlocked: false,
-        rate: {
-            total: 313,
+        factor: {
             seasonal: 253,
-            DOW: 60,
+            dayOfWeek: 60,
         },
     },
     {
         dateOffset: 320,
         isBlocked: false,
-        rate: {
-            total: 231,
+        factor: {
             seasonal: 73,
-            DOW: 158,
+            dayOfWeek: 158,
         },
     },
     {
         dateOffset: 321,
         isBlocked: false,
-        rate: {
-            total: 346,
+        factor: {
             seasonal: 223,
-            DOW: 123,
+            dayOfWeek: 123,
         },
     },
     {
         dateOffset: 322,
         isBlocked: false,
-        rate: {
-            total: 213,
+        factor: {
             seasonal: 147,
-            DOW: 66,
+            dayOfWeek: 66,
         },
     },
     {
         dateOffset: 323,
         isBlocked: false,
-        rate: {
-            total: 361,
+        factor: {
             seasonal: 336,
-            DOW: 25,
+            dayOfWeek: 25,
         },
     },
     {
         dateOffset: 324,
         isBlocked: false,
-        rate: {
-            total: 287,
+        factor: {
             seasonal: 282,
-            DOW: 5,
+            dayOfWeek: 5,
         },
     },
     {
         dateOffset: 325,
         isBlocked: false,
-        rate: {
-            total: 196,
+        factor: {
             seasonal: 98,
-            DOW: 98,
+            dayOfWeek: 98,
         },
     },
     {
         dateOffset: 326,
         isBlocked: false,
-        rate: {
-            total: 391,
+        factor: {
             seasonal: 140,
-            DOW: 251,
+            dayOfWeek: 251,
         },
     },
     {
         dateOffset: 327,
         isBlocked: false,
-        rate: {
-            total: 231,
+        factor: {
             seasonal: 92,
-            DOW: 139,
+            dayOfWeek: 139,
         },
     },
     {
         dateOffset: 328,
         isBlocked: false,
-        rate: {
-            total: 218,
+        factor: {
             seasonal: 143,
-            DOW: 75,
+            dayOfWeek: 75,
         },
     },
     {
         dateOffset: 329,
         isBlocked: false,
-        rate: {
-            total: 287,
+        factor: {
             seasonal: 279,
-            DOW: 8,
+            dayOfWeek: 8,
         },
     },
     {
         dateOffset: 330,
         isBlocked: false,
-        rate: {
-            total: 236,
+        factor: {
             seasonal: 207,
-            DOW: 29,
+            dayOfWeek: 29,
         },
     },
     {
         dateOffset: 331,
         isBlocked: false,
-        rate: {
-            total: 67,
+        factor: {
             seasonal: 61,
-            DOW: 6,
+            dayOfWeek: 6,
         },
     },
     {
         dateOffset: 332,
         isBlocked: false,
-        rate: {
-            total: 90,
+        factor: {
             seasonal: 80,
-            DOW: 10,
+            dayOfWeek: 10,
         },
     },
     {
         dateOffset: 333,
         isBlocked: false,
-        rate: {
-            total: 234,
+        factor: {
             seasonal: 230,
-            DOW: 4,
+            dayOfWeek: 4,
         },
     },
     {
         dateOffset: 334,
         isBlocked: false,
-        rate: {
-            total: 288,
+        factor: {
             seasonal: 220,
-            DOW: 68,
+            dayOfWeek: 68,
         },
     },
     {
         dateOffset: 335,
         isBlocked: false,
-        rate: {
-            total: 311,
+        factor: {
             seasonal: 131,
-            DOW: 180,
+            dayOfWeek: 180,
         },
     },
     {
         dateOffset: 336,
         isBlocked: false,
-        rate: {
-            total: 89,
+        factor: {
             seasonal: 81,
-            DOW: 8,
+            dayOfWeek: 8,
         },
     },
     {
         dateOffset: 337,
         isBlocked: false,
-        rate: {
-            total: 257,
+        factor: {
             seasonal: 78,
-            DOW: 179,
+            dayOfWeek: 179,
         },
     },
     {
         dateOffset: 338,
         isBlocked: false,
-        rate: {
-            total: 382,
+        factor: {
             seasonal: 214,
-            DOW: 168,
+            dayOfWeek: 168,
         },
     },
     {
         dateOffset: 339,
         isBlocked: false,
-        rate: {
-            total: 258,
+        factor: {
             seasonal: 113,
-            DOW: 145,
+            dayOfWeek: 145,
         },
     },
     {
         dateOffset: 340,
         isBlocked: false,
-        rate: {
-            total: 340,
+        factor: {
             seasonal: 301,
-            DOW: 39,
+            dayOfWeek: 39,
         },
     },
     {
         dateOffset: 341,
         isBlocked: false,
-        rate: {
-            total: 156,
+        factor: {
             seasonal: 131,
-            DOW: 25,
+            dayOfWeek: 25,
         },
     },
     {
         dateOffset: 342,
         isBlocked: false,
-        rate: {
-            total: 71,
+        factor: {
             seasonal: 71,
-            DOW: 0,
+            dayOfWeek: 0,
         },
     },
     {
         dateOffset: 343,
         isBlocked: false,
-        rate: {
-            total: 112,
+        factor: {
             seasonal: 66,
-            DOW: 46,
+            dayOfWeek: 46,
         },
     },
     {
         dateOffset: 344,
         isBlocked: false,
-        rate: {
-            total: 357,
+        factor: {
             seasonal: 282,
-            DOW: 75,
+            dayOfWeek: 75,
         },
     },
     {
         dateOffset: 345,
         isBlocked: false,
-        rate: {
-            total: 90,
+        factor: {
             seasonal: 75,
-            DOW: 15,
+            dayOfWeek: 15,
         },
     },
     {
         dateOffset: 346,
         isBlocked: false,
-        rate: {
-            total: 144,
+        factor: {
             seasonal: 82,
-            DOW: 62,
+            dayOfWeek: 62,
         },
     },
     {
         dateOffset: 347,
         isBlocked: false,
-        rate: {
-            total: 268,
+        factor: {
             seasonal: 175,
-            DOW: 93,
+            dayOfWeek: 93,
         },
     },
     {
         dateOffset: 348,
         isBlocked: false,
-        rate: {
-            total: 94,
+        factor: {
             seasonal: 62,
-            DOW: 32,
+            dayOfWeek: 32,
         },
     },
     {
         dateOffset: 349,
         isBlocked: false,
-        rate: {
-            total: 62,
+        factor: {
             seasonal: 61,
-            DOW: 1,
+            dayOfWeek: 1,
         },
     },
     {
         dateOffset: 350,
         isBlocked: false,
-        rate: {
-            total: 284,
+        factor: {
             seasonal: 151,
-            DOW: 133,
+            dayOfWeek: 133,
         },
     },
     {
         dateOffset: 351,
         isBlocked: false,
-        rate: {
-            total: 73,
+        factor: {
             seasonal: 63,
-            DOW: 10,
+            dayOfWeek: 10,
         },
     },
     {
         dateOffset: 352,
         isBlocked: false,
-        rate: {
-            total: 334,
+        factor: {
             seasonal: 223,
-            DOW: 111,
+            dayOfWeek: 111,
         },
     },
     {
         dateOffset: 353,
         isBlocked: false,
-        rate: {
-            total: 308,
+        factor: {
             seasonal: 262,
-            DOW: 46,
+            dayOfWeek: 46,
         },
     },
     {
         dateOffset: 354,
         isBlocked: false,
-        rate: {
-            total: 182,
+        factor: {
             seasonal: 77,
-            DOW: 105,
+            dayOfWeek: 105,
         },
     },
     {
         dateOffset: 355,
         isBlocked: false,
-        rate: {
-            total: 341,
+        factor: {
             seasonal: 138,
-            DOW: 203,
+            dayOfWeek: 203,
         },
     },
     {
         dateOffset: 356,
         isBlocked: false,
-        rate: {
-            total: 248,
+        factor: {
             seasonal: 152,
-            DOW: 96,
+            dayOfWeek: 96,
         },
     },
     {
         dateOffset: 357,
         isBlocked: false,
-        rate: {
-            total: 391,
+        factor: {
             seasonal: 256,
-            DOW: 135,
+            dayOfWeek: 135,
         },
     },
     {
         dateOffset: 358,
         isBlocked: false,
-        rate: {
-            total: 87,
+        factor: {
             seasonal: 61,
-            DOW: 26,
+            dayOfWeek: 26,
         },
     },
     {
         dateOffset: 359,
         isBlocked: false,
-        rate: {
-            total: 360,
+        factor: {
             seasonal: 114,
-            DOW: 246,
+            dayOfWeek: 246,
         },
     },
     {
         dateOffset: 360,
         isBlocked: false,
-        rate: {
-            total: 126,
+        factor: {
             seasonal: 101,
-            DOW: 25,
+            dayOfWeek: 25,
         },
     },
     {
         dateOffset: 361,
         isBlocked: true,
-        rate: {
-            total: 145,
+        factor: {
             seasonal: 120,
-            DOW: 25,
+            dayOfWeek: 25,
         },
     },
     {
         dateOffset: 362,
         isBlocked: false,
-        rate: {
-            total: 169,
+        factor: {
             seasonal: 82,
-            DOW: 87,
+            dayOfWeek: 87,
         },
     },
     {
         dateOffset: 363,
         isBlocked: false,
-        rate: {
-            total: 114,
+        factor: {
             seasonal: 70,
-            DOW: 44,
+            dayOfWeek: 44,
         },
     },
     {
         dateOffset: 364,
         isBlocked: false,
-        rate: {
-            total: 340,
+        factor: {
             seasonal: 215,
-            DOW: 125,
+            dayOfWeek: 125,
         },
     },
 ]

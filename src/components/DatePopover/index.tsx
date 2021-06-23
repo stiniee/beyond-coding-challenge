@@ -8,17 +8,15 @@ interface DatePopoverProps extends DefaultProps {
 }
 
 const priceLabels: Record<PriceType, any> = {
-    base: 'Base',
     seasonal: 'Seasonality',
-    DOW: 'Day of week',
-    total: 'Predicted price',
+    dayOfWeek: 'Day of week',
 }
 const lastIndex = Object.keys(priceLabels).length - 1
 
 /**
  * Popover that displays the date details
  * @prop data: The date details
- * (includes the date, dateOffset, isBlocked, and rate)
+ * (includes the date, dateOffset, isBlocked, and factor)
  * @returns JSX.Element
  */
 const DatePopover = ({
@@ -56,9 +54,9 @@ const DatePopover = ({
                     </div>
                     <div
                         className="date-popover_header-total"
-                        data-testid="date-popover-rate-total"
+                        data-testid="date-popover-factor-total"
                     >
-                        ${data.rate.total}
+                        {/* @CTRAN OTAL HERE */}
                     </div>
                 </div>
                 <ul
@@ -68,7 +66,7 @@ const DatePopover = ({
                     {Object.keys(priceLabels).map((key, index) => {
                         const isPriceIncrease = index > 0 && index < lastIndex
                         const label = priceLabels[key as PriceType]
-                        const value = data.rate[key as PriceType]
+                        const value = data.factor[key as PriceType]
                         return (
                             <div key={key}>
                                 {index === lastIndex ? <hr /> : null}

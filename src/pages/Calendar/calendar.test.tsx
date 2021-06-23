@@ -3,7 +3,7 @@ import React from 'react'
 import { MemoryRouter } from 'react-router-dom'
 import { fireEvent, render, screen, cleanup, act } from '@testing-library/react'
 import fetchMock from 'fetch-mock'
-import { MOCK_CALENDAR } from '../../api/tests/__mocks__/calendar'
+import { MOCK_CALENDAR } from '../../api/__mocks__/calendar'
 import Calendar from './index'
 
 // By default use listingId 1

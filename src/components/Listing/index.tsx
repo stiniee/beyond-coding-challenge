@@ -15,7 +15,7 @@ export interface ListingProps extends DefaultProps {
  * Represents a rental listing
  * @prop data: The listings data
  * @prop viewType: The listing view type: card or table
- * (includes id, title, picture, ranking, currency, bed)
+ * (includes id, title, picture, health, currency, beds)
  * @returns
  */
 const Listing = ({
@@ -69,7 +69,9 @@ const Listing = ({
                         {/* Bed */}
                         <div
                             className="listing_stat"
-                            title={`${data.bed} bed${data.bed > 1 ? 's' : ''}`}
+                            title={`${data.beds} bed${
+                                data.beds > 1 ? 's' : ''
+                            }`}
                         >
                             <Icon
                                 className="listing_bed-icon"
@@ -81,26 +83,17 @@ const Listing = ({
                                 className="listing_bed-count"
                                 data-testid="listing-bed-count"
                             >
-                                {data.bed}
-                            </span>
-                        </div>
-
-                        {/* Ranking */}
-                        <div className="listing_stat">
-                            <Icon
-                                className="listing_ranking-icon"
-                                path={mdiChevronDoubleUp}
-                                color="#B8B8B9"
-                                size={1}
-                            />
-                            <span
-                                className="listing_ranking-percent"
-                                data-testid="listing-ranking"
-                            >
-                                {numToPercent(data.ranking)}
+                                {data.beds}
                             </span>
                         </div>
                     </div>
+
+                    <span
+                        className="listing_health"
+                        data-testid="listing-health"
+                    >
+                        {numToPercent(data.health)}
+                    </span>
                 </>
             ) : (
                 <>
@@ -114,7 +107,7 @@ const Listing = ({
                         className="listing_bed"
                         data-testid="listing-bed-count"
                     >
-                        {data.bed} bedrooms
+                        {data.beds} bedrooms
                     </div>
                 </>
             )}

@@ -3,3286 +3,2921 @@
     {
       "dateOffset": 0,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 99,
-        "DOW": 95,
-        "total": 194
+        "dayOfWeek": 95,
       }
     },
     {
       "dateOffset": 1,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 79,
-        "DOW": 39,
-        "total": 118
+        "dayOfWeek": 39,
       }
     },
     {
       "dateOffset": 2,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 63,
-        "DOW": 3,
-        "total": 66
+        "dayOfWeek": 3,
       }
     },
     {
       "dateOffset": 3,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 78,
-        "DOW": 27,
-        "total": 105
+        "dayOfWeek": 27,
       }
     },
     {
       "dateOffset": 4,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 63,
-        "DOW": 2,
-        "total": 65
+        "dayOfWeek": 2,
       }
     },
     {
       "dateOffset": 5,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 261,
-        "DOW": 58,
-        "total": 319
+        "dayOfWeek": 58,
       }
     },
     {
       "dateOffset": 6,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 130,
-        "DOW": 17,
-        "total": 147
+        "dayOfWeek": 17,
       }
     },
     {
       "dateOffset": 7,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 164,
-        "DOW": 56,
-        "total": 220
+        "dayOfWeek": 56,
       }
     },
     {
       "dateOffset": 8,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 145,
-        "DOW": 69,
-        "total": 214
+        "dayOfWeek": 69,
       }
     },
     {
       "dateOffset": 9,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 66,
-        "DOW": 11,
-        "total": 77
+        "dayOfWeek": 11,
       }
     },
     {
       "dateOffset": 10,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 61,
-        "DOW": 24,
-        "total": 85
+        "dayOfWeek": 24,
       }
     },
     {
       "dateOffset": 11,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 96,
-        "DOW": 50,
-        "total": 146
+        "dayOfWeek": 50,
       }
     },
     {
       "dateOffset": 12,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 143,
-        "DOW": 245,
-        "total": 388
+        "dayOfWeek": 245,
       }
     },
     {
       "dateOffset": 13,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 68,
-        "DOW": 225,
-        "total": 293
+        "dayOfWeek": 225,
       }
     },
     {
       "dateOffset": 14,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 367,
-        "DOW": 32,
-        "total": 399
+        "dayOfWeek": 32,
       }
     },
     {
       "dateOffset": 15,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 120,
-        "DOW": 223,
-        "total": 343
+        "dayOfWeek": 223,
       }
     },
     {
       "dateOffset": 16,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 82,
-        "DOW": 19,
-        "total": 101
+        "dayOfWeek": 19,
       }
     },
     {
       "dateOffset": 17,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 207,
-        "DOW": 56,
-        "total": 263
+        "dayOfWeek": 56,
       }
     },
     {
       "dateOffset": 18,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 104,
-        "DOW": 27,
-        "total": 131
+        "dayOfWeek": 27,
       }
     },
     {
       "dateOffset": 19,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 139,
-        "DOW": 24,
-        "total": 163
+        "dayOfWeek": 24,
       }
     },
     {
       "dateOffset": 20,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 254,
-        "DOW": 128,
-        "total": 382
+        "dayOfWeek": 128,
       }
     },
     {
       "dateOffset": 21,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 85,
-        "DOW": 73,
-        "total": 158
+        "dayOfWeek": 73,
       }
     },
     {
       "dateOffset": 22,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 158,
-        "DOW": 103,
-        "total": 261
+        "dayOfWeek": 103,
       }
     },
     {
       "dateOffset": 23,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 269,
-        "DOW": 96,
-        "total": 365
+        "dayOfWeek": 96,
       }
     },
     {
       "dateOffset": 24,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 102,
-        "DOW": 54,
-        "total": 156
+        "dayOfWeek": 54,
       }
     },
     {
       "dateOffset": 25,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 197,
-        "DOW": 89,
-        "total": 286
+        "dayOfWeek": 89,
       }
     },
     {
       "dateOffset": 26,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 346,
-        "DOW": 53,
-        "total": 399
+        "dayOfWeek": 53,
       }
     },
     {
       "dateOffset": 27,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 192,
-        "DOW": 133,
-        "total": 325
+        "dayOfWeek": 133,
       }
     },
     {
       "dateOffset": 28,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 86,
-        "DOW": 10,
-        "total": 96
+        "dayOfWeek": 10,
       }
     },
     {
       "dateOffset": 29,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 111,
-        "DOW": 191,
-        "total": 302
+        "dayOfWeek": 191,
       }
     },
     {
       "dateOffset": 30,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 283,
-        "DOW": 40,
-        "total": 323
+        "dayOfWeek": 40,
       }
     },
     {
       "dateOffset": 31,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 109,
-        "DOW": 100,
-        "total": 209
+        "dayOfWeek": 100,
       }
     },
     {
       "dateOffset": 32,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 169,
-        "DOW": 82,
-        "total": 251
+        "dayOfWeek": 82,
       }
     },
     {
       "dateOffset": 33,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 65,
-        "DOW": 2,
-        "total": 67
+        "dayOfWeek": 2,
       }
     },
     {
       "dateOffset": 34,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 189,
-        "DOW": 146,
-        "total": 335
+        "dayOfWeek": 146,
       }
     },
     {
       "dateOffset": 35,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 132,
-        "DOW": 245,
-        "total": 377
+        "dayOfWeek": 245,
       }
     },
     {
       "dateOffset": 36,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 136,
-        "DOW": 157,
-        "total": 293
+        "dayOfWeek": 157,
       }
     },
     {
       "dateOffset": 37,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 279,
-        "DOW": 65,
-        "total": 344
+        "dayOfWeek": 65,
       }
     },
     {
       "dateOffset": 38,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 64,
-        "DOW": 167,
-        "total": 231
+        "dayOfWeek": 167,
       }
     },
     {
       "dateOffset": 39,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 108,
-        "DOW": 10,
-        "total": 118
+        "dayOfWeek": 10,
       }
     },
     {
       "dateOffset": 40,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 80,
-        "DOW": 12,
-        "total": 92
+        "dayOfWeek": 12,
       }
     },
     {
       "dateOffset": 41,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 113,
-        "DOW": 79,
-        "total": 192
+        "dayOfWeek": 79,
       }
     },
     {
       "dateOffset": 42,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 65,
-        "DOW": 4,
-        "total": 69
+        "dayOfWeek": 4,
       }
     },
     {
       "dateOffset": 43,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 84,
-        "DOW": 28,
-        "total": 112
+        "dayOfWeek": 28,
       }
     },
     {
       "dateOffset": 44,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 72,
-        "DOW": 241,
-        "total": 313
+        "dayOfWeek": 241,
       }
     },
     {
       "dateOffset": 45,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 67,
-        "DOW": 28,
-        "total": 95
+        "dayOfWeek": 28,
       }
     },
     {
       "dateOffset": 46,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 93,
-        "DOW": 58,
-        "total": 151
+        "dayOfWeek": 58,
       }
     },
     {
       "dateOffset": 47,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 167,
-        "DOW": 194,
-        "total": 361
+        "dayOfWeek": 194,
       }
     },
     {
       "dateOffset": 48,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 132,
-        "DOW": 190,
-        "total": 322
+        "dayOfWeek": 190,
       }
     },
     {
       "dateOffset": 49,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 103,
-        "DOW": 197,
-        "total": 300
+        "dayOfWeek": 197,
       }
     },
     {
       "dateOffset": 50,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 76,
-        "DOW": 98,
-        "total": 174
+        "dayOfWeek": 98,
       }
     },
     {
       "dateOffset": 51,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 159,
-        "DOW": 221,
-        "total": 380
+        "dayOfWeek": 221,
       }
     },
     {
       "dateOffset": 52,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 60,
-        "DOW": 2,
-        "total": 62
+        "dayOfWeek": 2,
       }
     },
     {
       "dateOffset": 53,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 90,
-        "DOW": 4,
-        "total": 94
+        "dayOfWeek": 4,
       }
     },
     {
       "dateOffset": 54,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 95,
-        "DOW": 76,
-        "total": 171
+        "dayOfWeek": 76,
       }
     },
     {
       "dateOffset": 55,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 227,
-        "DOW": 91,
-        "total": 318
+        "dayOfWeek": 91,
       }
     },
     {
       "dateOffset": 56,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 71,
-        "DOW": 224,
-        "total": 295
+        "dayOfWeek": 224,
       }
     },
     {
       "dateOffset": 57,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 268,
-        "DOW": 26,
-        "total": 294
+        "dayOfWeek": 26,
       }
     },
     {
       "dateOffset": 58,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 106,
-        "DOW": 197,
-        "total": 303
+        "dayOfWeek": 197,
       }
     },
     {
       "dateOffset": 59,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 63,
-        "DOW": 106,
-        "total": 169
+        "dayOfWeek": 106,
       }
     },
     {
       "dateOffset": 60,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 121,
-        "DOW": 58,
-        "total": 179
+        "dayOfWeek": 58,
       }
     },
     {
       "dateOffset": 61,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 128,
-        "DOW": 48,
-        "total": 176
+        "dayOfWeek": 48,
       }
     },
     {
       "dateOffset": 62,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 229,
-        "DOW": 69,
-        "total": 298
+        "dayOfWeek": 69,
       }
     },
     {
       "dateOffset": 63,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 108,
-        "DOW": 157,
-        "total": 265
+        "dayOfWeek": 157,
       }
     },
     {
       "dateOffset": 64,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 81,
-        "DOW": 11,
-        "total": 92
+        "dayOfWeek": 11,
       }
     },
     {
       "dateOffset": 65,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 356,
-        "DOW": 35,
-        "total": 391
+        "dayOfWeek": 35,
       }
     },
     {
       "dateOffset": 66,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 69,
-        "DOW": 39,
-        "total": 108
+        "dayOfWeek": 39,
       }
     },
     {
       "dateOffset": 67,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 258,
-        "DOW": 122,
-        "total": 380
+        "dayOfWeek": 122,
       }
     },
     {
       "dateOffset": 68,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 97,
-        "DOW": 273,
-        "total": 370
+        "dayOfWeek": 273,
       }
     },
     {
       "dateOffset": 69,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 68,
-        "DOW": 19,
-        "total": 87
+        "dayOfWeek": 19,
       }
     },
     {
       "dateOffset": 70,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 152,
-        "DOW": 64,
-        "total": 216
+        "dayOfWeek": 64,
       }
     },
     {
       "dateOffset": 71,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 91,
-        "DOW": 296,
-        "total": 387
+        "dayOfWeek": 296,
       }
     },
     {
       "dateOffset": 72,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 66,
-        "DOW": 191,
-        "total": 257
+        "dayOfWeek": 191,
       }
     },
     {
       "dateOffset": 73,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 383,
-        "DOW": 15,
-        "total": 398
+        "dayOfWeek": 15,
       }
     },
     {
       "dateOffset": 74,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 289,
-        "DOW": 50,
-        "total": 339
+        "dayOfWeek": 50,
       }
     },
     {
       "dateOffset": 75,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 111,
-        "DOW": 38,
-        "total": 149
+        "dayOfWeek": 38,
       }
     },
     {
       "dateOffset": 76,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 170,
-        "DOW": 185,
-        "total": 355
+        "dayOfWeek": 185,
       }
     },
     {
       "dateOffset": 77,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 136,
-        "DOW": 25,
-        "total": 161
+        "dayOfWeek": 25,
       }
     },
     {
       "dateOffset": 78,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 338,
-        "DOW": 55,
-        "total": 393
+        "dayOfWeek": 55,
       }
     },
     {
       "dateOffset": 79,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 257,
-        "DOW": 69,
-        "total": 326
+        "dayOfWeek": 69,
       }
     },
     {
       "dateOffset": 80,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 65,
-        "DOW": 8,
-        "total": 73
+        "dayOfWeek": 8,
       }
     },
     {
       "dateOffset": 81,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 179,
-        "DOW": 114,
-        "total": 293
+        "dayOfWeek": 114,
       }
     },
     {
       "dateOffset": 82,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 128,
-        "DOW": 36,
-        "total": 164
+        "dayOfWeek": 36,
       }
     },
     {
       "dateOffset": 83,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 263,
-        "DOW": 7,
-        "total": 270
+        "dayOfWeek": 7,
       }
     },
     {
       "dateOffset": 84,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 71,
-        "DOW": 115,
-        "total": 186
+        "dayOfWeek": 115,
       }
     },
     {
       "dateOffset": 85,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 125,
-        "DOW": 110,
-        "total": 235
+        "dayOfWeek": 110,
       }
     },
     {
       "dateOffset": 86,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 70,
-        "DOW": 15,
-        "total": 85
+        "dayOfWeek": 15,
       }
     },
     {
       "dateOffset": 87,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 71,
-        "DOW": 68,
-        "total": 139
+        "dayOfWeek": 68,
       }
     },
     {
       "dateOffset": 88,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 95,
-        "DOW": 186,
-        "total": 281
+        "dayOfWeek": 186,
       }
     },
     {
       "dateOffset": 89,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 223,
-        "DOW": 146,
-        "total": 369
+        "dayOfWeek": 146,
       }
     },
     {
       "dateOffset": 90,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 160,
-        "DOW": 121,
-        "total": 281
+        "dayOfWeek": 121,
       }
     },
     {
       "dateOffset": 91,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 98,
-        "DOW": 43,
-        "total": 141
+        "dayOfWeek": 43,
       }
     },
     {
       "dateOffset": 92,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 107,
-        "DOW": 35,
-        "total": 142
+        "dayOfWeek": 35,
       }
     },
     {
       "dateOffset": 93,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 272,
-        "DOW": 26,
-        "total": 298
+        "dayOfWeek": 26,
       }
     },
     {
       "dateOffset": 94,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 118,
-        "DOW": 3,
-        "total": 121
+        "dayOfWeek": 3,
       }
     },
     {
       "dateOffset": 95,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 91,
-        "DOW": 160,
-        "total": 251
+        "dayOfWeek": 160,
       }
     },
     {
       "dateOffset": 96,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 74,
-        "DOW": 116,
-        "total": 190
+        "dayOfWeek": 116,
       }
     },
     {
       "dateOffset": 97,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 90,
-        "DOW": 20,
-        "total": 110
+        "dayOfWeek": 20,
       }
     },
     {
       "dateOffset": 98,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 99,
-        "DOW": 57,
-        "total": 156
+        "dayOfWeek": 57,
       }
     },
     {
       "dateOffset": 99,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 103,
-        "DOW": 21,
-        "total": 124
+        "dayOfWeek": 21,
       }
     },
     {
       "dateOffset": 100,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 254,
-        "DOW": 82,
-        "total": 336
+        "dayOfWeek": 82,
       }
     },
     {
       "dateOffset": 101,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 287,
-        "DOW": 100,
-        "total": 387
+        "dayOfWeek": 100,
       }
     },
     {
       "dateOffset": 102,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 220,
-        "DOW": 160,
-        "total": 380
+        "dayOfWeek": 160,
       }
     },
     {
       "dateOffset": 103,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 193,
-        "DOW": 162,
-        "total": 355
+        "dayOfWeek": 162,
       }
     },
     {
       "dateOffset": 104,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 75,
-        "DOW": 94,
-        "total": 169
+        "dayOfWeek": 94,
       }
     },
     {
       "dateOffset": 105,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 240,
-        "DOW": 78,
-        "total": 318
+        "dayOfWeek": 78,
       }
     },
     {
       "dateOffset": 106,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 75,
-        "DOW": 6,
-        "total": 81
+        "dayOfWeek": 6,
       }
     },
     {
       "dateOffset": 107,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 297,
-        "DOW": 38,
-        "total": 335
+        "dayOfWeek": 38,
       }
     },
     {
       "dateOffset": 108,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 100,
-        "DOW": 48,
-        "total": 148
+        "dayOfWeek": 48,
       }
     },
     {
       "dateOffset": 109,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 215,
-        "DOW": 114,
-        "total": 329
+        "dayOfWeek": 114,
       }
     },
     {
       "dateOffset": 110,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 63,
-        "DOW": 177,
-        "total": 240
+        "dayOfWeek": 177,
       }
     },
     {
       "dateOffset": 111,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 131,
-        "DOW": 44,
-        "total": 175
+        "dayOfWeek": 44,
       }
     },
     {
       "dateOffset": 112,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 65,
-        "DOW": 7,
-        "total": 72
+        "dayOfWeek": 7,
       }
     },
     {
       "dateOffset": 113,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 172,
-        "DOW": 124,
-        "total": 296
+        "dayOfWeek": 124,
       }
     },
     {
       "dateOffset": 114,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 266,
-        "DOW": 19,
-        "total": 285
+        "dayOfWeek": 19,
       }
     },
     {
       "dateOffset": 115,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 72,
-        "DOW": 22,
-        "total": 94
+        "dayOfWeek": 22,
       }
     },
     {
       "dateOffset": 116,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 237,
-        "DOW": 129,
-        "total": 366
+        "dayOfWeek": 129,
       }
     },
     {
       "dateOffset": 117,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 115,
-        "DOW": 2,
-        "total": 117
+        "dayOfWeek": 2,
       }
     },
     {
       "dateOffset": 118,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 79,
-        "DOW": 77,
-        "total": 156
+        "dayOfWeek": 77,
       }
     },
     {
       "dateOffset": 119,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 90,
-        "DOW": 0,
-        "total": 90
+        "dayOfWeek": 0,
       }
     },
     {
       "dateOffset": 120,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 284,
-        "DOW": 6,
-        "total": 290
+        "dayOfWeek": 6,
       }
     },
     {
       "dateOffset": 121,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 124,
-        "DOW": 62,
-        "total": 186
+        "dayOfWeek": 62,
       }
     },
     {
       "dateOffset": 122,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 328,
-        "DOW": 35,
-        "total": 363
+        "dayOfWeek": 35,
       }
     },
     {
       "dateOffset": 123,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 330,
-        "DOW": 62,
-        "total": 392
+        "dayOfWeek": 62,
       }
     },
     {
       "dateOffset": 124,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 127,
-        "DOW": 144,
-        "total": 271
+        "dayOfWeek": 144,
       }
     },
     {
       "dateOffset": 125,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 85,
-        "DOW": 14,
-        "total": 99
+        "dayOfWeek": 14,
       }
     },
     {
       "dateOffset": 126,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 221,
-        "DOW": 94,
-        "total": 315
+        "dayOfWeek": 94,
       }
     },
     {
       "dateOffset": 127,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 156,
-        "DOW": 187,
-        "total": 343
+        "dayOfWeek": 187,
       }
     },
     {
       "dateOffset": 128,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 181,
-        "DOW": 97,
-        "total": 278
+        "dayOfWeek": 97,
       }
     },
     {
       "dateOffset": 129,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 65,
-        "DOW": 55,
-        "total": 120
+        "dayOfWeek": 55,
       }
     },
     {
       "dateOffset": 130,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 64,
-        "DOW": 102,
-        "total": 166
+        "dayOfWeek": 102,
       }
     },
     {
       "dateOffset": 131,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 100,
-        "DOW": 226,
-        "total": 326
+        "dayOfWeek": 226,
       }
     },
     {
       "dateOffset": 132,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 204,
-        "DOW": 56,
-        "total": 260
+        "dayOfWeek": 56,
       }
     },
     {
       "dateOffset": 133,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 67,
-        "DOW": 43,
-        "total": 110
+        "dayOfWeek": 43,
       }
     },
     {
       "dateOffset": 134,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 88,
-        "DOW": 45,
-        "total": 133
+        "dayOfWeek": 45,
       }
     },
     {
       "dateOffset": 135,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 223,
-        "DOW": 28,
-        "total": 251
+        "dayOfWeek": 28,
       }
     },
     {
       "dateOffset": 136,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 168,
-        "DOW": 56,
-        "total": 224
+        "dayOfWeek": 56,
       }
     },
     {
       "dateOffset": 137,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 153,
-        "DOW": 149,
-        "total": 302
+        "dayOfWeek": 149,
       }
     },
     {
       "dateOffset": 138,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 309,
-        "DOW": 73,
-        "total": 382
+        "dayOfWeek": 73,
       }
     },
     {
       "dateOffset": 139,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 63,
-        "DOW": 20,
-        "total": 83
+        "dayOfWeek": 20,
       }
     },
     {
       "dateOffset": 140,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 150,
-        "DOW": 53,
-        "total": 203
+        "dayOfWeek": 53,
       }
     },
     {
       "dateOffset": 141,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 307,
-        "DOW": 64,
-        "total": 371
+        "dayOfWeek": 64,
       }
     },
     {
       "dateOffset": 142,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 78,
-        "DOW": 322,
-        "total": 400
+        "dayOfWeek": 322,
       }
     },
     {
       "dateOffset": 143,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 178,
-        "DOW": 53,
-        "total": 231
+        "dayOfWeek": 53,
       }
     },
     {
       "dateOffset": 144,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 69,
-        "DOW": 46,
-        "total": 115
+        "dayOfWeek": 46,
       }
     },
     {
       "dateOffset": 145,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 104,
-        "DOW": 28,
-        "total": 132
+        "dayOfWeek": 28,
       }
     },
     {
       "dateOffset": 146,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 304,
-        "DOW": 5,
-        "total": 309
+        "dayOfWeek": 5,
       }
     },
     {
       "dateOffset": 147,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 178,
-        "DOW": 171,
-        "total": 349
+        "dayOfWeek": 171,
       }
     },
     {
       "dateOffset": 148,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 94,
-        "DOW": 79,
-        "total": 173
+        "dayOfWeek": 79,
       }
     },
     {
       "dateOffset": 149,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 144,
-        "DOW": 80,
-        "total": 224
+        "dayOfWeek": 80,
       }
     },
     {
       "dateOffset": 150,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 113,
-        "DOW": 0,
-        "total": 113
+        "dayOfWeek": 0,
       }
     },
     {
       "dateOffset": 151,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 284,
-        "DOW": 19,
-        "total": 303
+        "dayOfWeek": 19,
       }
     },
     {
       "dateOffset": 152,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 69,
-        "DOW": 107,
-        "total": 176
+        "dayOfWeek": 107,
       }
     },
     {
       "dateOffset": 153,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 175,
-        "DOW": 115,
-        "total": 290
+        "dayOfWeek": 115,
       }
     },
     {
       "dateOffset": 154,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 131,
-        "DOW": 107,
-        "total": 238
+        "dayOfWeek": 107,
       }
     },
     {
       "dateOffset": 155,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 397,
-        "DOW": 1,
-        "total": 398
+        "dayOfWeek": 1,
       }
     },
     {
       "dateOffset": 156,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 78,
-        "DOW": 1,
-        "total": 79
+        "dayOfWeek": 1,
       }
     },
     {
       "dateOffset": 157,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 131,
-        "DOW": 11,
-        "total": 142
+        "dayOfWeek": 11,
       }
     },
     {
       "dateOffset": 158,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 306,
-        "DOW": 35,
-        "total": 341
+        "dayOfWeek": 35,
       }
     },
     {
       "dateOffset": 159,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 116,
-        "DOW": 181,
-        "total": 297
+        "dayOfWeek": 181,
       }
     },
     {
       "dateOffset": 160,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 111,
-        "DOW": 35,
-        "total": 146
+        "dayOfWeek": 35,
       }
     },
     {
       "dateOffset": 161,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 78,
-        "DOW": 111,
-        "total": 189
+        "dayOfWeek": 111,
       }
     },
     {
       "dateOffset": 162,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 143,
-        "DOW": 103,
-        "total": 246
+        "dayOfWeek": 103,
       }
     },
     {
       "dateOffset": 163,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 64,
-        "DOW": 6,
-        "total": 70
+        "dayOfWeek": 6,
       }
     },
     {
       "dateOffset": 164,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 122,
-        "DOW": 35,
-        "total": 157
+        "dayOfWeek": 35,
       }
     },
     {
       "dateOffset": 165,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 83,
-        "DOW": 8,
-        "total": 91
+        "dayOfWeek": 8,
       }
     },
     {
       "dateOffset": 166,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 137,
-        "DOW": 102,
-        "total": 239
+        "dayOfWeek": 102,
       }
     },
     {
       "dateOffset": 167,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 79,
-        "DOW": 0,
-        "total": 79
+        "dayOfWeek": 0,
       }
     },
     {
       "dateOffset": 168,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 185,
-        "DOW": 138,
-        "total": 323
+        "dayOfWeek": 138,
       }
     },
     {
       "dateOffset": 169,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 337,
-        "DOW": 32,
-        "total": 369
+        "dayOfWeek": 32,
       }
     },
     {
       "dateOffset": 170,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 92,
-        "DOW": 3,
-        "total": 95
+        "dayOfWeek": 3,
       }
     },
     {
       "dateOffset": 171,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 129,
-        "DOW": 49,
-        "total": 178
+        "dayOfWeek": 49,
       }
     },
     {
       "dateOffset": 172,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 190,
-        "DOW": 103,
-        "total": 293
+        "dayOfWeek": 103,
       }
     },
     {
       "dateOffset": 173,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 356,
-        "DOW": 26,
-        "total": 382
+        "dayOfWeek": 26,
       }
     },
     {
       "dateOffset": 174,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 72,
-        "DOW": 275,
-        "total": 347
+        "dayOfWeek": 275,
       }
     },
     {
       "dateOffset": 175,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 79,
-        "DOW": 47,
-        "total": 126
+        "dayOfWeek": 47,
       }
     },
     {
       "dateOffset": 176,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 86,
-        "DOW": 11,
-        "total": 97
+        "dayOfWeek": 11,
       }
     },
     {
       "dateOffset": 177,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 64,
-        "DOW": 16,
-        "total": 80
+        "dayOfWeek": 16,
       }
     },
     {
       "dateOffset": 178,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 269,
-        "DOW": 69,
-        "total": 338
+        "dayOfWeek": 69,
       }
     },
     {
       "dateOffset": 179,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 78,
-        "DOW": 74,
-        "total": 152
+        "dayOfWeek": 74,
       }
     },
     {
       "dateOffset": 180,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 192,
-        "DOW": 169,
-        "total": 361
+        "dayOfWeek": 169,
       }
     },
     {
       "dateOffset": 181,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 168,
-        "DOW": 194,
-        "total": 362
+        "dayOfWeek": 194,
       }
     },
     {
       "dateOffset": 182,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 75,
-        "DOW": 132,
-        "total": 207
+        "dayOfWeek": 132,
       }
     },
     {
       "dateOffset": 183,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 114,
-        "DOW": 45,
-        "total": 159
+        "dayOfWeek": 45,
       }
     },
     {
       "dateOffset": 184,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 68,
-        "DOW": 154,
-        "total": 222
+        "dayOfWeek": 154,
       }
     },
     {
       "dateOffset": 185,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 63,
-        "DOW": 1,
-        "total": 64
+        "dayOfWeek": 1,
       }
     },
     {
       "dateOffset": 186,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 304,
-        "DOW": 18,
-        "total": 322
+        "dayOfWeek": 18,
       }
     },
     {
       "dateOffset": 187,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 248,
-        "DOW": 41,
-        "total": 289
+        "dayOfWeek": 41,
       }
     },
     {
       "dateOffset": 188,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 150,
-        "DOW": 215,
-        "total": 365
+        "dayOfWeek": 215,
       }
     },
     {
       "dateOffset": 189,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 82,
-        "DOW": 222,
-        "total": 304
+        "dayOfWeek": 222,
       }
     },
     {
       "dateOffset": 190,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 225,
-        "DOW": 140,
-        "total": 365
+        "dayOfWeek": 140,
       }
     },
     {
       "dateOffset": 191,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 119,
-        "DOW": 217,
-        "total": 336
+        "dayOfWeek": 217,
       }
     },
     {
       "dateOffset": 192,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 97,
-        "DOW": 243,
-        "total": 340
+        "dayOfWeek": 243,
       }
     },
     {
       "dateOffset": 193,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 113,
-        "DOW": 35,
-        "total": 148
+        "dayOfWeek": 35,
       }
     },
     {
       "dateOffset": 194,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 63,
-        "DOW": 113,
-        "total": 176
+        "dayOfWeek": 113,
       }
     },
     {
       "dateOffset": 195,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 291,
-        "DOW": 66,
-        "total": 357
+        "dayOfWeek": 66,
       }
     },
     {
       "dateOffset": 196,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 201,
-        "DOW": 63,
-        "total": 264
+        "dayOfWeek": 63,
       }
     },
     {
       "dateOffset": 197,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 197,
-        "DOW": 137,
-        "total": 334
+        "dayOfWeek": 137,
       }
     },
     {
       "dateOffset": 198,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 347,
-        "DOW": 48,
-        "total": 395
+        "dayOfWeek": 48,
       }
     },
     {
       "dateOffset": 199,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 82,
-        "DOW": 50,
-        "total": 132
+        "dayOfWeek": 50,
       }
     },
     {
       "dateOffset": 200,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 89,
-        "DOW": 87,
-        "total": 176
+        "dayOfWeek": 87,
       }
     },
     {
       "dateOffset": 201,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 158,
-        "DOW": 93,
-        "total": 251
+        "dayOfWeek": 93,
       }
     },
     {
       "dateOffset": 202,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 83,
-        "DOW": 88,
-        "total": 171
+        "dayOfWeek": 88,
       }
     },
     {
       "dateOffset": 203,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 93,
-        "DOW": 19,
-        "total": 112
+        "dayOfWeek": 19,
       }
     },
     {
       "dateOffset": 204,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 79,
-        "DOW": 150,
-        "total": 229
+        "dayOfWeek": 150,
       }
     },
     {
       "dateOffset": 205,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 123,
-        "DOW": 44,
-        "total": 167
+        "dayOfWeek": 44,
       }
     },
     {
       "dateOffset": 206,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 141,
-        "DOW": 55,
-        "total": 196
+        "dayOfWeek": 55,
       }
     },
     {
       "dateOffset": 207,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 100,
-        "DOW": 28,
-        "total": 128
+        "dayOfWeek": 28,
       }
     },
     {
       "dateOffset": 208,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 69,
-        "DOW": 79,
-        "total": 148
+        "dayOfWeek": 79,
       }
     },
     {
       "dateOffset": 209,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 76,
-        "DOW": 27,
-        "total": 103
+        "dayOfWeek": 27,
       }
     },
     {
       "dateOffset": 210,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 64,
-        "DOW": 22,
-        "total": 86
+        "dayOfWeek": 22,
       }
     },
     {
       "dateOffset": 211,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 149,
-        "DOW": 122,
-        "total": 271
+        "dayOfWeek": 122,
       }
     },
     {
       "dateOffset": 212,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 103,
-        "DOW": 66,
-        "total": 169
+        "dayOfWeek": 66,
       }
     },
     {
       "dateOffset": 213,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 77,
-        "DOW": 15,
-        "total": 92
+        "dayOfWeek": 15,
       }
     },
     {
       "dateOffset": 214,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 66,
-        "DOW": 279,
-        "total": 345
+        "dayOfWeek": 279,
       }
     },
     {
       "dateOffset": 215,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 144,
-        "DOW": 53,
-        "total": 197
+        "dayOfWeek": 53,
       }
     },
     {
       "dateOffset": 216,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 88,
-        "DOW": 102,
-        "total": 190
+        "dayOfWeek": 102,
       }
     },
     {
       "dateOffset": 217,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 71,
-        "DOW": 44,
-        "total": 115
+        "dayOfWeek": 44,
       }
     },
     {
       "dateOffset": 218,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 193,
-        "DOW": 31,
-        "total": 224
+        "dayOfWeek": 31,
       }
     },
     {
       "dateOffset": 219,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 113,
-        "DOW": 140,
-        "total": 253
+        "dayOfWeek": 140,
       }
     },
     {
       "dateOffset": 220,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 347,
-        "DOW": 33,
-        "total": 380
+        "dayOfWeek": 33,
       }
     },
     {
       "dateOffset": 221,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 75,
-        "DOW": 130,
-        "total": 205
+        "dayOfWeek": 130,
       }
     },
     {
       "dateOffset": 222,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 272,
-        "DOW": 39,
-        "total": 311
+        "dayOfWeek": 39,
       }
     },
     {
       "dateOffset": 223,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 96,
-        "DOW": 147,
-        "total": 243
+        "dayOfWeek": 147,
       }
     },
     {
       "dateOffset": 224,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 173,
-        "DOW": 49,
-        "total": 222
+        "dayOfWeek": 49,
       }
     },
     {
       "dateOffset": 225,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 60,
-        "DOW": 0,
-        "total": 60
+        "dayOfWeek": 0,
       }
     },
     {
       "dateOffset": 226,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 98,
-        "DOW": 250,
-        "total": 348
+        "dayOfWeek": 250,
       }
     },
     {
       "dateOffset": 227,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 143,
-        "DOW": 46,
-        "total": 189
+        "dayOfWeek": 46,
       }
     },
     {
       "dateOffset": 228,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 65,
-        "DOW": 2,
-        "total": 67
+        "dayOfWeek": 2,
       }
     },
     {
       "dateOffset": 229,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 147,
-        "DOW": 86,
-        "total": 233
+        "dayOfWeek": 86,
       }
     },
     {
       "dateOffset": 230,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 88,
-        "DOW": 146,
-        "total": 234
+        "dayOfWeek": 146,
       }
     },
     {
       "dateOffset": 231,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 77,
-        "DOW": 132,
-        "total": 209
+        "dayOfWeek": 132,
       }
     },
     {
       "dateOffset": 232,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 123,
-        "DOW": 55,
-        "total": 178
+        "dayOfWeek": 55,
       }
     },
     {
       "dateOffset": 233,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 61,
-        "DOW": 91,
-        "total": 152
+        "dayOfWeek": 91,
       }
     },
     {
       "dateOffset": 234,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 341,
-        "DOW": 45,
-        "total": 386
+        "dayOfWeek": 45,
       }
     },
     {
       "dateOffset": 235,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 208,
-        "DOW": 29,
-        "total": 237
+        "dayOfWeek": 29,
       }
     },
     {
       "dateOffset": 236,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 116,
-        "DOW": 151,
-        "total": 267
+        "dayOfWeek": 151,
       }
     },
     {
       "dateOffset": 237,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 236,
-        "DOW": 75,
-        "total": 311
+        "dayOfWeek": 75,
       }
     },
     {
       "dateOffset": 238,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 193,
-        "DOW": 89,
-        "total": 282
+        "dayOfWeek": 89,
       }
     },
     {
       "dateOffset": 239,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 96,
-        "DOW": 122,
-        "total": 218
+        "dayOfWeek": 122,
       }
     },
     {
       "dateOffset": 240,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 89,
-        "DOW": 81,
-        "total": 170
+        "dayOfWeek": 81,
       }
     },
     {
       "dateOffset": 241,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 66,
-        "DOW": 93,
-        "total": 159
+        "dayOfWeek": 93,
       }
     },
     {
       "dateOffset": 242,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 157,
-        "DOW": 196,
-        "total": 353
+        "dayOfWeek": 196,
       }
     },
     {
       "dateOffset": 243,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 113,
-        "DOW": 210,
-        "total": 323
+        "dayOfWeek": 210,
       }
     },
     {
       "dateOffset": 244,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 263,
-        "DOW": 119,
-        "total": 382
+        "dayOfWeek": 119,
       }
     },
     {
       "dateOffset": 245,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 121,
-        "DOW": 266,
-        "total": 387
+        "dayOfWeek": 266,
       }
     },
     {
       "dateOffset": 246,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 125,
-        "DOW": 13,
-        "total": 138
+        "dayOfWeek": 13,
       }
     },
     {
       "dateOffset": 247,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 288,
-        "DOW": 41,
-        "total": 329
+        "dayOfWeek": 41,
       }
     },
     {
       "dateOffset": 248,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 213,
-        "DOW": 110,
-        "total": 323
+        "dayOfWeek": 110,
       }
     },
     {
       "dateOffset": 249,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 71,
-        "DOW": 0,
-        "total": 71
+        "dayOfWeek": 0,
       }
     },
     {
       "dateOffset": 250,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 125,
-        "DOW": 69,
-        "total": 194
+        "dayOfWeek": 69,
       }
     },
     {
       "dateOffset": 251,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 142,
-        "DOW": 130,
-        "total": 272
+        "dayOfWeek": 130,
       }
     },
     {
       "dateOffset": 252,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 162,
-        "DOW": 29,
-        "total": 191
+        "dayOfWeek": 29,
       }
     },
     {
       "dateOffset": 253,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 85,
-        "DOW": 251,
-        "total": 336
+        "dayOfWeek": 251,
       }
     },
     {
       "dateOffset": 254,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 116,
-        "DOW": 109,
-        "total": 225
+        "dayOfWeek": 109,
       }
     },
     {
       "dateOffset": 255,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 273,
-        "DOW": 100,
-        "total": 373
+        "dayOfWeek": 100,
       }
     },
     {
       "dateOffset": 256,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 194,
-        "DOW": 69,
-        "total": 263
+        "dayOfWeek": 69,
       }
     },
     {
       "dateOffset": 257,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 105,
-        "DOW": 22,
-        "total": 127
+        "dayOfWeek": 22,
       }
     },
     {
       "dateOffset": 258,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 205,
-        "DOW": 99,
-        "total": 304
+        "dayOfWeek": 99,
       }
     },
     {
       "dateOffset": 259,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 62,
-        "DOW": 7,
-        "total": 69
+        "dayOfWeek": 7,
       }
     },
     {
       "dateOffset": 260,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 183,
-        "DOW": 69,
-        "total": 252
+        "dayOfWeek": 69,
       }
     },
     {
       "dateOffset": 261,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 101,
-        "DOW": 209,
-        "total": 310
+        "dayOfWeek": 209,
       }
     },
     {
       "dateOffset": 262,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 107,
-        "DOW": 206,
-        "total": 313
+        "dayOfWeek": 206,
       }
     },
     {
       "dateOffset": 263,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 151,
-        "DOW": 191,
-        "total": 342
+        "dayOfWeek": 191,
       }
     },
     {
       "dateOffset": 264,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 256,
-        "DOW": 18,
-        "total": 274
+        "dayOfWeek": 18,
       }
     },
     {
       "dateOffset": 265,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 72,
-        "DOW": 15,
-        "total": 87
+        "dayOfWeek": 15,
       }
     },
     {
       "dateOffset": 266,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 176,
-        "DOW": 7,
-        "total": 183
+        "dayOfWeek": 7,
       }
     },
     {
       "dateOffset": 267,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 242,
-        "DOW": 111,
-        "total": 353
+        "dayOfWeek": 111,
       }
     },
     {
       "dateOffset": 268,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 80,
-        "DOW": 84,
-        "total": 164
+        "dayOfWeek": 84,
       }
     },
     {
       "dateOffset": 269,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 365,
-        "DOW": 28,
-        "total": 393
+        "dayOfWeek": 28,
       }
     },
     {
       "dateOffset": 270,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 130,
-        "DOW": 261,
-        "total": 391
+        "dayOfWeek": 261,
       }
     },
     {
       "dateOffset": 271,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 230,
-        "DOW": 102,
-        "total": 332
+        "dayOfWeek": 102,
       }
     },
     {
       "dateOffset": 272,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 169,
-        "DOW": 94,
-        "total": 263
+        "dayOfWeek": 94,
       }
     },
     {
       "dateOffset": 273,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 78,
-        "DOW": 295,
-        "total": 373
+        "dayOfWeek": 295,
       }
     },
     {
       "dateOffset": 274,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 183,
-        "DOW": 119,
-        "total": 302
+        "dayOfWeek": 119,
       }
     },
     {
       "dateOffset": 275,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 257,
-        "DOW": 20,
-        "total": 277
+        "dayOfWeek": 20,
       }
     },
     {
       "dateOffset": 276,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 172,
-        "DOW": 17,
-        "total": 189
+        "dayOfWeek": 17,
       }
     },
     {
       "dateOffset": 277,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 69,
-        "DOW": 156,
-        "total": 225
+        "dayOfWeek": 156,
       }
     },
     {
       "dateOffset": 278,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 115,
-        "DOW": 102,
-        "total": 217
+        "dayOfWeek": 102,
       }
     },
     {
       "dateOffset": 279,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 113,
-        "DOW": 216,
-        "total": 329
+        "dayOfWeek": 216,
       }
     },
     {
       "dateOffset": 280,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 187,
-        "DOW": 81,
-        "total": 268
+        "dayOfWeek": 81,
       }
     },
     {
       "dateOffset": 281,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 109,
-        "DOW": 105,
-        "total": 214
+        "dayOfWeek": 105,
       }
     },
     {
       "dateOffset": 282,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 138,
-        "DOW": 108,
-        "total": 246
+        "dayOfWeek": 108,
       }
     },
     {
       "dateOffset": 283,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 296,
-        "DOW": 2,
-        "total": 298
+        "dayOfWeek": 2,
       }
     },
     {
       "dateOffset": 284,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 112,
-        "DOW": 35,
-        "total": 147
+        "dayOfWeek": 35,
       }
     },
     {
       "dateOffset": 285,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 93,
-        "DOW": 209,
-        "total": 302
+        "dayOfWeek": 209,
       }
     },
     {
       "dateOffset": 286,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 66,
-        "DOW": 130,
-        "total": 196
+        "dayOfWeek": 130,
       }
     },
     {
       "dateOffset": 287,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 191,
-        "DOW": 159,
-        "total": 350
+        "dayOfWeek": 159,
       }
     },
     {
       "dateOffset": 288,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 93,
-        "DOW": 9,
-        "total": 102
+        "dayOfWeek": 9,
       }
     },
     {
       "dateOffset": 289,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 70,
-        "DOW": 224,
-        "total": 294
+        "dayOfWeek": 224,
       }
     },
     {
       "dateOffset": 290,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 187,
-        "DOW": 10,
-        "total": 197
+        "dayOfWeek": 10,
       }
     },
     {
       "dateOffset": 291,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 242,
-        "DOW": 8,
-        "total": 250
+        "dayOfWeek": 8,
       }
     },
     {
       "dateOffset": 292,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 147,
-        "DOW": 223,
-        "total": 370
+        "dayOfWeek": 223,
       }
     },
     {
       "dateOffset": 293,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 79,
-        "DOW": 105,
-        "total": 184
+        "dayOfWeek": 105,
       }
     },
     {
       "dateOffset": 294,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 74,
-        "DOW": 166,
-        "total": 240
+        "dayOfWeek": 166,
       }
     },
     {
       "dateOffset": 295,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 78,
-        "DOW": 86,
-        "total": 164
+        "dayOfWeek": 86,
       }
     },
     {
       "dateOffset": 296,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 160,
-        "DOW": 122,
-        "total": 282
+        "dayOfWeek": 122,
       }
     },
     {
       "dateOffset": 297,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 139,
-        "DOW": 39,
-        "total": 178
+        "dayOfWeek": 39,
       }
     },
     {
       "dateOffset": 298,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 167,
-        "DOW": 26,
-        "total": 193
+        "dayOfWeek": 26,
       }
     },
     {
       "dateOffset": 299,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 75,
-        "DOW": 36,
-        "total": 111
+        "dayOfWeek": 36,
       }
     },
     {
       "dateOffset": 300,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 111,
-        "DOW": 285,
-        "total": 396
+        "dayOfWeek": 285,
       }
     },
     {
       "dateOffset": 301,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 258,
-        "DOW": 6,
-        "total": 264
+        "dayOfWeek": 6,
       }
     },
     {
       "dateOffset": 302,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 165,
-        "DOW": 120,
-        "total": 285
+        "dayOfWeek": 120,
       }
     },
     {
       "dateOffset": 303,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 251,
-        "DOW": 132,
-        "total": 383
+        "dayOfWeek": 132,
       }
     },
     {
       "dateOffset": 304,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 129,
-        "DOW": 187,
-        "total": 316
+        "dayOfWeek": 187,
       }
     },
     {
       "dateOffset": 305,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 79,
-        "DOW": 48,
-        "total": 127
+        "dayOfWeek": 48,
       }
     },
     {
       "dateOffset": 306,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 65,
-        "DOW": 0,
-        "total": 65
+        "dayOfWeek": 0,
       }
     },
     {
       "dateOffset": 307,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 134,
-        "DOW": 144,
-        "total": 278
+        "dayOfWeek": 144,
       }
     },
     {
       "dateOffset": 308,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 250,
-        "DOW": 77,
-        "total": 327
+        "dayOfWeek": 77,
       }
     },
     {
       "dateOffset": 309,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 105,
-        "DOW": 229,
-        "total": 334
+        "dayOfWeek": 229,
       }
     },
     {
       "dateOffset": 310,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 113,
-        "DOW": 55,
-        "total": 168
+        "dayOfWeek": 55,
       }
     },
     {
       "dateOffset": 311,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 291,
-        "DOW": 51,
-        "total": 342
+        "dayOfWeek": 51,
       }
     },
     {
       "dateOffset": 312,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 63,
-        "DOW": 7,
-        "total": 70
+        "dayOfWeek": 7,
       }
     },
     {
       "dateOffset": 313,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 353,
-        "DOW": 40,
-        "total": 393
+        "dayOfWeek": 40,
       }
     },
     {
       "dateOffset": 314,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 60,
-        "DOW": 3,
-        "total": 63
+        "dayOfWeek": 3,
       }
     },
     {
       "dateOffset": 315,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 67,
-        "DOW": 109,
-        "total": 176
+        "dayOfWeek": 109,
       }
     },
     {
       "dateOffset": 316,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 96,
-        "DOW": 51,
-        "total": 147
+        "dayOfWeek": 51,
       }
     },
     {
       "dateOffset": 317,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 113,
-        "DOW": 174,
-        "total": 287
+        "dayOfWeek": 174,
       }
     },
     {
       "dateOffset": 318,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 250,
-        "DOW": 47,
-        "total": 297
+        "dayOfWeek": 47,
       }
     },
     {
       "dateOffset": 319,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 68,
-        "DOW": 26,
-        "total": 94
+        "dayOfWeek": 26,
       }
     },
     {
       "dateOffset": 320,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 66,
-        "DOW": 4,
-        "total": 70
+        "dayOfWeek": 4,
       }
     },
     {
       "dateOffset": 321,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 61,
-        "DOW": 0,
-        "total": 61
+        "dayOfWeek": 0,
       }
     },
     {
       "dateOffset": 322,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 335,
-        "DOW": 14,
-        "total": 349
+        "dayOfWeek": 14,
       }
     },
     {
       "dateOffset": 323,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 207,
-        "DOW": 186,
-        "total": 393
+        "dayOfWeek": 186,
       }
     },
     {
       "dateOffset": 324,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 118,
-        "DOW": 38,
-        "total": 156
+        "dayOfWeek": 38,
       }
     },
     {
       "dateOffset": 325,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 155,
-        "DOW": 7,
-        "total": 162
+        "dayOfWeek": 7,
       }
     },
     {
       "dateOffset": 326,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 173,
-        "DOW": 83,
-        "total": 256
+        "dayOfWeek": 83,
       }
     },
     {
       "dateOffset": 327,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 145,
-        "DOW": 11,
-        "total": 156
+        "dayOfWeek": 11,
       }
     },
     {
       "dateOffset": 328,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 78,
-        "DOW": 0,
-        "total": 78
+        "dayOfWeek": 0,
       }
     },
     {
       "dateOffset": 329,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 106,
-        "DOW": 109,
-        "total": 215
+        "dayOfWeek": 109,
       }
     },
     {
       "dateOffset": 330,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 231,
-        "DOW": 2,
-        "total": 233
+        "dayOfWeek": 2,
       }
     },
     {
       "dateOffset": 331,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 333,
-        "DOW": 7,
-        "total": 340
+        "dayOfWeek": 7,
       }
     },
     {
       "dateOffset": 332,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 206,
-        "DOW": 20,
-        "total": 226
+        "dayOfWeek": 20,
       }
     },
     {
       "dateOffset": 333,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 194,
-        "DOW": 147,
-        "total": 341
+        "dayOfWeek": 147,
       }
     },
     {
       "dateOffset": 334,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 101,
-        "DOW": 82,
-        "total": 183
+        "dayOfWeek": 82,
       }
     },
     {
       "dateOffset": 335,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 102,
-        "DOW": 117,
-        "total": 219
+        "dayOfWeek": 117,
       }
     },
     {
       "dateOffset": 336,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 177,
-        "DOW": 158,
-        "total": 335
+        "dayOfWeek": 158,
       }
     },
     {
       "dateOffset": 337,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 150,
-        "DOW": 181,
-        "total": 331
+        "dayOfWeek": 181,
       }
     },
     {
       "dateOffset": 338,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 129,
-        "DOW": 154,
-        "total": 283
+        "dayOfWeek": 154,
       }
     },
     {
       "dateOffset": 339,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 278,
-        "DOW": 0,
-        "total": 278
+        "dayOfWeek": 0,
       }
     },
     {
       "dateOffset": 340,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 110,
-        "DOW": 187,
-        "total": 297
+        "dayOfWeek": 187,
       }
     },
     {
       "dateOffset": 341,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 156,
-        "DOW": 64,
-        "total": 220
+        "dayOfWeek": 64,
       }
     },
     {
       "dateOffset": 342,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 122,
-        "DOW": 41,
-        "total": 163
+        "dayOfWeek": 41,
       }
     },
     {
       "dateOffset": 343,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 84,
-        "DOW": 8,
-        "total": 92
+        "dayOfWeek": 8,
       }
     },
     {
       "dateOffset": 344,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 126,
-        "DOW": 34,
-        "total": 160
+        "dayOfWeek": 34,
       }
     },
     {
       "dateOffset": 345,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 306,
-        "DOW": 90,
-        "total": 396
+        "dayOfWeek": 90,
       }
     },
     {
       "dateOffset": 346,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 64,
-        "DOW": 230,
-        "total": 294
+        "dayOfWeek": 230,
       }
     },
     {
       "dateOffset": 347,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 240,
-        "DOW": 117,
-        "total": 357
+        "dayOfWeek": 117,
       }
     },
     {
       "dateOffset": 348,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 182,
-        "DOW": 177,
-        "total": 359
+        "dayOfWeek": 177,
       }
     },
     {
       "dateOffset": 349,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 150,
-        "DOW": 103,
-        "total": 253
+        "dayOfWeek": 103,
       }
     },
     {
       "dateOffset": 350,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 66,
-        "DOW": 71,
-        "total": 137
+        "dayOfWeek": 71,
       }
     },
     {
       "dateOffset": 351,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 148,
-        "DOW": 23,
-        "total": 171
+        "dayOfWeek": 23,
       }
     },
     {
       "dateOffset": 352,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 80,
-        "DOW": 146,
-        "total": 226
+        "dayOfWeek": 146,
       }
     },
     {
       "dateOffset": 353,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 63,
-        "DOW": 28,
-        "total": 91
+        "dayOfWeek": 28,
       }
     },
     {
       "dateOffset": 354,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 315,
-        "DOW": 70,
-        "total": 385
+        "dayOfWeek": 70,
       }
     },
     {
       "dateOffset": 355,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 303,
-        "DOW": 42,
-        "total": 345
+        "dayOfWeek": 42,
       }
     },
     {
       "dateOffset": 356,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 60,
-        "DOW": 5,
-        "total": 65
+        "dayOfWeek": 5,
       }
     },
     {
       "dateOffset": 357,
       "isBlocked": true,
-      "rate": {
+      "factor": {
         "seasonal": 144,
-        "DOW": 128,
-        "total": 272
+        "dayOfWeek": 128,
       }
     },
     {
       "dateOffset": 358,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 74,
-        "DOW": 13,
-        "total": 87
+        "dayOfWeek": 13,
       }
     },
     {
       "dateOffset": 359,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 61,
-        "DOW": 2,
-        "total": 63
+        "dayOfWeek": 2,
       }
     },
     {
       "dateOffset": 360,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 121,
-        "DOW": 56,
-        "total": 177
+        "dayOfWeek": 56,
       }
     },
     {
       "dateOffset": 361,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 216,
-        "DOW": 113,
-        "total": 329
+        "dayOfWeek": 113,
       }
     },
     {
       "dateOffset": 362,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 74,
-        "DOW": 11,
-        "total": 85
+        "dayOfWeek": 11,
       }
     },
     {
       "dateOffset": 363,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 187,
-        "DOW": 118,
-        "total": 305
+        "dayOfWeek": 118,
       }
     },
     {
       "dateOffset": 364,
       "isBlocked": false,
-      "rate": {
+      "factor": {
         "seasonal": 223,
-        "DOW": 153,
-        "total": 376
+        "dayOfWeek": 153,
       }
     }
   ]

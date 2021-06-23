@@ -51,7 +51,7 @@ describe('Listing Component', () => {
         await renderComponent()
         const bedCountEl = screen.getByTestId('listing-bed-count')
         expect(bedCountEl).toBeInTheDocument()
-        expect(bedCountEl).toHaveTextContent(`${MOCK_LISTING.bed}`)
+        expect(bedCountEl).toHaveTextContent(`${MOCK_LISTING.beds}`)
     })
 
     test(`Displays listing picture if viewType is "card"`, async () => {
@@ -61,12 +61,12 @@ describe('Listing Component', () => {
         expect(pictureEl).toHaveAttribute('src', MOCK_LISTING.picture)
     })
 
-    test(`Displays listing ranking if viewType is "card"`, async () => {
+    test(`Displays listing health if viewType is "card"`, async () => {
         await renderComponent()
-        const rankingEl = screen.getByTestId('listing-ranking')
-        const rankingPercent = numToPercent(MOCK_LISTING.ranking)
-        expect(rankingEl).toBeInTheDocument()
-        expect(rankingEl).toHaveTextContent(rankingPercent)
+        const healthEl = screen.getByTestId('listing-health')
+        const healthPercent = numToPercent(MOCK_LISTING.health)
+        expect(healthEl).toBeInTheDocument()
+        expect(healthEl).toHaveTextContent(healthPercent)
     })
 
     /* Tests for DETAILS VIEW */
@@ -82,7 +82,7 @@ describe('Listing Component', () => {
         await renderComponent(DETAILS_VIEW_PROPS)
         const bedCountEl = screen.getByTestId('listing-bed-count')
         expect(bedCountEl).toBeInTheDocument()
-        expect(bedCountEl).toHaveTextContent(`${MOCK_LISTING.bed} bedrooms`)
+        expect(bedCountEl).toHaveTextContent(`${MOCK_LISTING.beds} bedrooms`)
     })
 
     test(`Does NOT display listing picture if viewType is "details"`, async () => {
