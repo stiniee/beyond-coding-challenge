@@ -71,3 +71,14 @@
 .dashboard_listings-container .listing{
     margin-bottom: 0.4em;
 }
+
+
+/*----------------------------------------------------------
+    Responsive
+----------------------------------------------------------*/
+@media only screen and (max-width: 640px) {
+    .dashboard_listings-container .listing  {
+        margin-bottom: 1em;
+    }
+ 
+} 
