@@ -13,7 +13,7 @@ import './dashboard.css'
  */
 const Dashboard = (): JSX.Element => {
     const [listings, setListings] = useState([])
-    const [sortHealth, setSortHealth] = useState<string | null>(null)
+    const [sortHealth, setSortHealth] = useState<string | null>('desc')
 
     /*--------------------------------------------------------------------
         Listings
