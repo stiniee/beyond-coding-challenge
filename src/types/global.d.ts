@@ -18,6 +18,9 @@ declare type DP<T> = {
     [P in keyof T]?: DP<T[P]>
 }
 
+/* MOCK */
+declare type FetchMock = import('fetch-mock').FetchMockSandbox
+
 /* API */
 
 // Listings

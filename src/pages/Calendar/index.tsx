@@ -38,6 +38,7 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
                     formatShortWeekday={(locale, date) =>
                         getDayOfWeekLong(date)
                     }
+                    className="react-calendar"
                     tileClassName="calendar_calendar-tile"
                     // Show the total price on each title
                     tileContent={(data: any) => {
@@ -68,7 +69,11 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
                     next2Label={null}
                 />
                 {dateDetails ? (
-                    <DatePopover id="dateDetails" data={dateDetails} />
+                    <DatePopover
+                        id="datePopover"
+                        data={dateDetails}
+                        data-testid="date-popover"
+                    />
                 ) : null}
             </div>
         </div>

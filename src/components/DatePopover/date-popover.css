@@ -21,7 +21,7 @@
     justify-content: center;
 }
 
-.date-popover_header-blocked-chip {
+.date-popover_header-blocked-status {
     position: absolute;
     top: 0.5em;
     left:  0.5em;
@@ -46,12 +46,12 @@
     border-top: 1px solid var(--grey-5);
     margin: 1em 0;
 }
-.date-popover_details {
+.date-popover_price-details {
     position: relative;
     top: 8em;
  }
 
-.date-popover_detail {
+.date-popover_price-detail {
     display: flex;
     justify-content: space-between;
     margin: 0.5em 0;

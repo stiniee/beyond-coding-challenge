@@ -5,7 +5,6 @@ import './dashboard.css'
 
 // interface DashboardProps {}
 
-const LISTING_HEADERS = {}
 /**
  * Displays a list of all the user's listings with a link to the calendar
  * @returns JSX.Element
@@ -25,7 +24,7 @@ const Dashboard = (): JSX.Element => {
     }, [])
 
     return (
-        <div className="dashboard">
+        <div className="dashboard" data-testid="dashboard-page">
             {listings.length ? (
                 <div className="dashboard_listings">
                     <div className="dashboard_listings-header">

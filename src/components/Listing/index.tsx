@@ -40,6 +40,7 @@ const Listing = ({
             onClick={handleClick}
             role="row"
             tabIndex={0}
+            data-testid="listing"
         >
             {viewType === 'card' ? (
                 <>
