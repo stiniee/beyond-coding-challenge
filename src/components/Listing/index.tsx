@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon from '@mdi/react'
 import { Link } from 'react-router-dom'
-import { mdiBedKing, mdiChevronDoubleUp } from '@mdi/js'
+import { mdiBedKing } from '@mdi/js'
 import { numToScore } from '../../utils/formatting-utils'
 import './listing.css'
 

@@ -2,13 +2,15 @@
     --primary: #0E979F;
     --primary-light: #5BC5CE;
     --primary-dark: #0A6A70;
+    --secondary: #374051;
     --white: #FFFFFF;
-    --light: #FBFBFC;
-    --light-2: #FAFAFA;
+    --light: #F6F7F9;
+    --light-2: #F7F9FA;
+    --light-3: #e9e9e9;
     --grey: #DFDFDF;
     --grey-2: #9E9E9E;
     --grey-3: #848484;
-    --grey-4: #374051;
+    --grey-4: #595959;
     --grey-5: #474747;
     --dark: #333333;
     --dark-2: #1a1a1a;

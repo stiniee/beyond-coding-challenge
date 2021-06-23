@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react'
+import Icon from '@mdi/react'
+import { mdiMenuDown, mdiMenuUp } from '@mdi/js'
 import Listing from '../../components/Listing'
 import ListingsApi from '../../api/listings-api'
 import './dashboard.css'
@@ -11,6 +13,15 @@ import './dashboard.css'
  */
 const Dashboard = (): JSX.Element => {
     const [listings, setListings] = useState([])
+    const [sortHealth, setSortHealth] = useState<string | null>(null)
+
+    // Handles setting health sort order to 'asc', 'desc', or toggled off
+    const handleSetSortHealth = (sortOrder: string): void => {
+        // If already active, toggle off
+        if (sortHealth === sortOrder) setSortHealth(null)
+        // Otherwise set to the sort order
+        else setSortHealth(sortOrder)
+    }
 
     // Gets the listings data from the api
     const fetchListings = async (): Promise<void> => {
@@ -27,10 +38,54 @@ const Dashboard = (): JSX.Element => {
         <div className="dashboard" data-testid="dashboard-page">
             {listings.length ? (
                 <div className="dashboard_listings">
-                    <div className="dashboard_listings-header">
-                        {/* API response is not paginated, 
-                        so we simply show all listings */}
-                        Showing {listings.length}/{listings.length} Listings
+                    <div
+                        className={`dashboard_listings-header${
+                            sortHealth !== null ? ' active' : ''
+                        }`}
+                    >
+                        <div className="dashboard_listings-header-health-label">
+                            Health
+                        </div>
+                        <div className="dashboard_listings-sort">
+                            <div
+                                className={`dashboard_sort-icon caret-up-icon ${
+                                    sortHealth === 'desc' ? ' active' : ''
+                                }`}
+                                role="button"
+                                tabIndex={0}
+                                onKeyDown={() => handleSetSortHealth('desc')}
+                                onClick={() => handleSetSortHealth('desc')}
+                            >
+                                <Icon
+                                    path={mdiMenuUp}
+                                    color={
+                                        sortHealth === 'desc'
+                                            ? '#0E979F'
+                                            : '#B8B8B9'
+                                    }
+                                    size={1}
+                                />
+                            </div>
+                            <div
+                                className={`dashboard_sort-icon caret-down-icon ${
+                                    sortHealth === 'asc' ? ' active' : ''
+                                }`}
+                                role="button"
+                                tabIndex={0}
+                                onKeyDown={() => handleSetSortHealth('asc')}
+                                onClick={() => handleSetSortHealth('asc')}
+                            >
+                                <Icon
+                                    path={mdiMenuDown}
+                                    color={
+                                        sortHealth === 'asc'
+                                            ? '#0E979F'
+                                            : '#B8B8B9'
+                                    }
+                                    size={1}
+                                />
+                            </div>
+                        </div>
                     </div>
                     <ul className="dashboard_listings-container">
                         {listings.map((listing: IListing) => {

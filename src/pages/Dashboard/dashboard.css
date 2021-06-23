@@ -16,12 +16,53 @@
     border-spacing: 0;
 }
 
+/* Listings Header */
+
 .dashboard_listings-header {
-   border: 1px solid var(--grey);
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   border: 1px solid var(--light-3);
    border-bottom: none;
-   padding: 0.5em;
+   padding: 0 0.5em;
    background-color: var(--light-2);
    margin: 0;
+}
+
+.dashboard_listings-header.active {
+    color: var(--primary);
+}
+
+.dashboard_listings-header-health-label {
+    color: var(--grey-4);
+    letter-spacing: 2px;
+}
+ 
+.dashboard_listings-sort {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5em;
+}
+
+.dashboard_sort-icon {
+    cursor: pointer;
+}
+
+.dashboard_sort-icon path{
+    transition: 0.2s ease-in;
+}
+
+.dashboard_sort-icon:not(.active):hover path{
+    fill: var(--grey-4) !important
+}
+ 
+
+.caret-up-icon {
+    margin-bottom: -0.5em;
+}
+
+.caret-down-icon {
+    margin-top: -0.5em;
 }
 
 
