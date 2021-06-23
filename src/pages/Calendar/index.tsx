@@ -62,9 +62,7 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
                                     onMouseOver={() => setDateDetails(dateInfo)}
                                     onFocus={() => setDateDetails(dateInfo)}
                                 />
-                                {!calendarDay.isBlocked ? (
-                                    <div>${calendarDay.rate.total}</div>
-                                ) : null}
+                                <div>${calendarDay.rate.total}</div>
                             </>
                         ) : null
                     }}
@@ -72,7 +70,7 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
                     prev2Label={null}
                     next2Label={null}
                 />
-                {dateDetails && !dateDetails.isBlocked ? (
+                {dateDetails ? (
                     <DatePopover id="dateDetails" data={dateDetails} />
                 ) : null}
             </div>
