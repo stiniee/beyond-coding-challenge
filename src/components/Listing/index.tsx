@@ -2,7 +2,7 @@ import React from 'react'
 import Icon from '@mdi/react'
 import { Link } from 'react-router-dom'
 import { mdiBedKing, mdiChevronDoubleUp } from '@mdi/js'
-import { numToPercent } from '../../utils/formatting-utils'
+import { numToScore } from '../../utils/formatting-utils'
 import './listing.css'
 
 export interface ListingProps extends DefaultProps {
@@ -95,7 +95,7 @@ const Listing = ({
                             className="listing_health"
                             data-testid="listing-health"
                         >
-                            {numToPercent(data.health)}
+                            {numToScore(data.health)}
                         </span>
                         <div className="listing_health-label">
                             {' '}

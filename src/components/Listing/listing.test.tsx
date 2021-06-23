@@ -4,7 +4,7 @@ import { MemoryRouter } from 'react-router-dom'
 import { render, screen, cleanup } from '@testing-library/react'
 import { MOCK_LISTINGS } from '../../api/__mocks__/listings'
 import Listing, { ListingProps } from './index'
-import { numToPercent } from '../../utils/formatting-utils'
+import { numToScore } from '../../utils/formatting-utils'
 
 const MOCK_LISTING = MOCK_LISTINGS[0]
 const DETAILS_VIEW_PROPS: any = {
@@ -64,9 +64,9 @@ describe('Listing Component', () => {
     test(`Displays listing health if viewType is "card"`, async () => {
         await renderComponent()
         const healthEl = screen.getByTestId('listing-health')
-        const healthPercent = numToPercent(MOCK_LISTING.health)
+        const healthScore = numToScore(MOCK_LISTING.health)
         expect(healthEl).toBeInTheDocument()
-        expect(healthEl).toHaveTextContent(healthPercent)
+        expect(healthEl).toHaveTextContent(healthScore)
     })
 
     /* Tests for DETAILS VIEW */
