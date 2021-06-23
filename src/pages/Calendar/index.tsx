@@ -6,8 +6,6 @@ import CalendarApi from '../../api/calendar-api'
 import { getDayOfWeekLong, getDayOfYear } from '../../utils/date-utils'
 import './calendar.css'
 
-// interface CalendarProps {}
-
 /**
  * Displays a listing's calendar that contains
  * all the dates and their information
@@ -22,7 +20,6 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
     // Gets the calendar data from the api
     const fetchCalendar = async (): Promise<void> => {
         const res = await CalendarApi.getCalendar(listingId)
-        console.log('CalendarApi res: ', res)
         setCalendar(res.days)
     }
 
@@ -31,11 +28,11 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
         fetchCalendar()
     }, [])
     return (
-        <div className="calendar">
+        <div className="calendar" data-testid="calendar-page">
             <Link className="calendar_back-to-listings" to="/">
                 Back to listings
             </Link>
-            <div className="calendar_calendar-container">
+            <div className="calendar_calendar-container" data-testid="calendar">
                 <ReactCalendar
                     locale="en-US"
                     formatShortWeekday={(locale, date) =>
