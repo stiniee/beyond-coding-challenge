@@ -70,11 +70,11 @@ describe('DatePopover Component', () => {
 
             if (key === 'seasonal' || key === 'dayOfWeek') {
                 expect(priceEl[0]).toHaveTextContent(
-                    `+ $${factors[key as PriceType]}`
+                    `+ $${factors[key as FactorType]}`
                 )
             } else {
                 expect(priceEl[0]).toHaveTextContent(
-                    `$${factors[key as PriceType]}`
+                    `$${factors[key as FactorType]}`
                 )
             }
         })

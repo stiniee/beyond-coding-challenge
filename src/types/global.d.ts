@@ -34,14 +34,16 @@ declare interface IListing {
 }
 
 // Calendar
-declare type PriceType = 'dayOfWeek' | 'seasonal'
-declare type Factor = Record<PriceType, number>
-
-declare interface IDateDetails extends ICalendarDay {
-    date: string
-}
+declare type FactorType = 'dayOfWeek' | 'seasonal'
+declare type PriceType = FactorType | 'basePrice' | 'predictedPrice'
+declare type Factor = Record<FactorType, number>
 
 declare interface ICalendarDay {
     isBlocked: boolean
     factors: Factor
+}
+
+declare interface IDateDetails extends ICalendarDay {
+    date: Date
+    calculatedPrices: Record<PriceType, number>
 }
