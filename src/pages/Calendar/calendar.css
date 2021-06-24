@@ -44,7 +44,7 @@
 /* Weekdays */
 .react-calendar .react-calendar__month-view__weekdays {
     font-size: 0.8em;
-    color: var(--grey-2);
+    color: var(--grey-3);
     text-align: left;
     margin-bottom: 1em;
 }
@@ -52,7 +52,6 @@
 .react-calendar .react-calendar__month-view__weekdays abbr{
     text-decoration: none;
 }
-
 
 
 /* Tiles */
@@ -69,6 +68,13 @@
     transition: 0.1s ease-in;
 }
 
+/* Hovered Tile */
+.react-calendar .react-calendar__tile:enabled:hover, .react-calendar__tile:enabled:focus {
+    background-color: var(--white);
+    color: var(--primary);
+}
+
+/* Tile Overlay */
 .react-calendar .calendar_calendar-tile-overlay {
     position: absolute;
     left: 0; 
@@ -79,6 +85,30 @@
     cursor: default;
 }
 
+
+/* Price */
+.react-calendar .calendar_calendar-tile div{
+    font-size: 2em;
+}
+
+
+/* Date number */
+.react-calendar .react-calendar__tile:enabled:hover abbr  {
+     color: var(--grey);
+     text-decoration: none;
+}
+
+.react-calendar .calendar_calendar-tile abbr{
+    font-size: 0.8em;
+    color: var(--light-2);
+    position: absolute;
+    top: 0.5em;
+    left: 0.5em;
+}
+
+
+
+/* Blocked tiles */
 .react-calendar .react-calendar__tile[disabled] , 
 .react-calendar .react-calendar__tile:disabled {
     background-color: var(--light-3);
@@ -96,27 +126,3 @@
  .react-calendar .react-calendar__tile:disabled abbr{
     color: var(--grey-2);
   }
-
-.react-calendar .react-calendar__tile:enabled:hover, .react-calendar__tile:enabled:focus {
-    background-color: var(--white);
-    color: var(--primary);
-}
-
-
-.react-calendar .react-calendar__tile:enabled:hover abbr  {
-     color: var(--grey);
-     text-decoration: none;
-}
-
- 
-.react-calendar .calendar_calendar-tile abbr{
-    font-size: 0.8em;
-    color: var(--light-2);
-    position: absolute;
-    top: 0.5em;
-    left: 0.5em;
-}
-
-.react-calendar .calendar_calendar-tile div{
-    font-size: 2em;
-}
