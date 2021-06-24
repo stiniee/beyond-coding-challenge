@@ -72,7 +72,7 @@ All of these APIs are fully functional, and have been verified to return correct
 
 - GET `http://localhost:1024/listings`
 
-  Returns a list of listings. Listing structure:
+    Returns a list of listings. Listing structure:
     ```
     id -  [int] unique id
     title - [string] The name that represent this listing
@@ -84,24 +84,24 @@ All of these APIs are fully functional, and have been verified to return correct
 
 - GET `http://localhost:1024/calendar/:listingId`
 
-  Returns Calendar's dates. Date structure:
+    Returns Calendar's dates. Date structure:
     ```
     date - [string] ISO date, e.g.: 2020-01-01
     isBlocked - [boolean] True if the day is blocked
     factors - [object] the price factors for that day:
-        seasonal - [float] factors related to the seasonality
-        dayOfWeek - [float] factors related to the day of the week
+        seasonal - [float] factor related to the seasonality
+        dayOfWeek - [float] factor related to the day of the week
     ```
 
 - POST `http://localhost:1024/calendar/:listingId`
 
-  Updates base price of `:listingId` listing.
+    Updates base price of `:listingId` listing.
     ```
     basePrice - [int] the new base price
     ```
-  Example:
+    Example:
 
-  `curl -X POST http://localhost:1024/calendar/1 -H "Content-Type: application/json" --data '{"basePrice": 100}'`
+    `curl -X POST http://localhost:1024/calendar/1 -H "Content-Type: application/json" --data '{"basePrice": 100}'`
 
 
 ## Running the project
