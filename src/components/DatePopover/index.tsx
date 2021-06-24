@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import ReactTooltip from 'react-tooltip'
+import Icon from '@mdi/react'
+import { mdiBlockHelper } from '@mdi/js'
 import { formatDate } from '../../utils/date-utils'
 import './date-popover.css'
 
@@ -47,6 +49,20 @@ const DatePopover = ({
                     >
                         {formatDate(data.date)}
                     </div>
+                    {data.isBlocked ? (
+                        <div
+                            className="date-popover_blocked"
+                            data-testid="date-popover-blocked"
+                        >
+                            <Icon
+                                className="date-popover_blocked-icon"
+                                path={mdiBlockHelper}
+                                color="#e9e9e9"
+                                size={0.6}
+                            />
+                            BLOCKED
+                        </div>
+                    ) : null}
                     <div
                         className="date-popover_header-total"
                         data-testid="date-popover-factors-total"

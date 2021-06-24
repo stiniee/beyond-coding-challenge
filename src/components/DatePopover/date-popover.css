@@ -3,7 +3,7 @@
 }
 
 .date-popover_content {
-    height: 16em;
+    height: 18em;
     width: 20em;
 }
 
@@ -15,7 +15,7 @@
     left: 0;
     right: 0;
     background-color: var(--dark-2);
-    height: 8em;
+    height: 9em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,14 +32,16 @@
 }
 
 .date-popover_header-date{
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin: 1em 0 0.5em;
+    color: var(--white);
 }
 
 .date-popover_header-total{
-    font-size: 2em;
+    font-size: 2.4em;
     font-weight: 600;
     color: var(--primary-light);
+    margin-bottom: 1rem;
 }
 
 .date-popover_content hr {
@@ -49,7 +51,7 @@
 }
 .date-popover_price-details {
     position: relative;
-    top: 8em;
+    top: 9em;
  }
 
 .date-popover_price-detail {
@@ -62,6 +64,8 @@
     font-weight: 700;
 }
 
+/* Add spacing before price based on amount 
+of digits to line up with the other prices */
 .price-digits-1 {
     margin-left: 1em;
 }
@@ -69,3 +73,18 @@
     margin-left: 0.5em;
 }
 
+
+/* Blocked */
+.date-popover_blocked {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--grey);
+    margin-bottom: 0.5em;
+}
+
+.date-popover_blocked-icon{
+    position: relative;
+    margin-right: 0.5em;
+    bottom: 0.1em;
+}

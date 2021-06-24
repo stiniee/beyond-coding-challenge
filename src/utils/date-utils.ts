@@ -17,7 +17,7 @@ export const formatDate = (d: string | Date): string => {
     const date = typeof d === 'string' ? new Date(d) : d
     const formattedDate = date.toLocaleDateString('en-US', {
         year: 'numeric',
-        month: 'short',
+        month: 'long',
         day: 'numeric',
     })
     return formattedDate

@@ -66,6 +66,7 @@
     color: var(--white);
     border: 1px solid var(--light);
     font-size: 1em;
+    transition: 0.1s ease-in;
 }
 
 .react-calendar .calendar_calendar-tile-overlay {
@@ -80,13 +81,20 @@
 
 .react-calendar .react-calendar__tile[disabled] , 
 .react-calendar .react-calendar__tile:disabled {
-    background-color: var(--grey);
+    background-color: var(--light-3);
     color: var(--grey-2);
+    opacity: 0.5;
+}
+
+.react-calendar .react-calendar__tile[disabled]:hover , 
+.react-calendar .react-calendar__tile:disabled:hover {
+    color: var(--primary);
+    opacity: 0.8;
 }
 
  .react-calendar .react-calendar__tile[disabled] abbr, 
  .react-calendar .react-calendar__tile:disabled abbr{
-      color: var(--grey-2);
+    color: var(--grey-2);
   }
 
 .react-calendar .react-calendar__tile:enabled:hover, .react-calendar__tile:enabled:focus {
