@@ -32,13 +32,14 @@
 }
 
 .date-popover_header-date{
+    font-size: 1.2em;
     margin: 1em 0 0.5em;
 }
 
 .date-popover_header-total{
     font-size: 2em;
     font-weight: 600;
-    color: var(--primary);
+    color: var(--primary-light);
 }
 
 .date-popover_content hr {
@@ -56,3 +57,15 @@
     justify-content: space-between;
     margin: 0.5em 0;
 }
+
+.date-popover_price.predicted {
+    font-weight: 700;
+}
+
+.price-digits-1 {
+    margin-left: 1em;
+}
+.price-digits-2 {
+    margin-left: 0.5em;
+}
+

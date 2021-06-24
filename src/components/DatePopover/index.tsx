@@ -14,8 +14,6 @@ const priceLabels: Record<PriceType, any> = {
     predictedPrice: 'Predicted Price',
 }
 
-const lastIndex = Object.keys(priceLabels).length - 1
-
 /**
  * Popover that displays the date details
  * @prop data: The date details
@@ -28,7 +26,6 @@ const DatePopover = ({
     style,
     data,
 }: DatePopoverProps): JSX.Element => {
-    console.log('DatePopover data: ', data)
     return (
         <ReactTooltip
             id={id}
@@ -63,21 +60,37 @@ const DatePopover = ({
                 >
                     {Object.keys(priceLabels).map((key, index) => {
                         const label = priceLabels[key as PriceType]
-                        const isPriceIncrease =
+                        const isFactor =
                             key === 'seasonal' || key === 'dayOfWeek'
-                        const value = data.calculatedPrices[key as PriceType]
+                        const isPredictedPrice = key === 'predictedPrice'
+                        const value = `${
+                            data.calculatedPrices[key as PriceType]
+                        }`
                         return (
                             <div key={key}>
-                                {index === lastIndex ? <hr /> : null}
+                                {isPredictedPrice ? <hr /> : null}
                                 <li
                                     className="date-popover_price-detail"
                                     key={key}
                                 >
-                                    <div className="price-label"> {label} </div>
-                                    <div className="price">
-                                        {isPriceIncrease ? '+ ' : ''}
-                                        {`$${value}`}
+                                    <div
+                                        className={`date-popover_price${
+                                            isPredictedPrice ? ' predicted' : ''
+                                        }`}
+                                    >
+                                        {isFactor ? (
+                                            '+ '
+                                        ) : (
+                                            <span>&nbsp;&nbsp;&nbsp;</span>
+                                        )}
+                                        $
+                                        <span
+                                            className={`price-digits-${value.length}`}
+                                        >
+                                            {value}
+                                        </span>
                                     </div>
+                                    <div className="price-label"> {label} </div>
                                 </li>
                             </div>
                         )
