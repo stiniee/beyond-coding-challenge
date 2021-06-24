@@ -54,7 +54,7 @@ const DatePopover = ({
                         className="date-popover_header-total"
                         data-testid="date-popover-factors-total"
                     >
-                        {/* @CTRAN TOTAL HERE */}
+                        ${data.calculatedPrices.predictedPrice}
                     </div>
                 </div>
                 <ul
