@@ -1,7 +1,7 @@
 /**
  * Takes in the basePrice and factors (seasonal and dayOfWeek),
  * and returns all the calculated prices as an object of PriceType keys
- * (i.e basePrice, seasonal, dayOfWeek, total) to each their respective calculated prices
+ * (i.e basePrice, seasonal, dayOfWeek, predictedPrice) to each their respective calculated prices
  * @param basePrice The base minimum price
  * @param seasonal The price change factor based on the season
  * @param dayOfWeek The price change factor based on the day of week

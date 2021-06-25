@@ -5,6 +5,15 @@ declare interface DefaultProps {
     style?: React.CSSProperties
 }
 
+declare interface IDateConfig {
+    locales?: string | string[]
+    options?: {
+        year?: 'numeric' | '2-digit'
+        month?: 'short' | 'long'
+        day?: 'numeric' | '2-digit'
+    }
+}
+
 /* Route */
 interface IRouterProps {
     match?: Record<string, any>

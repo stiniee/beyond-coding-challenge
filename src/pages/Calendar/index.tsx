@@ -13,7 +13,7 @@ import Listing from '../../components/Listing'
 import DatePopover from '../../components/DatePopover'
 import Input from '../../components/Input'
 import CalendarApi from '../../api/calendar-api'
-import { getDayOfWeekLong, getDayOfYear } from '../../utils/date-utils'
+import { getDayOfWeekLong, getDayOfYearIndex } from '../../utils/date-utils'
 import { getCalculatedPrices } from '../../utils/calculation-utils'
 import './calendar.css'
 
@@ -56,7 +56,7 @@ const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
 
     // Gets the calendar day based on the day of year index
     const getCalendarDay = (date: Date): ICalendarDay => {
-        const dayOfYear = getDayOfYear(date)
+        const dayOfYear = getDayOfYearIndex(date)
         const calendarDay: ICalendarDay = calendar[dayOfYear]
         return calendarDay
     }
