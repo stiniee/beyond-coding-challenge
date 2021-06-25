@@ -58,7 +58,9 @@ const Listing = ({
                             <Link
                                 to={{
                                     pathname: `/${data.id}`,
-                                    search: `?currency="${data.currency}"`,
+                                    state: {
+                                        listingData: data,
+                                    },
                                 }}
                                 data-testid="listing-title-link"
                             >

@@ -3,18 +3,18 @@ const MomentRange = require('moment-range')
 
 const moment = MomentRange.extendMoment(Moment)
 
+const getFactorValue = (sign) => {
+    if (sign > 0) return parseFloat(Math.random().toFixed(2))
+    // Only allow deduction of values between 0 and 0.3
+    return parseFloat(-(Math.random() * (0.3 - 0)).toFixed(2))
+}
+
 const generateDay = (day) => {
-    const sign = Math.round(Math.random()) ? 1 : -1
-    let seasonal = 0
-    let dayOfWeek = 0
-    if (sign > 0) {
-        seasonal = parseFloat(Math.random().toFixed(2))
-        dayOfWeek = parseFloat(Math.random().toFixed(2))
-    } else {
-        // Only allow deduction of values between 0 and 0.3
-        seasonal = parseFloat(-(Math.random() * (0.3 - 0)).toFixed(2))
-        dayOfWeek = parseFloat(-(Math.random() * (0.3 - 0)).toFixed(2))
-    }
+    const sign1 = Math.round(Math.random()) ? 1 : -1
+    const sign2 = Math.round(Math.random()) ? 1 : -1
+
+    const seasonal = getFactorValue(sign1)
+    const dayOfWeek = getFactorValue(sign2)
 
     return {
         date: day.toISOString().slice(0, 10),

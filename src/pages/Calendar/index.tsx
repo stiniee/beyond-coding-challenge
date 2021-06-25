@@ -1,13 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
-import * as QueryString from 'query-string'
 import ReactCalendar from 'react-calendar'
 import Icon from '@mdi/react'
 import { mdiCurrencyUsd, mdiCurrencyEur } from '@mdi/js'
+import Listing from '../../components/Listing'
 import DatePopover from '../../components/DatePopover'
 import Input from '../../components/Input'
 import CalendarApi from '../../api/calendar-api'
-import ListingsApi from '../../api/listings-api'
 import { getDayOfWeekLong, getDayOfYear } from '../../utils/date-utils'
 import { getCalculatedPrices } from '../../utils/calculation-utils'
 import './calendar.css'
@@ -24,7 +23,7 @@ const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
     const [dateDetails, setDateDetails] = useState<IDateDetails | null>(null)
     const tooltipRef = useRef(null)
     const { listingId } = match?.params
-    const { currency } = QueryString.parse(location.search)
+    const { listingData } = location.state
 
     /*--------------------------------------------
         Calendar
@@ -43,7 +42,6 @@ const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
         const res = await CalendarApi.updateCalendar(listingId, {
             basePrice: value,
         })
-        console.log('res: ', res)
         await fetchCalendar()
     }
 
@@ -77,98 +75,118 @@ const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
     return (
         <div className="calendar" data-testid="calendar-page">
             <Link className="calendar_back-to-listings" to="/">
-                Back to listings
+                Back to Listings
             </Link>
 
-            {/* Base Price Input */}
-            <div className="calendar_base-price-input">
-                <label htmlFor="basePriceInput"> Base Price </label>
-                <Input
-                    id="basePriceInput"
-                    type="number"
-                    icon={
-                        <Icon
-                            path={
-                                currency.toLowerCase() === 'eur'
-                                    ? mdiCurrencyEur
-                                    : mdiCurrencyUsd
-                            }
-                            color="#333333"
-                            size={1}
-                        />
-                    }
-                    value={inputValue}
-                    onChange={handleChangeInput}
-                    onSubmit={handleSubmitInput}
-                />
+            <div className="calendar_calendar-listing-section">
+                <Listing className="calendar_listing" data={listingData} />
             </div>
 
-            {/* Date Popover */}
-            {dateDetails ? (
-                <DatePopover
-                    id="datePopover"
-                    data={dateDetails}
-                    data-testid="date-popover"
-                />
-            ) : null}
-
-            {/* Calendar */}
-            <div className="calendar_calendar-container" data-testid="calendar">
-                <ReactCalendar
-                    locale="en-US"
-                    formatShortWeekday={(locale, date) =>
-                        getDayOfWeekLong(date)
-                    }
-                    tileDisabled={({ date }) => {
-                        // Disable if the calendar day is blocked
-                        const calendarDay = getCalendarDay(date)
-                        return calendarDay ? calendarDay.isBlocked : true
-                    }}
-                    tileClassName="calendar_calendar-tile"
-                    // Show the total price on each title
-                    tileContent={({ date }) => {
-                        // Get the calendar day
-                        const calendarDay: ICalendarDay = getCalendarDay(date)
-
-                        // Return early if calendar day does not exist
-                        if (!calendarDay) return null
-
-                        // Extract the seasonal and dayOfWeek from the factors
-                        const { seasonal, dayOfWeek } = calendarDay.factors
-
-                        // Get all the calculated prices using the basePrice and factors
-                        const calculatedPrices: Record<PriceType, number> =
-                            getCalculatedPrices(basePrice, seasonal, dayOfWeek)
-
-                        // Create the date details object to use for the popover
-                        const details: IDateDetails = {
-                            ...calendarDay,
-                            date,
-                            calculatedPrices,
+            <div className="calendar_calendar-section">
+                {/* Base Price Input */}
+                <div className="calendar_base-price-input">
+                    <label htmlFor="basePriceInput"> Base Price </label>
+                    <Input
+                        id="basePriceInput"
+                        type="number"
+                        icon={
+                            <Icon
+                                path={
+                                    listingData.currency.toLowerCase() === 'eur'
+                                        ? mdiCurrencyEur
+                                        : mdiCurrencyUsd
+                                }
+                                color="#333333"
+                                size={1}
+                            />
                         }
+                        value={inputValue}
+                        onChange={handleChangeInput}
+                        onSubmit={handleSubmitInput}
+                    />
+                </div>
 
-                        return (
-                            <>
-                                <div
-                                    className={`calendar_calendar-tile-overlay${
-                                        calendarDay.isBlocked ? ' blocked' : ''
-                                    }`}
-                                    ref={tooltipRef}
-                                    data-tip
-                                    data-for="datePopover"
-                                    onMouseOver={() => setDateDetails(details)}
-                                    onFocus={() => setDateDetails(details)}
-                                />
-                                <div>${calculatedPrices.predictedPrice}</div>
-                            </>
-                        )
-                    }}
-                    showNeighboringMonth={false}
-                    prevLabel={null}
-                    nextLabel={null}
-                    prev2Label={null}
-                    next2Label={null}
-                />
+                {/* Calendar */}
+                <div
+                    className="calendar_calendar-container"
+                    data-testid="calendar"
+                >
+                    <ReactCalendar
+                        locale="en-US"
+                        formatShortWeekday={(locale, date) =>
+                            getDayOfWeekLong(date)
+                        }
+                        tileDisabled={({ date }) => {
+                            // Disable if the calendar day is blocked
+                            const calendarDay = getCalendarDay(date)
+                            return calendarDay ? calendarDay.isBlocked : true
+                        }}
+                        tileClassName="calendar_calendar-tile"
+                        // Show the total price on each title
+                        tileContent={({ date }) => {
+                            // Get the calendar day
+                            const calendarDay: ICalendarDay =
+                                getCalendarDay(date)
+
+                            // Return early if calendar day does not exist
+                            if (!calendarDay) return null
+
+                            // Extract the seasonal and dayOfWeek from the factors
+                            const { seasonal, dayOfWeek } = calendarDay.factors
+
+                            // Get all the calculated prices using the basePrice and factors
+                            const calculatedPrices: Record<PriceType, number> =
+                                getCalculatedPrices(
+                                    basePrice,
+                                    seasonal,
+                                    dayOfWeek
+                                )
+
+                            // Create the date details object to use for the popover
+                            const details: IDateDetails = {
+                                ...calendarDay,
+                                date,
+                                calculatedPrices,
+                            }
+
+                            return (
+                                <>
+                                    <div
+                                        className={`calendar_calendar-tile-overlay${
+                                            calendarDay.isBlocked
+                                                ? ' blocked'
+                                                : ''
+                                        }`}
+                                        ref={tooltipRef}
+                                        data-tip
+                                        data-for="datePopover"
+                                        onMouseOver={() =>
+                                            setDateDetails(details)
+                                        }
+                                        onFocus={() => setDateDetails(details)}
+                                    />
+                                    <div>
+                                        ${calculatedPrices.predictedPrice}
+                                    </div>
+                                </>
+                            )
+                        }}
+                        showNeighboringMonth={false}
+                        prevLabel={null}
+                        nextLabel={null}
+                        prev2Label={null}
+                        next2Label={null}
+                    />
+                </div>
+
+                {/* Date Popover */}
+                {dateDetails ? (
+                    <DatePopover
+                        id="datePopover"
+                        data={dateDetails}
+                        data-testid="date-popover"
+                    />
+                ) : null}
             </div>
         </div>
     )

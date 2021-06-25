@@ -4,25 +4,57 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 2em 1em;
+}
+
+.calendar_calendar-listing-section, .calendar_calendar-section{
+    max-width: 80em;
+    width: 100%;
+}
+
+.calendar_calendar-section {
+    margin-bottom: 5em;
+}
+
+/*-----------------------------------------------------------------
+    Listing Section
+------------------------------------------------------------------*/
+
+.calendar_calendar-listing-section {
+    margin: 2em 0 1em;
+}
+ 
+/*-----------------------------------------------------------------
+    Calendar Section
+------------------------------------------------------------------*/
+
+.calendar_calendar-section {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: var(--white);
+    border: 1px solid var(--light-3)
 }
 
 .calendar_calendar-container {
     display: flex;
     width: 100%;
     justify-content: center;
+    border-top: 1px solid var(--light-3)
 }
 
-
-/*-----------------------------------------------------------------
-    Base Price Input
-------------------------------------------------------------------*/
-
+/* Base Price Input */
 
 .calendar_base-price-input {
     display: flex;
     flex-direction: column;
     width: 12em;
     margin: 2em;
+}
+
+
+.calendar_base-price-input .input{
+    height: 2em;
 }
 
 .calendar_base-price-input label {
@@ -44,9 +76,15 @@
 .react-calendar {
     width: 100%;
     margin: 0 10%;
+    margin-bottom: 1em;
     background: none;
     padding: 1em;
     border: none;
+}
+
+.react-calendar__month-view__days{
+    background-color: var(--light);
+    border: 1px solid var(--light-3);
 }
 
 /* Navigation Label */

@@ -92,26 +92,3 @@
     color: var(--grey-4);
     margin-top: 1em;
  }
- 
-
-/*----------------------------------------------------------
-    Responsive
-----------------------------------------------------------*/
-@media only screen and (max-width: 640px) {
-    .listing.card-view .listing_picture {
-        height: auto;
-        width: 100%;
-    }
-
-    .listing.card-view, .listing.details-view {
-        justify-content: center;
-    }
-    
-    .listing, .listing_picture-and-title {
-        flex-wrap: wrap;
-    }
-
-    .listing_health-container {
-        margin-bottom: 1em;
-     }
-} 

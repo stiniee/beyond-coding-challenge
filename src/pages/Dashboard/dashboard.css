@@ -80,5 +80,24 @@
     .dashboard_listings-container .listing  {
         margin-bottom: 1em;
     }
- 
+} 
+
+/* Listing cards mobile view */
+@media only screen and (max-width: 640px) {
+    .dashboard-listing.listing.card-view .listing_picture {
+        height: auto;
+        width: 100%;
+    }
+
+    .dashboard-listing.listing.card-view, .dashboard-listing .listing.details-view {
+        justify-content: center;
+    }
+    
+    .dashboard-listing.listing, .dashboard-listing .listing_picture-and-title {
+        flex-wrap: wrap;
+    }
+
+    .dashboard-listing.listing_health-container {
+        margin-bottom: 1em;
+     }
 } 

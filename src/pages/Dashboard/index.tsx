@@ -106,7 +106,11 @@ const Dashboard = (): JSX.Element => {
                             return (
                                 // List out each listing with its data passed in
                                 <li key={listing.id}>
-                                    <Listing data={listing} key={listing.id} />
+                                    <Listing
+                                        className="dashboard-listing"
+                                        data={listing}
+                                        key={listing.id}
+                                    />
                                 </li>
                             )
                         })}
