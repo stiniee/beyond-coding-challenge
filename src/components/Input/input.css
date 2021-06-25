@@ -37,13 +37,14 @@ input:focus {
     border: none
 }
 
-.input_icon {
+.input_icon-container {
     display: flex;
     align-items: center;
+    background-color: var(--light-2);
     border-right: 1px solid var(--grey);
     padding: 0.2em 0.1em;
 }
-.input_icon svg{
+.input_icon-container svg{
     height: 1em !important;
     width: 1em !important;
 }

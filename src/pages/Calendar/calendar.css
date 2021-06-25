@@ -16,6 +16,14 @@
     margin-bottom: 5em;
 }
 
+.calendar_back-to-listings {
+    color: var(--secondary);
+}
+
+.calendar_back-to-listings:hover {
+    color: var(--black);
+}
+
 /*-----------------------------------------------------------------
     Listing Section
 ------------------------------------------------------------------*/
@@ -40,7 +48,8 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    border-top: 1px solid var(--light-3)
+    border-top: 1px solid var(--light-3);
+    position: relative;
 }
 
 /* Base Price Input */
@@ -93,6 +102,24 @@
     color: var(--grey-3);
 
  }
+ /* Navigation Arrows */
+ .react-calendar__navigation__arrow {
+    position: absolute;
+    width: 3em;
+    height: 3em;
+ }
+
+ .react-calendar .react-calendar__navigation__next-button {
+    right: 3em;
+    top: 50%;
+ }
+
+ .react-calendar .react-calendar__navigation__prev-button {
+    left: 3em;
+    top: 50%;
+ }
+
+
 
 .react-calendar .react-calendar__navigation__label {
     font-size: 1.4em;
@@ -132,8 +159,7 @@
 
 /* Hovered Tile */
 .react-calendar .react-calendar__tile:enabled:hover, .react-calendar__tile:enabled:focus {
-    background-color: var(--white);
-    color: var(--primary);
+    background-color: var(--primary-dark);
 }
 
 /* Tile Overlay */

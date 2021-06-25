@@ -2,7 +2,12 @@ import React, { useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import ReactCalendar from 'react-calendar'
 import Icon from '@mdi/react'
-import { mdiCurrencyUsd, mdiCurrencyEur } from '@mdi/js'
+import {
+    mdiCurrencyUsd,
+    mdiCurrencyEur,
+    mdiChevronLeft,
+    mdiChevronRight,
+} from '@mdi/js'
 import Listing from '../../components/Listing'
 import DatePopover from '../../components/DatePopover'
 import Input from '../../components/Input'
@@ -172,8 +177,22 @@ const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
                             )
                         }}
                         showNeighboringMonth={false}
-                        prevLabel={null}
-                        nextLabel={null}
+                        prevLabel={
+                            <Icon
+                                title="Previous Month"
+                                path={mdiChevronLeft}
+                                color="#9E9E9E"
+                                size={1}
+                            />
+                        }
+                        nextLabel={
+                            <Icon
+                                title="Next Month"
+                                path={mdiChevronRight}
+                                color="#9E9E9E"
+                                size={1}
+                            />
+                        }
                         prev2Label={null}
                         next2Label={null}
                     />
