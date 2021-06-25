@@ -105,8 +105,14 @@
  /* Navigation Arrows */
  .react-calendar__navigation__arrow {
     position: absolute;
-    width: 3em;
+    width: 1em;
     height: 3em;
+    background-color: var(--white) !important;
+    z-index: 2;
+ }
+
+ .react-calendar__navigation__arrow:hover {   
+    background-color: var(--light) !important;
  }
 
  .react-calendar .react-calendar__navigation__next-button {
@@ -214,3 +220,16 @@
  .react-calendar .react-calendar__tile:disabled abbr{
     color: var(--grey-2);
   }
+
+@media only screen and (max-width: 992px) {
+    .react-calendar__navigation__arrow  {
+        opacity: 0.8;
+    }
+
+    .react-calendar .react-calendar__navigation__next-button {
+        right: 0;    
+    }  
+    .react-calendar .react-calendar__navigation__prev-button {
+        left: 0;    
+    }     
+} 
