@@ -34,10 +34,6 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
     const getCalendarDay = (date: Date): ICalendarDay => {
         const dayOfYear = getDayOfYear(date)
         const calendarDay: ICalendarDay = calendar[dayOfYear]
-        // console.log('[getCalendarDay] dayOfYear: ', dayOfYear)
-        // console.log('[getCalendarDay] calendar: ', calendar.length)
-        // console.log('[getCalendarDay] calendarDay: ', calendarDay)
-
         return calendarDay
     }
 
@@ -99,15 +95,11 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
                     tileClassName="calendar_calendar-tile"
                     // Show the total price on each title
                     tileContent={({ date }) => {
-                        // console.log('DATE: ', date)
                         // Get the calendar day
                         const calendarDay: ICalendarDay = getCalendarDay(date)
 
                         // Return early if calendar day does not exist
-                        if (!calendarDay) {
-                            // console.log('NO CALENDAR DAY')
-                            return null
-                        }
+                        if (!calendarDay) return null
 
                         // Extract the seasonal and dayOfWeek from the factors
                         const { seasonal, dayOfWeek } = calendarDay.factors
@@ -116,7 +108,7 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
                         const calculatedPrices: Record<PriceType, number> =
                             getCalculatedPrices(basePrice, seasonal, dayOfWeek)
 
-                        // Set up the date details object to use for the popover
+                        // Create the date details object to use for the popover
                         const details: IDateDetails = {
                             ...calendarDay,
                             date,

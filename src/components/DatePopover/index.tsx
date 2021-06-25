@@ -102,7 +102,7 @@ const DatePopover = ({
                                         $
                                         <span
                                             className={`price-digits-${
-                                                `${absValue}`.length
+                                                `${value}`.length
                                             }`}
                                         >
                                             {absValue}

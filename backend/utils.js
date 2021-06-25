@@ -5,12 +5,23 @@ const moment = MomentRange.extendMoment(Moment)
 
 const generateDay = (day) => {
     const sign = Math.round(Math.random()) ? 1 : -1
+    let seasonal = 0
+    let dayOfWeek = 0
+    if (sign > 0) {
+        seasonal = parseFloat(Math.random().toFixed(2))
+        dayOfWeek = parseFloat(Math.random().toFixed(2))
+    } else {
+        // Only allow deduction of values between 0 and 0.3
+        seasonal = parseFloat(-(Math.random() * (0.3 - 0)).toFixed(2))
+        dayOfWeek = parseFloat(-(Math.random() * (0.3 - 0)).toFixed(2))
+    }
+
     return {
         date: day.toISOString().slice(0, 10),
         isBlocked: Math.random() < 0.05,
         factors: {
-            seasonal: sign * parseFloat(Math.random().toFixed(2)),
-            dayOfWeek: sign * parseFloat(Math.random().toFixed(2)),
+            seasonal,
+            dayOfWeek,
         },
     }
 }
