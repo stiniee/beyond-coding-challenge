@@ -43,6 +43,7 @@ const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
         const res = await CalendarApi.updateCalendar(listingId, {
             basePrice: value,
         })
+        console.log('res: ', res)
         await fetchCalendar()
     }
 

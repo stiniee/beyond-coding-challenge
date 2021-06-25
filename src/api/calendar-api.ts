@@ -48,6 +48,9 @@ export default {
                 {
                     method: 'POST',
                     body: body ? JSON.stringify(body) : undefined,
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
                     ...config,
                 }
             )
