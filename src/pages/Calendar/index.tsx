@@ -1,6 +1,7 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect, useRef, useCallback } from 'react'
 import { Link } from 'react-router-dom'
 import ReactCalendar from 'react-calendar'
+import ReactTooltip from 'react-tooltip'
 import Icon from '@mdi/react'
 import {
     mdiCurrencyUsd,
@@ -23,10 +24,12 @@ import './calendar.css'
  */
 const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
     const [calendar, setCalendar] = useState([])
+    const [activeStartDate, setActiveStartDate] = useState(undefined)
     const [inputValue, setInputValue] = useState('')
     const [basePrice, setBasePrice] = useState(0)
     const [dateDetails, setDateDetails] = useState<IDateDetails | null>(null)
     const tooltipRef = useRef(null)
+
     const { listingId } = match?.params
     const { listingData } = location.state
 
@@ -55,6 +58,12 @@ const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
         const dayOfYear = getDayOfYear(date)
         const calendarDay: ICalendarDay = calendar[dayOfYear]
         return calendarDay
+    }
+
+    // Upon calendar change, update the activeStartDate
+    // Which would trigger the react-tooltip to rebuild
+    const handleMonthChange = (event: any): void => {
+        setActiveStartDate(event.activeStartDate)
     }
 
     /*--------------------------------------------
@@ -195,6 +204,7 @@ const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
                         }
                         prev2Label={null}
                         next2Label={null}
+                        onActiveStartDateChange={handleMonthChange}
                     />
                 </div>
 
@@ -204,6 +214,7 @@ const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
                         id="datePopover"
                         data={dateDetails}
                         data-testid="date-popover"
+                        activeStartDate={activeStartDate}
                     />
                 ) : null}
             </div>
@@ -211,4 +222,4 @@ const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
     )
 }
 
-export default Calendar
+export default React.memo(Calendar)

@@ -121,4 +121,4 @@ const Dashboard = (): JSX.Element => {
     )
 }
 
-export default Dashboard
+export default React.memo(Dashboard)

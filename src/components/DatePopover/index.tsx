@@ -7,6 +7,7 @@ import './date-popover.css'
 
 interface DatePopoverProps extends DefaultProps {
     data: IDateDetails
+    activeStartDate?: Date
 }
 
 const priceLabels: Record<PriceType, any> = {
@@ -27,7 +28,13 @@ const DatePopover = ({
     className,
     style,
     data,
+    activeStartDate,
 }: DatePopoverProps): JSX.Element => {
+    // Upon month change, rebuild the react-tooltip
+    useEffect(() => {
+        ReactTooltip.rebuild()
+    }, [activeStartDate])
+
     return (
         <ReactTooltip
             id={id}
