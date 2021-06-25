@@ -45,7 +45,10 @@ const simulateHover = (element: Element): void => {
 }
 
 describe('Calendar Page', () => {
-    afterEach(cleanup)
+    afterEach(() => {
+        fetchMock.restore()
+        cleanup()
+    })
 
     test('Renders without crashing', async () => {
         const pageEl = await renderComponent()

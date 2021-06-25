@@ -12,22 +12,22 @@ export const getCalculatedPrices = (
     seasonal: number,
     dayOfWeek: number
 ): Record<PriceType, number> => {
-    // Apply seasonal factor
+    // Get the product of base factor and seasonal factor
     const seasonalChange = Math.round(basePrice * seasonal)
 
-    // Apply day of week factor
+    // Get the product of base factor and day of week factor
     const dayOfWeekChange = Math.round(basePrice * dayOfWeek)
 
     // Get the total increase/decrease amount
-    const amountChange = seasonalChange + dayOfWeekChange
+    const totalChange = seasonalChange + dayOfWeekChange
 
     // Get the final predicted price
-    const predictedPrice = basePrice + amountChange
+    const predictedPrice = basePrice + totalChange
 
     return {
         basePrice,
-        predictedPrice,
         seasonal: seasonalChange,
         dayOfWeek: dayOfWeekChange,
+        predictedPrice,
     }
 }

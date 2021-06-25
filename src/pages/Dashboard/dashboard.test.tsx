@@ -5,6 +5,7 @@ import { render, screen, cleanup, act } from '@testing-library/react'
 import fetchMock from 'fetch-mock'
 import Dashboard from './index'
 import { MOCK_LISTINGS } from '../../api/__mocks__/listings'
+import { numToScore } from '../../utils/formatting-utils'
 
 const renderComponent = (): HTMLElement => {
     render(
@@ -51,8 +52,14 @@ describe('Dashboard Page', () => {
         })
         expect(listingEls.length).toBeGreaterThan(0)
 
+        const lastIdx = listingEls.length - 1
         for (let idx = 0; idx < listingEls.length; idx += 1) {
-            expect(listingEls[idx]).toHaveTextContent(MOCK_LISTINGS[idx].title)
+            const mockListing = MOCK_LISTINGS[lastIdx - idx]
+            expect(listingEls[idx]).toHaveTextContent(mockListing.title)
+            expect(listingEls[idx]).toHaveTextContent(`${mockListing.beds}`)
+            expect(listingEls[idx]).toHaveTextContent(
+                `${numToScore(mockListing.health)}`
+            )
         }
     })
 })
