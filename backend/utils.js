@@ -3,14 +3,17 @@ const MomentRange = require('moment-range')
 
 const moment = MomentRange.extendMoment(Moment)
 
-const generateDay = (day) => ({
-    date: day.toISOString().slice(0, 10),
-    isBlocked: Math.random() < 0.05,
-    factors: {
-        seasonal: parseFloat(Math.random().toFixed(2)),
-        dayOfWeek: parseFloat(Math.random().toFixed(2)),
-    },
-})
+const generateDay = (day) => {
+    const sign = Math.round(Math.random()) ? 1 : -1
+    return {
+        date: day.toISOString().slice(0, 10),
+        isBlocked: Math.random() < 0.05,
+        factors: {
+            seasonal: sign * parseFloat(Math.random().toFixed(2)),
+            dayOfWeek: sign * parseFloat(Math.random().toFixed(2)),
+        },
+    }
+}
 
 const createCalendarDays = () => {
     const range = moment().range(moment(), moment().add(1, 'year'))
