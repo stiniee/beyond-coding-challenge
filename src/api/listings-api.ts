@@ -23,4 +23,20 @@ export default {
             throw new Error(err)
         }
     },
+    async getListing(
+        listingId: number,
+        body?: Record<string, any>,
+        config: RequestInit = {}
+    ): Promise<any> {
+        try {
+            const res = await fetch(`${BASE_API_URL}/listings/${listingId}`, {
+                method: 'GET',
+                body: body ? JSON.stringify(body) : undefined,
+                ...config,
+            })
+            return res.json()
+        } catch (err) {
+            throw new Error(err)
+        }
+    },
 }

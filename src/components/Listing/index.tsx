@@ -56,7 +56,10 @@ const Listing = ({
                         <div>
                             {/* Title (Links to the associated calendar) */}
                             <Link
-                                to={`/${data.id}`}
+                                to={{
+                                    pathname: `/${data.id}`,
+                                    search: `?currency="${data.currency}"`,
+                                }}
                                 data-testid="listing-title-link"
                             >
                                 <h2

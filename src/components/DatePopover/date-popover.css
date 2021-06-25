@@ -73,6 +73,13 @@ of digits to line up with the other prices */
     margin-left: 0.5em;
 }
 
+.price-digits-1.price-minus {
+    margin-left: 1.1em;
+}
+.price-digits-2.price-minus {
+    margin-left: 0.6em;
+}
+
 
 /* Blocked */
 .date-popover_blocked-status {

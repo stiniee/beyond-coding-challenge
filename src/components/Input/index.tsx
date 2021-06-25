@@ -1,12 +1,10 @@
 import React from 'react'
-import Icon from '@mdi/react'
-import { mdiCurrencyUsd, mdiCurrencyEur } from '@mdi/js'
 import './input.css'
 
 export interface InputProps extends DefaultProps {
     value?: string
     type?: string
-    currency?: string
+    icon?: React.ReactNode
     placeholder?: string
     name?: string
     maxLength?: number
@@ -19,6 +17,7 @@ export interface InputProps extends DefaultProps {
 /**
  * Input: This component serves as a standard input field
  * @prop value: The input's value
+ * @prop icon: The input's icon, placed on the left of the input field
  * @prop type: The input's type (i.e text, number)
  * @prop placeholder: The input's placeholder text
  * @prop name: The input's name
@@ -34,7 +33,7 @@ const Input = ({
     className,
     style,
     type,
-    currency,
+    icon,
     value,
     name,
     placeholder,
@@ -60,22 +59,7 @@ const Input = ({
 
     return (
         <div className={`input ${className}`}>
-            {currency ? (
-                // Show currency symbol if currency provided
-                // Note, since the data only has USD and EUR,
-                // only need to handle those cases
-                <div className="input_currency">
-                    <Icon
-                        path={
-                            currency.toLowerCase() === 'eur'
-                                ? mdiCurrencyEur
-                                : mdiCurrencyUsd
-                        }
-                        color="#B8B8B9"
-                        size={1}
-                    />
-                </div>
-            ) : null}
+            {icon ? <div className="input_icon">{icon}</div> : null}
             <input
                 id={id}
                 style={style}

@@ -8,6 +8,7 @@ declare interface DefaultProps {
 /* Route */
 interface IRouterProps {
     match: Record<string, any>
+    location: Record<string, any>
 }
 
 declare type Route = Record<string, any>

@@ -84,6 +84,13 @@ const DatePopover = ({
 
                         let operator = null
                         if (isFactor) operator = value < 0 ? '-' : '+'
+
+                        const operatorClass =
+                            operator === '-' ? 'price-minus' : 'price-plus'
+                        const priceDigitsClass = `price-digits-${
+                            `${absValue}`.length
+                        }`
+
                         return (
                             <div key={key}>
                                 {isPredictedPrice ? <hr /> : null}
@@ -96,14 +103,14 @@ const DatePopover = ({
                                             isPredictedPrice ? ' predicted' : ''
                                         }`}
                                     >
-                                        {operator || (
+                                        {operator ? (
+                                            `${operator} `
+                                        ) : (
                                             <span>&nbsp;&nbsp;&nbsp;</span>
                                         )}
                                         $
                                         <span
-                                            className={`price-digits-${
-                                                `${value}`.length
-                                            }`}
+                                            className={`${operatorClass} ${priceDigitsClass}`}
                                         >
                                             {absValue}
                                         </span>
