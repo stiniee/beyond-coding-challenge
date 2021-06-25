@@ -21,7 +21,7 @@
 .calendar_base-price-input {
     display: flex;
     flex-direction: column;
-    width: 10em;
+    width: 12em;
     margin: 2em;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .calendar_base-price-input .input {
-    
+    font-size: 1.2em;
 }
 
 /*-----------------------------------------------------------------

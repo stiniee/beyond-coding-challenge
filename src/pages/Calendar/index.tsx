@@ -26,13 +26,24 @@ const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
     const { listingId } = match?.params
     const { currency } = QueryString.parse(location.search)
 
+    /*--------------------------------------------
+        Calendar
+    ---------------------------------------------*/
+
     // Gets the calendar data from the api
     const fetchCalendar = async (): Promise<void> => {
         const res = await CalendarApi.getCalendar(listingId)
-
         setCalendar(res.days)
         setBasePrice(res.basePrice)
         setInputValue(res.basePrice)
+    }
+
+    // Updates the calendar with the new base price
+    const updateCalendar = async (value: number): Promise<void> => {
+        const res = await CalendarApi.updateCalendar(listingId, {
+            basePrice: value,
+        })
+        await fetchCalendar()
     }
 
     // Gets the calendar day based on the day of year index
@@ -49,8 +60,8 @@ const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
         setInputValue(value)
     }
 
-    const handleSubmitInput = (value: string): void => {
-        setBasePrice(parseInt(value, 10))
+    const handleSubmitInput = async (value: string): Promise<void> => {
+        await updateCalendar(parseInt(value, 10))
     }
 
     /*--------------------------------------------
@@ -81,10 +92,11 @@ const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
                                     ? mdiCurrencyEur
                                     : mdiCurrencyUsd
                             }
-                            color="#B8B8B9"
+                            color="#333333"
                             size={1}
                         />
                     }
+                    value={inputValue}
                     onChange={handleChangeInput}
                     onSubmit={handleSubmitInput}
                 />

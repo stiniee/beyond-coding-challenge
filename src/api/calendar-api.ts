@@ -1,4 +1,4 @@
-// const BASE_API_URL = 'http://localhost:1024'
+// const BASE_API_URL = 'http://localhost:5000'
 const BASE_API_URL = 'http://localhost:1024'
 const MOCK_ID = '1'
 
@@ -42,6 +42,7 @@ export default {
         config: RequestInit = {}
     ): Promise<any> {
         try {
+            console.log('body: ', body)
             const res = await fetch(
                 `${BASE_API_URL}/calendar/${listingId || MOCK_ID}`,
                 {
@@ -50,8 +51,10 @@ export default {
                     ...config,
                 }
             )
+            console.log('updateCalendar res: ', res)
             return res.json()
         } catch (err) {
+            console.log('updateCalendar err: ', err)
             throw new Error(err)
         }
     },
