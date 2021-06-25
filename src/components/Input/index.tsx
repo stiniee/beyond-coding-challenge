@@ -59,7 +59,14 @@ const Input = ({
 
     return (
         <div className={`input ${icon ? 'with-icon' : ''} ${className}`}>
-            {icon ? <div className="input_icon-container">{icon}</div> : null}
+            {icon ? (
+                <div
+                    className="input_icon-container"
+                    data-testid="input-icon-container"
+                >
+                    {icon}
+                </div>
+            ) : null}
             <input
                 id={id}
                 style={style}

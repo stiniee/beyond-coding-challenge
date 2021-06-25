@@ -31,7 +31,7 @@ const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
     const tooltipRef = useRef(null)
 
     const { listingId } = match?.params
-    const { listingData } = location.state
+    const { listingData } = location?.state
 
     /*--------------------------------------------
         Calendar
@@ -40,6 +40,7 @@ const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
     // Gets the calendar data from the api
     const fetchCalendar = async (): Promise<void> => {
         const res = await CalendarApi.getCalendar(listingId)
+
         setCalendar(res.days)
         setBasePrice(res.basePrice)
         setInputValue(res.basePrice)
@@ -47,7 +48,7 @@ const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
 
     // Updates the calendar with the new base price
     const updateCalendar = async (value: number): Promise<void> => {
-        const res = await CalendarApi.updateCalendar(listingId, {
+        await CalendarApi.updateCalendar(listingId, {
             basePrice: value,
         })
         await fetchCalendar()
@@ -98,7 +99,10 @@ const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
 
             <div className="calendar_calendar-section">
                 {/* Base Price Input */}
-                <div className="calendar_base-price-input">
+                <div
+                    className="calendar_base-price-input"
+                    data-testid="base-price-input"
+                >
                     <label htmlFor="basePriceInput"> Base Price </label>
                     <Input
                         id="basePriceInput"

@@ -47,7 +47,7 @@ describe('DatePopover Component', () => {
         expect(dateEl).toHaveTextContent(formattedDate)
     })
 
-    test('Display the calculated prices, factors prefixed with either "+" (increase) or "-"', async () => {
+    test('Display the calculated prices, factors prefixed with "+" (if incresase) or "-" (if decrease)', async () => {
         await renderComponent()
         const priceDetailsEl = screen.getByTestId('date-popover-price-details')
         expect(priceDetailsEl.children.length).toBeGreaterThan(0)
@@ -60,10 +60,10 @@ describe('DatePopover Component', () => {
         expect(priceEls[0]).toHaveTextContent(`$${basePrice}`)
 
         // Check seasonality
-        expect(priceEls[1]).toHaveTextContent(`+$${Math.abs(seasonal)}`)
+        expect(priceEls[1]).toHaveTextContent(`+ $${Math.abs(seasonal)}`)
 
         // Check day of week
-        expect(priceEls[2]).toHaveTextContent(`-$${Math.abs(dayOfWeek)}`)
+        expect(priceEls[2]).toHaveTextContent(`- $${Math.abs(dayOfWeek)}`)
 
         // Check predicted price
         expect(priceEls[3]).toHaveTextContent(`${predictedPrice}`)

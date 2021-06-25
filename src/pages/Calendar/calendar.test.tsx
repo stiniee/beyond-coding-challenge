@@ -1,14 +1,19 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
 import React from 'react'
 import { MemoryRouter } from 'react-router-dom'
-import { fireEvent, render, screen, cleanup } from '@testing-library/react'
-import { act } from 'react-dom/test-utils'
+import { fireEvent, render, screen, cleanup, act } from '@testing-library/react'
+// import { act } from 'react-dom/test-utils'
 import fetchMock from 'fetch-mock'
 import { MOCK_CALENDAR } from '../../api/__mocks__/calendar'
+import { MOCK_LISTINGS } from '../../api/__mocks__/listings'
 import Calendar from './index'
 
-// By default use listingId 1
-const DEFAULT_ROUTER = { match: { params: 1 } }
+// By default use the first mock listing
+const MOCK_LISTING = MOCK_LISTINGS[0]
+const DEFAULT_ROUTER = {
+    match: { params: MOCK_LISTING.id },
+    location: { state: { listingData: MOCK_LISTING } },
+}
 
 const renderComponent = (props: IRouterProps = DEFAULT_ROUTER): HTMLElement => {
     render(
@@ -28,7 +33,7 @@ const mockFetchCalendar = (): void => {
     // 2nd argument: Mocked response
     fetchMock.mock('http://localhost:1024/calendar/1', {
         status: 200,
-        days: MOCK_CALENDAR,
+        ...MOCK_CALENDAR,
     })
 }
 
@@ -47,10 +52,42 @@ describe('Calendar Page', () => {
         expect(pageEl).toBeInTheDocument()
     })
 
+    test('Displays the listing', async () => {
+        await renderComponent()
+        const listingEls = screen.getAllByTestId('listing')
+        expect(listingEls.length).toBe(1)
+        expect(listingEls[0]).toHaveTextContent(MOCK_LISTING.title)
+    })
+
+    test('Displays the base price input field with the initial base price', async () => {
+        // Populate the calendar days with the data
+        await act(async () => {
+            mockFetchCalendar()
+            await renderComponent()
+        })
+
+        const inputContainerEl = screen.getByTestId('base-price-input')
+        expect(inputContainerEl).toHaveTextContent('Base Price')
+
+        const inputEl = document.getElementsByTagName('input')[0]
+        expect(inputEl).toHaveValue(MOCK_CALENDAR.basePrice)
+    })
+
     test('Displays the calendar', async () => {
         await renderComponent()
         const calendarEl = screen.getByTestId('calendar')
         expect(calendarEl).toBeInTheDocument()
+        expect(calendarEl).toHaveTextContent('June')
+    })
+
+    test('Calendar starts on the current month', async () => {
+        await renderComponent()
+        const calendarEl = screen.getByTestId('calendar')
+
+        const currentMonth = new Date().toLocaleString('default', {
+            month: 'long',
+        })
+        expect(calendarEl).toHaveTextContent(currentMonth)
     })
 
     test('Does not display the date popover initially', async () => {
@@ -64,7 +101,7 @@ describe('Calendar Page', () => {
      *  tileContent prop not rendering in the test environment's jsdom
      */
 
-    // test.only('Display date popover upon hovering on calendar tile', async () => {
+    // test.('Display date popover upon hovering on calendar tile', async () => {
     // mockFetchCalendar()
 
     // let pageEl

@@ -37,7 +37,7 @@ describe('Dashboard Page', () => {
         expect(pageEl).toBeInTheDocument()
     })
 
-    test('Displays the listings', async () => {
+    test.only('Displays the listings', async () => {
         await mockFetchListings()
 
         // Initially no listings
@@ -50,5 +50,9 @@ describe('Dashboard Page', () => {
             listingEls = pageEl.getElementsByClassName('listing')
         })
         expect(listingEls.length).toBeGreaterThan(0)
+
+        for (let idx = 0; idx < listingEls.length; idx += 1) {
+            expect(listingEls[idx]).toHaveTextContent(MOCK_LISTINGS[idx].title)
+        }
     })
 })
