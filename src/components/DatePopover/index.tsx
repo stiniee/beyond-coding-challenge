@@ -51,11 +51,11 @@ const DatePopover = ({
                     </div>
                     {data.isBlocked ? (
                         <div
-                            className="date-popover_blocked"
-                            data-testid="date-popover-blocked"
+                            className="date-popover_blocked-status"
+                            data-testid="date-popover-blocked-status"
                         >
                             <Icon
-                                className="date-popover_blocked-icon"
+                                className="date-popover_blocked-status-icon"
                                 path={mdiBlockHelper}
                                 color="#e9e9e9"
                                 size={0.6}
@@ -79,9 +79,11 @@ const DatePopover = ({
                         const isFactor =
                             key === 'seasonal' || key === 'dayOfWeek'
                         const isPredictedPrice = key === 'predictedPrice'
-                        const value = `${
-                            data.calculatedPrices[key as PriceType]
-                        }`
+                        const value = data.calculatedPrices[key as PriceType]
+                        const absValue = Math.abs(value)
+
+                        let operator = null
+                        if (isFactor) operator = value < 0 ? '-' : '+'
                         return (
                             <div key={key}>
                                 {isPredictedPrice ? <hr /> : null}
@@ -94,16 +96,16 @@ const DatePopover = ({
                                             isPredictedPrice ? ' predicted' : ''
                                         }`}
                                     >
-                                        {isFactor ? (
-                                            '+ '
-                                        ) : (
+                                        {operator || (
                                             <span>&nbsp;&nbsp;&nbsp;</span>
                                         )}
                                         $
                                         <span
-                                            className={`price-digits-${value.length}`}
+                                            className={`price-digits-${
+                                                `${absValue}`.length
+                                            }`}
                                         >
-                                            {value}
+                                            {absValue}
                                         </span>
                                     </div>
                                     <div className="price-label"> {label} </div>

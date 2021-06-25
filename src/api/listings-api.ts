@@ -18,10 +18,8 @@ export default {
                 body: body ? JSON.stringify(body) : undefined,
                 ...config,
             })
-            console.log('getListings res: ', res)
             return res.json()
         } catch (err) {
-            console.log('getListings err: ', err)
             throw new Error(err)
         }
     },

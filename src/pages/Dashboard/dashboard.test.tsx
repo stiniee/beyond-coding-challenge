@@ -19,9 +19,7 @@ const renderComponent = (): HTMLElement => {
 
 // Mock fetch the listings endpoint
 const mockFetchListings = (): void => {
-    // 1st argument: Endpoint being mocked
-    // 2nd argument: Mocked response
-    fetchMock.mock('http://localhost:5000/listings', {
+    fetchMock.mock('http://localhost:1024/listings', {
         status: 200,
         listings: MOCK_LISTINGS,
     })

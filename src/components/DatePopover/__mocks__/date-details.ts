@@ -6,12 +6,12 @@ export const MOCK_DATE_DETAILS = {
     calculatedPrices: {
         basePrice: 100,
         seasonal: 30,
-        dayOfWeek: 20,
-        predictedPrice: 150,
+        dayOfWeek: -20,
+        predictedPrice: 110,
     },
     factors: {
         seasonal: 0.3,
-        dayOfWeek: 0.2,
+        dayOfWeek: -0.2,
     },
 }
 

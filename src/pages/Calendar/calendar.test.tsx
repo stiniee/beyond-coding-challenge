@@ -1,7 +1,8 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
 import React from 'react'
 import { MemoryRouter } from 'react-router-dom'
-import { fireEvent, render, screen, cleanup, act } from '@testing-library/react'
+import { fireEvent, render, screen, cleanup } from '@testing-library/react'
+import { act } from 'react-dom/test-utils'
 import fetchMock from 'fetch-mock'
 import { MOCK_CALENDAR } from '../../api/__mocks__/calendar'
 import Calendar from './index'
@@ -16,6 +17,7 @@ const renderComponent = (props: IRouterProps = DEFAULT_ROUTER): HTMLElement => {
             <Calendar {...props} />
         </MemoryRouter>
     )
+
     const pageEl = screen.getByTestId('calendar-page')
     return pageEl
 }
@@ -24,7 +26,7 @@ const renderComponent = (props: IRouterProps = DEFAULT_ROUTER): HTMLElement => {
 const mockFetchCalendar = (): void => {
     // 1st argument: Endpoint being mocked
     // 2nd argument: Mocked response
-    fetchMock.mock('http://localhost:5000/calendar/1', {
+    fetchMock.mock('http://localhost:1024/calendar/1', {
         status: 200,
         days: MOCK_CALENDAR,
     })
@@ -57,28 +59,40 @@ describe('Calendar Page', () => {
         expect(datePopoverEl.length).toBe(0)
     })
 
-    test('Display date popover upon hovering on calendar tile', async () => {
-        await mockFetchCalendar()
+    /**
+     * NOTE: Unable to test calendar interactions due to ReactCalendar
+     *  tileContent prop not rendering in the test environment's jsdom
+     */
 
-        const pageEl = await renderComponent()
+    // test.only('Display date popover upon hovering on calendar tile', async () => {
+    // mockFetchCalendar()
 
-        let datePopoverEl: any = []
-        await act(async () => {
-            // Initially no date popover
-            datePopoverEl = pageEl.getElementsByClassName('date-popover')
-            expect(datePopoverEl.length).toBe(0)
+    // let pageEl
 
-            // Simulate hover on calendar date tile
-            const tileEl = pageEl.getElementsByClassName(
-                'calendar_calendar-tile-overlay'
-            )
+    // let datePopoverEl: any = []
+    // await act(async () => {
+    //     pageEl = await renderComponent()
 
-            const calendar = pageEl.getElementsByClassName('react-calendar')
-            // await simulateHover(tileEl[0])
-        })
-        // expect(datePopoverEl.length).toBeGreaterThan(0)
-        // Date popover in document after hover
-        // datePopoverEl = pageEl.getElementsByClassName('date-popover')
-        // expect(datePopoverEl.length).toBe(1)
-    })
+    // Initially no date popover
+    // datePopoverEl = pageEl.getElementsByClassName('date-popover')
+    // expect(datePopoverEl.length).toBe(0)
+
+    // Simulate hover on calendar date tile
+    // const tileEl = pageEl.querySelectorAll('.calOverlay')
+    // console.log('tileEl.length: ', tileEl.length)
+    // console.log('tileEl[0]: ', tileEl[0])
+
+    // const calendar = pageEl.getElementsByClassName('react-calendar')
+    // console.log('calendar: ', calendar)
+    // console.log('calendar.length: ', calendar[0])
+    // simulateHover(tileEl[0])
+    // })
+    // expect(datePopoverEl.length).toBeGreaterThan(0)
+
+    // if (pageEl) {
+    // Date popover in document after hover
+    //     datePopoverEl = pageEl.getElementsByClassName('date-popover')
+    //     expect(datePopoverEl.length).toBe(1)
+    // }
+    // })
 })

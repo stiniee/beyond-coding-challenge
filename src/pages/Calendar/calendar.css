@@ -1,11 +1,9 @@
 @import 'react-calendar/dist/Calendar.css';
 
 .calendar {
- 
-}
-
-.calendar_back-to-listings {
-    justify-self: lef
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .calendar_calendar-container {
@@ -16,13 +14,38 @@
 
 
 /*-----------------------------------------------------------------
+    Base Price Input
+------------------------------------------------------------------*/
+
+
+.calendar_base-price-input {
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+    margin: 2em;
+}
+
+.calendar_base-price-input label {
+    font-size: 0.8em;
+    color: var(--grey-3);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+.calendar_base-price-input .input {
+    
+}
+
+/*-----------------------------------------------------------------
     React Calendar
 ------------------------------------------------------------------*/
 
 .react-calendar {
     width: 100%;
-    margin: 10%;
+    margin: 0 10%;
     background: none;
+    padding: 1em;
     border: none;
 }
 
@@ -34,16 +57,17 @@
  }
 
 .react-calendar .react-calendar__navigation__label {
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: 600;
     pointer-events: none;
-    /* flex-grow: 0 !important; */
+    flex-grow: 0 !important;
 
 }
 
 /* Weekdays */
 .react-calendar .react-calendar__month-view__weekdays {
-    font-size: 0.8em;
+    font-size: 1em;
+    font-weight: 400;
     color: var(--grey-3);
     text-align: left;
     margin-bottom: 1em;

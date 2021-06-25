@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import ReactCalendar from 'react-calendar'
 import DatePopover from '../../components/DatePopover'
+import Input from '../../components/Input'
 import CalendarApi from '../../api/calendar-api'
 import { getDayOfWeekLong, getDayOfYear } from '../../utils/date-utils'
 import { getCalculatedPrices } from '../../utils/calculation-utils'
@@ -14,6 +15,7 @@ import './calendar.css'
  */
 const Calendar = ({ match }: IRouterProps): JSX.Element => {
     const [calendar, setCalendar] = useState([])
+    const [inputValue, setInputValue] = useState('')
     const [basePrice, setBasePrice] = useState(0)
     const [dateDetails, setDateDetails] = useState<IDateDetails | null>(null)
     const tooltipRef = useRef(null)
@@ -22,15 +24,20 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
     // Gets the calendar data from the api
     const fetchCalendar = async (): Promise<void> => {
         const res = await CalendarApi.getCalendar(listingId)
-        console.log('fetchCalendar res: ', res)
+
         setCalendar(res.days)
         setBasePrice(res.basePrice)
+        setInputValue(res.basePrice)
     }
 
     // Gets the calendar day based on the day of year index
     const getCalendarDay = (date: Date): ICalendarDay => {
         const dayOfYear = getDayOfYear(date)
         const calendarDay: ICalendarDay = calendar[dayOfYear]
+        // console.log('[getCalendarDay] dayOfYear: ', dayOfYear)
+        // console.log('[getCalendarDay] calendar: ', calendar.length)
+        // console.log('[getCalendarDay] calendarDay: ', calendarDay)
+
         return calendarDay
     }
 
@@ -38,11 +45,37 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
     useEffect(() => {
         fetchCalendar()
     }, [])
+
+    /*--------------------------------------------
+        Input
+    ---------------------------------------------*/
+    const handleChangeInput = (value: string): void => {
+        setInputValue(value)
+    }
+
+    const handleSubmitInput = (value: string): void => {
+        setBasePrice(parseInt(value, 10))
+    }
+
     return (
         <div className="calendar" data-testid="calendar-page">
             <Link className="calendar_back-to-listings" to="/">
                 Back to listings
             </Link>
+
+            {/* Base Price Input */}
+            <div className="calendar_base-price-input">
+                <label htmlFor="basePriceInput"> Base Price </label>
+                <Input
+                    id="basePriceInput"
+                    type="number"
+                    currency="usd"
+                    onChange={handleChangeInput}
+                    onSubmit={handleSubmitInput}
+                />
+            </div>
+
+            {/* Date Popover */}
             {dateDetails ? (
                 <DatePopover
                     id="datePopover"
@@ -50,26 +83,31 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
                     data-testid="date-popover"
                 />
             ) : null}
+
+            {/* Calendar */}
             <div className="calendar_calendar-container" data-testid="calendar">
                 <ReactCalendar
                     locale="en-US"
                     formatShortWeekday={(locale, date) =>
                         getDayOfWeekLong(date)
                     }
-                    className="react-calendar"
-                    tileDisabled={({ date }) => {
-                        // Disable if the calendar day is blocked
-                        const calendarDay = getCalendarDay(date)
-                        return calendarDay ? calendarDay.isBlocked : true
-                    }}
+                    // tileDisabled={({ date }) => {
+                    // Disable if the calendar day is blocked
+                    // const calendarDay = getCalendarDay(date)
+                    // return calendarDay ? calendarDay.isBlocked : true
+                    // }}
                     tileClassName="calendar_calendar-tile"
                     // Show the total price on each title
                     tileContent={({ date }) => {
+                        // console.log('DATE: ', date)
                         // Get the calendar day
                         const calendarDay: ICalendarDay = getCalendarDay(date)
 
                         // Return early if calendar day does not exist
-                        if (!calendarDay) return null
+                        if (!calendarDay) {
+                            // console.log('NO CALENDAR DAY')
+                            return null
+                        }
 
                         // Extract the seasonal and dayOfWeek from the factors
                         const { seasonal, dayOfWeek } = calendarDay.factors
@@ -88,7 +126,7 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
                         return (
                             <>
                                 <div
-                                    className={`calendar_calendar-tile-overlay${
+                                    className={`calOverlay calendar_calendar-tile-overlay${
                                         calendarDay.isBlocked ? ' blocked' : ''
                                     }`}
                                     ref={tooltipRef}
@@ -102,6 +140,8 @@ const Calendar = ({ match }: IRouterProps): JSX.Element => {
                         )
                     }}
                     showNeighboringMonth={false}
+                    prevLabel={null}
+                    nextLabel={null}
                     prev2Label={null}
                     next2Label={null}
                 />

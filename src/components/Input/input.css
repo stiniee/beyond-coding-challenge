@@ -1,0 +1,25 @@
+.input {
+    font-size: 1em;
+    height: 1.4em;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.input input{
+    height: 100%;
+    padding: 0.2em; 
+    padding-left: 0.3em;
+    border: 2px solid var(--grey);
+}
+
+.input:focus{
+    outline: var(--primary);
+}
+
+.input_currency {
+    height: 100%;
+    padding: 0.15em 0;
+    border: 2px solid var(--grey);
+    border-right: none;
+}

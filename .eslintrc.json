@@ -63,6 +63,16 @@
             "code":100
          }
       ],
+      "jsx-a11y/label-has-associated-control": [ "error", {
+         "required": {
+           "some": [ "nesting", "id" ]
+         }
+       }],
+       "jsx-a11y/label-has-for": [ "error", {
+         "required": {
+           "some": [ "nesting", "id"  ]
+         }
+       }],
       "react/default-props-match-prop-types": "off",
       "react/require-default-props": "off",
       "react/jsx-props-no-spreading": "off",

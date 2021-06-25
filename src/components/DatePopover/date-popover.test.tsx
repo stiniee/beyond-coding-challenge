@@ -25,7 +25,7 @@ describe('DatePopover Component', () => {
     test('Does NOT display BLOCKED status if date is NOT blocked', async () => {
         const popoverEl = await renderComponent()
         const blockedChipEl = popoverEl.getElementsByClassName(
-            'date-popover_header-blocked-status'
+            'date-popover_blocked-status'
         )
         expect(blockedChipEl.length).toBe(0)
     })
@@ -33,7 +33,7 @@ describe('DatePopover Component', () => {
     test('Displays BLOCKED status if the date is blocked', async () => {
         const popoverEl = await renderComponent(MOCK_DATE_DETAILS_BLOCKED)
         const blockedChipEl = popoverEl.getElementsByClassName(
-            'date-popover_header-blocked-status'
+            'date-popover_blocked-status'
         )
         expect(blockedChipEl.length).toBe(1)
     })
@@ -47,36 +47,25 @@ describe('DatePopover Component', () => {
         expect(dateEl).toHaveTextContent(formattedDate)
     })
 
-    // test('Displays the factors total provided to it', async () => {
-    //     await renderComponent()
-    //     const rateTotalEl = screen.getByTestId('date-popover-factors-total')
-    //     expect(rateTotalEl).toBeInTheDocument()
-    //     expect(rateTotalEl).toHaveTextContent(`${MOCK_DATE_DETAILS.factors.total}`)
-    // })
-
-    test('Displays the factors details provided to it', async () => {
+    test('Display the calculated prices, factors prefixed with either "+" (increase) or "-"', async () => {
         await renderComponent()
         const priceDetailsEl = screen.getByTestId('date-popover-price-details')
         expect(priceDetailsEl.children.length).toBeGreaterThan(0)
 
-        const { factors } = MOCK_DATE_DETAILS
+        const priceEls = priceDetailsEl.children
+        const { basePrice, seasonal, dayOfWeek, predictedPrice } =
+            MOCK_DATE_DETAILS.calculatedPrices
 
-        Object.keys(factors).forEach((key, index) => {
-            const listItemEl = priceDetailsEl.children[index]
+        // Check base price
+        expect(priceEls[0]).toHaveTextContent(`$${basePrice}`)
 
-            const priceEl = listItemEl.getElementsByClassName('price')
+        // Check seasonality
+        expect(priceEls[1]).toHaveTextContent(`+$${Math.abs(seasonal)}`)
 
-            expect(priceEl.length).toBe(1)
+        // Check day of week
+        expect(priceEls[2]).toHaveTextContent(`-$${Math.abs(dayOfWeek)}`)
 
-            if (key === 'seasonal' || key === 'dayOfWeek') {
-                expect(priceEl[0]).toHaveTextContent(
-                    `+ $${factors[key as FactorType]}`
-                )
-            } else {
-                expect(priceEl[0]).toHaveTextContent(
-                    `$${factors[key as FactorType]}`
-                )
-            }
-        })
+        // Check predicted price
+        expect(priceEls[3]).toHaveTextContent(`${predictedPrice}`)
     })
 })

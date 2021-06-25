@@ -75,7 +75,7 @@ of digits to line up with the other prices */
 
 
 /* Blocked */
-.date-popover_blocked {
+.date-popover_blocked-status {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,7 +83,7 @@ of digits to line up with the other prices */
     margin-bottom: 0.5em;
 }
 
-.date-popover_blocked-icon{
+.date-popover_blocked-status-icon{
     position: relative;
     margin-right: 0.5em;
     bottom: 0.1em;

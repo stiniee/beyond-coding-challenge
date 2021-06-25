@@ -2,7 +2,7 @@
 import ListingsApi from '../listings-api'
 import { MOCK_LISTINGS } from '../__mocks__/listings'
 
-const API_ENDPOINT = 'http://localhost:5000/listings'
+const API_ENDPOINT = 'http://localhost:1024/listings'
 
 // const mockWithNoResults = fetchMock.sandbox().mock(API_ENDPOINT, {
 //     total_count: 0,
