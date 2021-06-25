@@ -40,12 +40,9 @@ const Dashboard = (): JSX.Element => {
         Sort by Health
     ---------------------------------------------------------------------*/
 
-    // Handles setting health sort order to 'asc', 'desc', or toggled off
+    // Handles setting health sort order to 'asc' or 'desc'
     const handleSetSortHealth = (sortOrder: string): void => {
-        // If already active, toggle off
-        if (sortHealth === sortOrder) setSortHealth(null)
-        // Otherwise set to the sort order
-        else setSortHealth(sortOrder)
+        if (sortHealth !== sortOrder) setSortHealth(sortOrder)
     }
 
     return (
