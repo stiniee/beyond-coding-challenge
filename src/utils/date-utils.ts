@@ -4,13 +4,13 @@ dayjs.extend(require('dayjs/plugin/utc'))
 
 /**
  * Converts date to specified format.
- * Default format is MMMM DD, YYYY
+ * Default format is mmmm dd, yyyy
  * @param d The date to be formatted
  * @returns the formatted date (string)
  */
 export const formatDate = (
     d: string | Date,
-    format = 'MMMM DD, YYYY'
+    format = 'mmmm dd, yyyy'
 ): string => {
     return dayjs.utc(d).format(format)
 }

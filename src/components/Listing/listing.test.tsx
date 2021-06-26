@@ -54,18 +54,18 @@ describe('Listing Component', () => {
         expect(bedCountEl).toHaveTextContent(`${MOCK_LISTING.beds}`)
     })
 
-    test(`Displays listing picture if viewType is "card"`, async () => {
+    test(`Displays listing picture`, async () => {
         await renderComponent()
         const pictureEl = screen.getByTestId('listing-picture')
         expect(pictureEl).toBeInTheDocument()
         expect(pictureEl).toHaveAttribute('src', MOCK_LISTING.picture)
     })
 
-    test(`Displays listing health if viewType is "card"`, async () => {
+    test(`Displays listing health`, async () => {
         await renderComponent()
         const healthEl = screen.getByTestId('listing-health')
         const healthScore = getCalculatedScore(MOCK_LISTING.health)
         expect(healthEl).toBeInTheDocument()
-        expect(healthEl).toHaveTextContent(healthScore)
+        expect(healthEl).toHaveTextContent(`${healthScore}`)
     })
 })

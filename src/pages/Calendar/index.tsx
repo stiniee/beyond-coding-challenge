@@ -130,7 +130,7 @@ const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
                     <ReactCalendar
                         locale="en-US"
                         formatShortWeekday={(locale, date) =>
-                            formatDate(date, 'DDDD')
+                            formatDate(date, 'dddd')
                         }
                         tileDisabled={({ date }) => {
                             // Disable if the calendar day is blocked
