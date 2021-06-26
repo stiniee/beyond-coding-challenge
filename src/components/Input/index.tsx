@@ -2,7 +2,7 @@ import React from 'react'
 import './input.css'
 
 export interface InputProps extends DefaultProps {
-    value?: string | number
+    value?: string
     type?: string
     icon?: React.ReactNode
     placeholder?: string
