@@ -23,7 +23,7 @@ import './calendar.css'
 const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
     const [calendar, setCalendar] = useState<ICalendarDay[]>([])
     const [activeStartDate, setActiveStartDate] = useState(undefined)
-    const [inputValue, setInputValue] = useState(0)
+    const [inputValue, setInputValue] = useState('')
     const [basePrice, setBasePrice] = useState(0)
     const [dateDetails, setDateDetails] = useState<IDateDetails | null>(null)
     const tooltipRef = useRef(null)
@@ -41,7 +41,7 @@ const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
 
         setCalendar(res.days)
         setBasePrice(res.basePrice)
-        setInputValue(res.basePrice)
+        setInputValue(`${res.basePrice}`)
     }
 
     // Updates the calendar with the new base price
@@ -68,12 +68,12 @@ const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
     /*--------------------------------------------
         Input
     ---------------------------------------------*/
-    const handleChangeInput = (value: string | number): void => {
-        setInputValue(value as number)
+    const handleChangeInput = (value: string): void => {
+        setInputValue(value)
     }
 
-    const handleSubmitInput = async (value: string | number): Promise<void> => {
-        await updateCalendar(value as number)
+    const handleSubmitInput = async (value: string): Promise<void> => {
+        await updateCalendar(parseInt(value, 10))
     }
 
     /*--------------------------------------------

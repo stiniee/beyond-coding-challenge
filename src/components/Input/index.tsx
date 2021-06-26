@@ -8,10 +8,10 @@ export interface InputProps extends DefaultProps {
     placeholder?: string
     name?: string
     maxLength?: number
-    onChange?: (value: string | number) => void
+    onChange?: (value: string) => void
     onFocus?: () => void
     onBlur?: () => void
-    onSubmit?: (value: string | number) => void
+    onSubmit?: (value: string) => void
 }
 
 /**
