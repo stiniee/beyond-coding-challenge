@@ -10,6 +10,7 @@ interface DatePopoverProps extends DefaultProps {
     activeStartDate?: Date
 }
 
+// Map of price keys to their associated labels
 const priceLabels: Record<PriceType, any> = {
     basePrice: 'Base',
     seasonal: 'Seasonality',
@@ -18,10 +19,9 @@ const priceLabels: Record<PriceType, any> = {
 }
 
 /**
- * Popover that displays the date details
- * @prop data: The date details
- * (includes the date, isBlocked, and factors)
- * @returns JSX.Element
+ * DatePopover: Popover that displays the date details
+ * @prop data: The date details (includes the date, isBlocked, and factors)
+ * @returns the DatePopover component (JSX.Element)
  */
 const DatePopover = ({
     id,
@@ -50,12 +50,15 @@ const DatePopover = ({
                     className="date-popover_header"
                     data-testid="date-popover-header"
                 >
+                    {/* Formatted Date (MMMM DD, YYYY) */}
                     <div
                         className="date-popover_header-date"
                         data-testid="date-popover-date"
                     >
                         {formatDate(data.date)}
                     </div>
+
+                    {/* Blocked Status */}
                     {data.isBlocked ? (
                         <div
                             className="date-popover_blocked-status"
@@ -70,6 +73,8 @@ const DatePopover = ({
                             BLOCKED
                         </div>
                     ) : null}
+
+                    {/* Predicted Price */}
                     <div
                         className="date-popover_header-total"
                         data-testid="date-popover-factors-total"
@@ -77,6 +82,8 @@ const DatePopover = ({
                         ${data.calculatedPrices.predictedPrice}
                     </div>
                 </div>
+
+                {/* Price Details */}
                 <ul
                     className="date-popover_price-details"
                     data-testid="date-popover-price-details"
@@ -110,6 +117,7 @@ const DatePopover = ({
                                             isPredictedPrice ? ' predicted' : ''
                                         }`}
                                     >
+                                        {/* Show + or - operator if factor */}
                                         {operator ? (
                                             `${operator} `
                                         ) : (
@@ -119,9 +127,11 @@ const DatePopover = ({
                                         <span
                                             className={`${operatorClass} ${priceDigitsClass}`}
                                         >
+                                            {/* Price */}
                                             {absValue}
                                         </span>
                                     </div>
+                                    {/* Price Label */}
                                     <div className="price-label"> {label} </div>
                                 </li>
                             </div>

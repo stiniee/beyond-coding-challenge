@@ -1,4 +1,4 @@
-import { getCalculatedPrices } from '../calculation-utils'
+import { getCalculatedPrices, getCalculatedScore } from '../calculation-utils'
 
 const PRICE_KEYS = ['basePrice', 'seasonal', 'dayOfWeek', 'predictedPrice']
 
@@ -60,5 +60,15 @@ describe('getCalculatedPrices util', () => {
         const total = basePrice + prodSeasonal + prodDayOfWeek
         const prices = getCalculatedPrices(basePrice, seasonal, dayOfWeek)
         expect(prices.predictedPrice).toBe(total)
+    })
+})
+
+describe('getCalculatedScore util', () => {
+    test('Gets the calculated score (the ratio as a fraction of 100)', async () => {
+        let score = getCalculatedScore(0.5)
+        expect(score).toBe(50)
+
+        score = getCalculatedScore(0.25)
+        expect(score).toBe(25)
     })
 })

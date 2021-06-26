@@ -1,11 +1,10 @@
-/* eslint-disable @typescript-eslint/no-empty-function */
 import React from 'react'
 import { MemoryRouter } from 'react-router-dom'
 import { render, screen, cleanup, act } from '@testing-library/react'
 import fetchMock from 'fetch-mock'
 import Dashboard from './index'
 import { MOCK_LISTINGS } from '../../api/__mocks__/listings'
-import { numToScore } from '../../utils/formatting-utils'
+import { getCalculatedScore } from '../../utils/calculation-utils'
 
 const renderComponent = (): HTMLElement => {
     render(
@@ -22,7 +21,7 @@ const renderComponent = (): HTMLElement => {
 const mockFetchListings = (): void => {
     fetchMock.mock('http://localhost:1024/listings', {
         status: 200,
-        listings: MOCK_LISTINGS,
+        listings: MOCK_LISTINGS.listings,
     })
 }
 
@@ -54,11 +53,11 @@ describe('Dashboard Page', () => {
 
         const lastIdx = listingEls.length - 1
         for (let idx = 0; idx < listingEls.length; idx += 1) {
-            const mockListing = MOCK_LISTINGS[lastIdx - idx]
+            const mockListing = MOCK_LISTINGS.listings[lastIdx - idx]
             expect(listingEls[idx]).toHaveTextContent(mockListing.title)
             expect(listingEls[idx]).toHaveTextContent(`${mockListing.beds}`)
             expect(listingEls[idx]).toHaveTextContent(
-                `${numToScore(mockListing.health)}`
+                `${getCalculatedScore(mockListing.health)}`
             )
         }
     })

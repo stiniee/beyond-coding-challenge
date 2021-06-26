@@ -16,7 +16,9 @@ input:focus {
     outline: none;
 }
 
-/* With Icon */
+/*----------------------------------------------------------
+    Input With Icon
+----------------------------------------------------------*/
 
 .input.with-icon {
     display: flex;
@@ -48,6 +50,7 @@ input:focus {
     height: 1em !important;
     width: 1em !important;
 }
+
 
 /* Hide number input arrows */
 

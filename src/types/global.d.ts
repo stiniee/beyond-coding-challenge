@@ -1,4 +1,6 @@
-/* General */
+/*----------------------------------------------------------
+    General
+----------------------------------------------------------*/
 declare interface DefaultProps {
     id?: string
     className?: string
@@ -14,7 +16,9 @@ declare interface IDateConfig {
     }
 }
 
-/* Route */
+/*----------------------------------------------------------
+    Route
+----------------------------------------------------------*/
 interface IRouterProps {
     match?: Record<string, any>
     location?: Record<string, any>
@@ -22,18 +26,16 @@ interface IRouterProps {
 
 declare type Route = Record<string, any>
 
-// Stands for Deep Partial.
-// Maps all the properties of some type "T" as optional
-declare type DP<T> = {
-    [P in keyof T]?: DP<T[P]>
-}
-
-/* MOCK */
+/*----------------------------------------------------------
+    Mock
+----------------------------------------------------------*/
 declare type FetchMock = import('fetch-mock').FetchMockSandbox
 
-/* API */
+/*----------------------------------------------------------
+    API
+----------------------------------------------------------*/
 
-// Listings
+// Listing
 declare interface IListing {
     id: number
     title: string
@@ -42,18 +44,25 @@ declare interface IListing {
     currency: string
     beds: number
 }
+declare interface IListings {
+    listings: IListing[]
+}
 
-// Calendar
+// Pricing
 declare type FactorType = 'dayOfWeek' | 'seasonal'
 declare type PriceType = FactorType | 'basePrice' | 'predictedPrice'
 declare type Factor = Record<FactorType, number>
 
+// Calendar
 declare interface ICalendarDay {
     isBlocked: boolean
     factors: Factor
 }
-
 declare interface IDateDetails extends ICalendarDay {
     date: Date
     calculatedPrices: Record<PriceType, number>
+}
+declare interface ICalendar {
+    basePrice: number
+    days: ICalendarDay[]
 }

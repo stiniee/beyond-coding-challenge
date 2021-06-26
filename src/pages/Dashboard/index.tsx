@@ -5,14 +5,12 @@ import Listing from '../../components/Listing'
 import ListingsApi from '../../api/listings-api'
 import './dashboard.css'
 
-// interface DashboardProps {}
-
 /**
- * Displays a list of all the user's listings with a link to the calendar
- * @returns JSX.Element
+ * Dashboard: Displays a list of all the user's listings with a link to the calendar
+ * @returns the Dashboard page component (JSX.Element)
  */
 const Dashboard = (): JSX.Element => {
-    const [listings, setListings] = useState([])
+    const [listings, setListings] = useState<IListing[]>([])
     const [sortHealth, setSortHealth] = useState<string | null>('desc')
 
     /*--------------------------------------------------------------------
@@ -37,7 +35,7 @@ const Dashboard = (): JSX.Element => {
     }, [sortHealth])
 
     /*--------------------------------------------------------------------
-        Sort by Health
+        Sorting (by Health)
     ---------------------------------------------------------------------*/
 
     // Handles setting health sort order to 'asc' or 'desc'
@@ -49,6 +47,7 @@ const Dashboard = (): JSX.Element => {
         <div className="dashboard" data-testid="dashboard-page">
             {listings.length ? (
                 <div className="dashboard_listings">
+                    {/* Header containing the sort buttons */}
                     <div
                         className={`dashboard_listings-header${
                             sortHealth !== null ? ' active' : ''

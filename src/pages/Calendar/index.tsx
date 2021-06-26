@@ -1,7 +1,6 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import ReactCalendar from 'react-calendar'
-import ReactTooltip from 'react-tooltip'
 import Icon from '@mdi/react'
 import {
     mdiCurrencyUsd,
@@ -13,19 +12,18 @@ import Listing from '../../components/Listing'
 import DatePopover from '../../components/DatePopover'
 import Input from '../../components/Input'
 import CalendarApi from '../../api/calendar-api'
-import { getDayOfWeekLong, getDayOfYearIndex } from '../../utils/date-utils'
+import { formatDate, getDayOfYearIndex } from '../../utils/date-utils'
 import { getCalculatedPrices } from '../../utils/calculation-utils'
 import './calendar.css'
 
 /**
- * Displays a listing's calendar that contains
- * all the dates and their information
- * @returns JSX.Element
+ * Calendar: Displays a listing's calendar that contains all the dates and their information
+ * @returns the Calendar page component (JSX.Element)
  */
 const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
-    const [calendar, setCalendar] = useState([])
+    const [calendar, setCalendar] = useState<ICalendarDay[]>([])
     const [activeStartDate, setActiveStartDate] = useState(undefined)
-    const [inputValue, setInputValue] = useState('')
+    const [inputValue, setInputValue] = useState(0)
     const [basePrice, setBasePrice] = useState(0)
     const [dateDetails, setDateDetails] = useState<IDateDetails | null>(null)
     const tooltipRef = useRef(null)
@@ -70,12 +68,12 @@ const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
     /*--------------------------------------------
         Input
     ---------------------------------------------*/
-    const handleChangeInput = (value: string): void => {
-        setInputValue(value)
+    const handleChangeInput = (value: string | number): void => {
+        setInputValue(value as number)
     }
 
-    const handleSubmitInput = async (value: string): Promise<void> => {
-        await updateCalendar(parseInt(value, 10))
+    const handleSubmitInput = async (value: string | number): Promise<void> => {
+        await updateCalendar(value as number)
     }
 
     /*--------------------------------------------
@@ -132,7 +130,7 @@ const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
                     <ReactCalendar
                         locale="en-US"
                         formatShortWeekday={(locale, date) =>
-                            getDayOfWeekLong(date)
+                            formatDate(date, 'DDDD')
                         }
                         tileDisabled={({ date }) => {
                             // Disable if the calendar day is blocked

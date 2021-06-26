@@ -1,12 +1,11 @@
-.date-popover {
-  
-}
-
 .date-popover_content {
     height: 18em;
     width: 20em;
 }
 
+/*----------------------------------------------------------
+    Header (Date and Price)
+----------------------------------------------------------*/
 .date-popover_header {
     text-align: center;
     position: absolute;
@@ -44,11 +43,16 @@
     margin-bottom: 1rem;
 }
 
-.date-popover_content hr {
+
+/*----------------------------------------------------------
+    Price Details
+----------------------------------------------------------*/
+.date-popover_price-details hr {
     border: none;
     border-top: 1px solid var(--grey-5);
     margin: 1em 0;
 }
+
 .date-popover_price-details {
     position: relative;
     top: 9em;
@@ -81,13 +85,16 @@ of digits to line up with the other prices */
 }
 
 
-/* Blocked */
+/*----------------------------------------------------------
+    Blocked Status
+----------------------------------------------------------*/
 .date-popover_blocked-status {
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--grey);
     margin-bottom: 0.5em;
+    text-transform: uppercase;
 }
 
 .date-popover_blocked-status-icon{

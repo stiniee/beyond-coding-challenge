@@ -4,9 +4,9 @@ import { MemoryRouter } from 'react-router-dom'
 import { render, screen, cleanup } from '@testing-library/react'
 import { MOCK_LISTINGS } from '../../api/__mocks__/listings'
 import Listing, { ListingProps } from './index'
-import { numToScore } from '../../utils/formatting-utils'
+import { getCalculatedScore } from '../../utils/calculation-utils'
 
-const MOCK_LISTING = MOCK_LISTINGS[0]
+const MOCK_LISTING = MOCK_LISTINGS.listings[0]
 const DETAILS_VIEW_PROPS: any = {
     viewType: 'details',
     data: MOCK_LISTING,
@@ -64,7 +64,7 @@ describe('Listing Component', () => {
     test(`Displays listing health if viewType is "card"`, async () => {
         await renderComponent()
         const healthEl = screen.getByTestId('listing-health')
-        const healthScore = numToScore(MOCK_LISTING.health)
+        const healthScore = getCalculatedScore(MOCK_LISTING.health)
         expect(healthEl).toBeInTheDocument()
         expect(healthEl).toHaveTextContent(healthScore)
     })

@@ -2,16 +2,16 @@ import React from 'react'
 import './input.css'
 
 export interface InputProps extends DefaultProps {
-    value?: string
+    value?: string | number
     type?: string
     icon?: React.ReactNode
     placeholder?: string
     name?: string
     maxLength?: number
-    onChange?: (value: string) => void
+    onChange?: (value: string | number) => void
     onFocus?: () => void
     onBlur?: () => void
-    onSubmit?: (value: string) => void
+    onSubmit?: (value: string | number) => void
 }
 
 /**
@@ -26,7 +26,7 @@ export interface InputProps extends DefaultProps {
  * @prop onFocus: Callback invoked upon input focus
  * @prop onBlur: Callback invoked upon input blur
  * @prop onSubmit: Callback invoked upon input submit (i.e upon hitting "Enter" on the input)
- * @returns JSX.Element
+ * @returns the Input component (JSX.Element)
  * */
 const Input = ({
     id,

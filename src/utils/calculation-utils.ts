@@ -5,7 +5,7 @@
  * @param basePrice The base minimum price
  * @param seasonal The price change factor based on the season
  * @param dayOfWeek The price change factor based on the day of week
- * @returns
+ * @returns the calculated prices (object of PriceType keys mapped to integer)
  */
 export const getCalculatedPrices = (
     basePrice: number,
@@ -30,4 +30,14 @@ export const getCalculatedPrices = (
         dayOfWeek: dayOfWeekChange,
         predictedPrice,
     }
+}
+
+/**
+ * Gets the score value from the number
+ * @param value The value to calculate the score
+ * @param fixed The amount of decimal places to be fixed to
+ * @returns the calculated score, which is the value multipled by 100 (integer)
+ */
+export const getCalculatedScore = (value: number, fixed = 0): number => {
+    return +(value * 100).toFixed(fixed)
 }

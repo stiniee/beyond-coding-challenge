@@ -2,28 +2,28 @@ import React from 'react'
 import Icon from '@mdi/react'
 import { Link } from 'react-router-dom'
 import { mdiBedKing } from '@mdi/js'
-import { numToScore } from '../../utils/formatting-utils'
+import { getCalculatedScore } from '../../utils/calculation-utils'
 import './listing.css'
 
 export interface ListingProps extends DefaultProps {
     data: IListing
-    viewType?: 'card' | 'details'
+    disableLink?: boolean
     onClick?: (data: IListing) => void
 }
 
 /**
- * Represents a rental listing
+ * Listing: Represents a rental listing in a card layout
  * @prop data: The listings data
- * @prop viewType: The listing view type: card or table
+ * @prop disableLink: Disables the Link so it is not routable
  * (includes id, title, picture, health, currency, beds)
- * @returns
+ * @returns the Listing component (JSX.Element)
  */
 const Listing = ({
     id,
     className,
     style,
     data,
-    viewType,
+    disableLink,
     onClick,
 }: ListingProps): JSX.Element => {
     // Handles click event on the listing
@@ -35,102 +35,78 @@ const Listing = ({
         // eslint-disable-next-line jsx-a11y/click-events-have-key-events
         <div
             id={id}
-            className={`listing ${viewType}-view ${className}`}
+            className={`listing card-view ${className}`}
             style={style}
             onClick={handleClick}
             role="row"
             tabIndex={0}
             data-testid="listing"
         >
-            {viewType === 'card' ? (
-                <>
-                    <div className="listing_picture-and-title">
-                        {/* Picture */}
-                        <img
-                            className="listing_picture"
-                            src={data.picture}
-                            alt={data.picture}
-                            data-testid="listing-picture"
-                        />
+            <div className="listing_picture-and-title">
+                {/* Picture */}
+                <img
+                    className="listing_picture"
+                    src={data.picture}
+                    alt={data.picture}
+                    data-testid="listing-picture"
+                />
 
-                        <div>
-                            {/* Title (Links to the associated calendar) */}
-                            <Link
-                                to={{
-                                    pathname: `/${data.id}`,
-                                    state: {
-                                        listingData: data,
-                                    },
-                                }}
-                                data-testid="listing-title-link"
-                            >
-                                <h2
-                                    className="listing_title"
-                                    data-testid="listing-title"
-                                >
-                                    {data.title}
-                                </h2>
-                            </Link>
-
-                            {/* Bed */}
-                            <div
-                                className="listing_stat"
-                                title={`${data.beds} bed${
-                                    data.beds > 1 ? 's' : ''
-                                }`}
-                            >
-                                <Icon
-                                    className="listing_bed-icon"
-                                    path={mdiBedKing}
-                                    color="#B8B8B9"
-                                    size={1}
-                                />
-                                <span
-                                    className="listing_bed-count"
-                                    data-testid="listing-bed-count"
-                                >
-                                    {data.beds}
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="listing_health-container">
-                        <span
-                            className="listing_health"
-                            data-testid="listing-health"
+                <div>
+                    {/* Title (Links to the associated calendar) */}
+                    <Link
+                        className={`listing_link${
+                            disableLink ? ' disabled' : ''
+                        }`}
+                        to={{
+                            pathname: `/${data.id}`,
+                            state: {
+                                listingData: data,
+                            },
+                        }}
+                        data-testid="listing-title-link"
+                    >
+                        <h2
+                            className="listing_title"
+                            data-testid="listing-title"
                         >
-                            {numToScore(data.health)}
-                        </span>
-                        <div className="listing_health-label">
-                            {' '}
-                            Health Score{' '}
-                        </div>
-                    </div>
-                </>
-            ) : (
-                <>
-                    {/* Title */}
-                    <h3 className="listing_title" data-testid="listing-title">
-                        {data.title}
-                    </h3>
+                            {data.title}
+                        </h2>
+                    </Link>
 
                     {/* Bed */}
                     <div
-                        className="listing_bed"
-                        data-testid="listing-bed-count"
+                        className="listing_stat"
+                        title={`${data.beds} bed${data.beds > 1 ? 's' : ''}`}
                     >
-                        {data.beds} bedrooms
+                        <Icon
+                            className="listing_bed-icon"
+                            path={mdiBedKing}
+                            color="#B8B8B9"
+                            size={1}
+                        />
+                        <span
+                            className="listing_bed-count"
+                            data-testid="listing-bed-count"
+                        >
+                            {data.beds}
+                        </span>
                     </div>
-                </>
-            )}
+                </div>
+            </div>
+
+            {/* Health Score */}
+            <div className="listing_health-container">
+                <span className="listing_health" data-testid="listing-health">
+                    {getCalculatedScore(data.health)}
+                </span>
+                <div className="listing_health-label">Health Score</div>
+            </div>
         </div>
     )
 }
 
 Listing.defaultProps = {
     className: '',
-    viewType: 'card',
 }
 
 export default Listing

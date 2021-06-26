@@ -5,9 +5,9 @@
     padding: 2em 0;
 }
 
-
-/* Listings */
-
+/*-----------------------------------------------------------------
+    Listings
+------------------------------------------------------------------*/
 .dashboard_listings {
     width: 100%;
     max-width: 80em;
@@ -16,8 +16,9 @@
     border-spacing: 0;
 }
 
-/* Listings Header */
-
+/*-----------------------------------------------------------------
+    Listings Header
+------------------------------------------------------------------*/
 .dashboard_listings-header {
    display: flex;
    justify-content: flex-end;
@@ -30,14 +31,18 @@
    margin: 0;
 }
 
+/* Health sort label */
+
 .dashboard_listings-header-health-label {
     color: var(--grey-4);
     letter-spacing: 2px;
 }
- 
+
 .dashboard_listings-header.active .dashboard_listings-header-health-label{
     color: var(--primary);
 }
+
+/* Health sort icons */
 
 .dashboard_listings-sort {
     display: flex;
@@ -58,7 +63,6 @@
     fill: var(--grey-4) !important
 }
  
-
 .caret-up-icon {
     top: 0.5em;
 }
@@ -67,15 +71,18 @@
     bottom: 0.5em;
 }
 
+/*-----------------------------------------------------------------
+    Listing
+------------------------------------------------------------------*/
 
 .dashboard_listings-container .listing{
     margin-bottom: 0.4em;
 }
 
 
-/*----------------------------------------------------------
-    Responsive
-----------------------------------------------------------*/
+/*-----------------------------------------------------------------
+    Responsive Styles
+------------------------------------------------------------------*/
 @media only screen and (max-width: 640px) {
     .dashboard_listings-container .listing  {
         margin-bottom: 1em;

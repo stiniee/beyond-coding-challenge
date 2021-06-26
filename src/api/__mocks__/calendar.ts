@@ -1,4 +1,4 @@
-export const MOCK_CALENDAR = {
+export const MOCK_CALENDAR: ICalendar = {
     basePrice: 300,
     days: [
         {

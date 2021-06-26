@@ -33,7 +33,7 @@
 }
  
 /*-----------------------------------------------------------------
-    Calendar Section
+    Calendar and Base Price Input Section
 ------------------------------------------------------------------*/
 
 .calendar_calendar-section {
@@ -52,7 +52,9 @@
     position: relative;
 }
 
-/* Base Price Input */
+/*-----------------------------------------------------------------
+    Base Price Input
+------------------------------------------------------------------*/
 
 .calendar_base-price-input {
     display: flex;
@@ -96,13 +98,22 @@
     border: 1px solid var(--light-3);
 }
 
-/* Navigation Label */
-.react-calendar .react-calendar__navigation button{
+
+ /* Navigation Label */
+.react-calendar .react-calendar__navigation__label {
+    font-size: 1.4em;
+    font-weight: 600;
+    pointer-events: none;
+    flex-grow: 0 !important;
+}
+
+
+ /* Navigation Arrows */
+  .react-calendar .react-calendar__navigation button{
     margin-bottom: 0.5em;
     color: var(--grey-3);
-
  }
- /* Navigation Arrows */
+
  .react-calendar__navigation__arrow {
     position: absolute;
     width: 1em;
@@ -125,15 +136,6 @@
     top: 50%;
  }
 
-
-
-.react-calendar .react-calendar__navigation__label {
-    font-size: 1.4em;
-    font-weight: 600;
-    pointer-events: none;
-    flex-grow: 0 !important;
-
-}
 
 /* Weekdays */
 .react-calendar .react-calendar__month-view__weekdays {
@@ -200,8 +202,6 @@
     left: 0.5em;
 }
 
-
-
 /* Blocked tiles */
 .react-calendar .react-calendar__tile[disabled] , 
 .react-calendar .react-calendar__tile:disabled {
@@ -220,6 +220,10 @@
  .react-calendar .react-calendar__tile:disabled abbr{
     color: var(--grey-2);
   }
+
+/*-----------------------------------------------------------------
+    Responsive Styles
+------------------------------------------------------------------*/
 
 @media only screen and (max-width: 992px) {
     .react-calendar__navigation__arrow  {

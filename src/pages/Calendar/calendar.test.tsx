@@ -1,15 +1,13 @@
-/* eslint-disable @typescript-eslint/no-empty-function */
 import React from 'react'
 import { MemoryRouter } from 'react-router-dom'
 import { fireEvent, render, screen, cleanup, act } from '@testing-library/react'
-// import { act } from 'react-dom/test-utils'
 import fetchMock from 'fetch-mock'
 import { MOCK_CALENDAR } from '../../api/__mocks__/calendar'
 import { MOCK_LISTINGS } from '../../api/__mocks__/listings'
 import Calendar from './index'
 
 // By default use the first mock listing
-const MOCK_LISTING = MOCK_LISTINGS[0]
+const MOCK_LISTING = MOCK_LISTINGS.listings[0]
 const DEFAULT_ROUTER = {
     match: { params: MOCK_LISTING.id },
     location: { state: { listingData: MOCK_LISTING } },
@@ -38,11 +36,11 @@ const mockFetchCalendar = (): void => {
 }
 
 // Simulate hover on element
-const simulateHover = (element: Element): void => {
-    act(() => {
-        fireEvent.mouseOver(element)
-    })
-}
+// const simulateHover = (element: Element): void => {
+//     act(() => {
+//         fireEvent.mouseOver(element)
+//     })
+// }
 
 describe('Calendar Page', () => {
     afterEach(() => {

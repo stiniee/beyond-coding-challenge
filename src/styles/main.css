@@ -2,8 +2,9 @@
 @import './theme.css';
 
 
-/* Global */
-
+/*----------------------------------------------------------
+    Global Styles
+----------------------------------------------------------*/
  html {
      font-family: Helvetica, sans-serif;
      background-color: var(--light);
@@ -17,8 +18,14 @@
      margin: 0;
  }
 
+ .disabled {
+     pointer-events: none;
+ }
 
- /* Responsive */
+
+/*----------------------------------------------------------
+    Global Responsive Styles
+----------------------------------------------------------*/
 @media only screen and (min-width: 0) { 
     html {
         font-size: 12px;
