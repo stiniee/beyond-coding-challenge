@@ -37,7 +37,7 @@ describe('Dashboard Page', () => {
         expect(pageEl).toBeInTheDocument()
     })
 
-    test.only('Displays the listings', async () => {
+    test('Displays the listings', async () => {
         await mockFetchListings()
 
         // Initially no listings

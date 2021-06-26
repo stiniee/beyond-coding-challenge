@@ -1,5 +1,6 @@
 const dayjs = require('dayjs')
 dayjs.extend(require('dayjs/plugin/dayOfYear'))
+dayjs.extend(require('dayjs/plugin/utc'))
 
 /**
  * Converts date to specified format.
@@ -11,7 +12,7 @@ export const formatDate = (
     d: string | Date,
     format = 'MMMM DD, YYYY'
 ): string => {
-    return dayjs(d).format(format)
+    return dayjs.utc(d).format(format)
 }
 
 /**
@@ -22,5 +23,5 @@ export const formatDate = (
  * @returns the day of year index (integer)
  */
 export const getDayOfYearIndex = (d: string | Date): number => {
-    return dayjs(d).dayOfYear() - 1
+    return dayjs.utc(d).dayOfYear() - 1
 }

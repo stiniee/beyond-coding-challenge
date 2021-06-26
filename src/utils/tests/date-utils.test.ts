@@ -10,8 +10,8 @@ describe('formatDate util', () => {
         let formattedDate = formatDate('2021-06-25', 'MM/DD/YYYY')
         expect(formattedDate).toBe('06/25/2021')
 
-        formattedDate = formatDate('2021-06-25', 'YYYY MMM Do')
-        expect(formattedDate).toBe('2021 Jun 25th')
+        formattedDate = formatDate('2021-06-25', 'YYYY MMM DD')
+        expect(formattedDate).toBe('2021 Jun 25')
     })
 
     test('Format date object to default format MMMM DD, YYYY', () => {
@@ -23,13 +23,13 @@ describe('formatDate util', () => {
         let formattedDate = formatDate(new Date('2021-06-25'), 'MM/DD/YYYY')
         expect(formattedDate).toBe('06/25/2021')
 
-        formattedDate = formatDate(new Date('2021-06-25'), 'YYYY MMM Do')
-        expect(formattedDate).toBe('2021 Jun 25th')
+        formattedDate = formatDate(new Date('2021-06-25'), 'YYYY MMM DD')
+        expect(formattedDate).toBe('2021 Jun 25')
     })
 })
 
 describe('getDayOfYearIndex util', () => {
-    test.only('Get the day of year index from iso string', () => {
+    test('Get the day of year index from iso string', () => {
         let index = getDayOfYearIndex('2021-01-01')
         expect(index).toBe(0)
 

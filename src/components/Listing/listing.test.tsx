@@ -68,26 +68,4 @@ describe('Listing Component', () => {
         expect(healthEl).toBeInTheDocument()
         expect(healthEl).toHaveTextContent(healthScore)
     })
-
-    /* Tests for DETAILS VIEW */
-
-    test('Displays the listing title for details view', async () => {
-        await renderComponent(DETAILS_VIEW_PROPS)
-        const titleEl = screen.getByTestId('listing-title')
-        expect(titleEl).toBeInTheDocument()
-        expect(titleEl).toHaveTextContent(MOCK_LISTING.title)
-    })
-
-    test(`Displays the listing bed count (appended with 'bedrooms') for details view`, async () => {
-        await renderComponent(DETAILS_VIEW_PROPS)
-        const bedCountEl = screen.getByTestId('listing-bed-count')
-        expect(bedCountEl).toBeInTheDocument()
-        expect(bedCountEl).toHaveTextContent(`${MOCK_LISTING.beds} bedrooms`)
-    })
-
-    test(`Does NOT display listing picture if viewType is "details"`, async () => {
-        const listingEl = await renderComponent(DETAILS_VIEW_PROPS)
-        const pictureEl = listingEl.getElementsByClassName('listing_picture')
-        expect(pictureEl.length).toBe(0)
-    })
 })
