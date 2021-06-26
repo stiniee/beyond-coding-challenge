@@ -92,7 +92,11 @@ const Calendar = ({ match, location }: IRouterProps): JSX.Element => {
             </Link>
 
             <div className="calendar_calendar-listing-section">
-                <Listing className="calendar_listing" data={listingData} />
+                <Listing
+                    className="calendar_listing"
+                    data={listingData}
+                    disableLink
+                />
             </div>
 
             <div className="calendar_calendar-section">
