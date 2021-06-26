@@ -2,6 +2,7 @@ import React from 'react'
 import { MemoryRouter } from 'react-router-dom'
 import { fireEvent, render, screen, cleanup, act } from '@testing-library/react'
 import fetchMock from 'fetch-mock'
+import BASE_API_URL from '../../api/constants/BASE_API_URL'
 import { MOCK_CALENDAR } from '../../api/__mocks__/calendar'
 import { MOCK_LISTINGS } from '../../api/__mocks__/listings'
 import Calendar from './index'
@@ -29,7 +30,7 @@ const renderComponent = (props: IRouterProps = DEFAULT_ROUTER): HTMLElement => {
 const mockFetchCalendar = (): void => {
     // 1st argument: Endpoint being mocked
     // 2nd argument: Mocked response
-    fetchMock.mock('http://localhost:1024/calendar/1', {
+    fetchMock.mock(`${BASE_API_URL}/calendar/1`, {
         status: 200,
         ...MOCK_CALENDAR,
     })

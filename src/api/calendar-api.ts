@@ -1,4 +1,5 @@
-const BASE_API_URL = 'http://localhost:1024'
+import BASE_API_URL from './constants/BASE_API_URL'
+
 const MOCK_ID = '1'
 
 export default {

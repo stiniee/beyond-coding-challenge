@@ -2,6 +2,7 @@ import React from 'react'
 import { MemoryRouter } from 'react-router-dom'
 import { render, screen, cleanup, act } from '@testing-library/react'
 import fetchMock from 'fetch-mock'
+import BASE_API_URL from '../../api/constants/BASE_API_URL'
 import Dashboard from './index'
 import { MOCK_LISTINGS } from '../../api/__mocks__/listings'
 import { getCalculatedScore } from '../../utils/calculation-utils'
@@ -19,7 +20,7 @@ const renderComponent = (): HTMLElement => {
 
 // Mock fetch the listings endpoint
 const mockFetchListings = (): void => {
-    fetchMock.mock('http://localhost:1024/listings', {
+    fetchMock.mock(`${BASE_API_URL}/listings`, {
         status: 200,
         listings: MOCK_LISTINGS.listings,
     })
